@@ -233,8 +233,8 @@ function build_hop(predictions) {
 
 function color_by_category(prediction) {
     if (prediction < 0.1) return "lightcyan"
-    if (prediction < 0.3) return "skyblue"
-    return "deepskyblue"
+    if (prediction < 0.3) return "deepskyblue"
+    return "steelblue"
 }
 
 /**
