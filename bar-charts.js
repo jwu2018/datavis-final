@@ -150,7 +150,7 @@ console.log('appended svg')
 /**------------------------------------------------------------------------
  *                           Build the Bar Chart
  *------------------------------------------------------------------------**/
-function build_barchart(data) {
+function build_barchart(data, chances) {
     let max = Math.max.apply(null, data)
 
     console.log('data:', data)
@@ -166,7 +166,7 @@ function build_barchart(data) {
 
     // domains
     xScale.domain(Array(num_data_points).fill().map((element, index) => index + 1));
-    yScale.domain([0, 1]);
+    yScale.domain([0, 0.6]);
 
     // x scale
     g.append('g')
@@ -181,12 +181,17 @@ function build_barchart(data) {
         .append('text')
         .attr('text-anchor', 'end')
 
-    // Bars
+    // Bar colors
     // TODO add saturation colors for the bars to visualize the chance of rain
+    var colors = d3.scaleLinear()
+        .domain([0, .50, 1])
+        .range(['lightcyan', 'skyblue', 'deepskyblue'])
     
+    // Build bars
     for (let i = 0; i < num_data_points; i++) {
         svg.append('rect')
-            .attr('fill', 'skyblue')
+            // .attr('fill', 'skyblue')
+            .attr('fill', colors(chances[i]))
             .attr('stroke', 'black')
             .attr('transform', 'translate('+margin.left+', '+ margin.bottom+')')
             .attr('x', xScale(i+1))
@@ -194,20 +199,85 @@ function build_barchart(data) {
             .attr('height', graph_height - yScale(data[i]))
             .attr("width", xScale.bandwidth())
     }
+
+    
+    // Legend
+    const domain = colors.domain();
+    
+    const legend_width = 50;
+    const legend_height = 150;
+    
+    const paddedDomain = fc.extentLinear()
+  		.pad([0.1, 0.1])
+  		.padUnit("percent")(domain);
+		const [legend_min, legend_max] = paddedDomain;
+		const expandedDomain = d3.range(legend_min, legend_max, (legend_max - legend_min) / legend_height);
+    
+    const legend_xScale = d3
+    	.scaleBand()
+    	.domain([0, 1])
+    	.range([0, legend_width]);
+    
+    const legend_yScale = d3
+    	.scaleLinear()
+    	.domain(paddedDomain)
+    	.range([legend_height, 0]);
+    
+    const svgBar = fc
+      .autoBandwidth(fc.seriesSvgBar())
+      .xScale(legend_xScale)
+      .yScale(legend_yScale)
+      .crossValue(0)
+      .baseValue((_, i) => (i > 0 ? expandedDomain[i - 1] : 0))
+      .mainValue(d => d)
+      .decorate(selection => {
+        selection.selectAll("path").style("fill", d => colors(d));
+      });
+    
+    const axisLabel = fc
+      .axisRight(legend_yScale)
+      .tickValues([...domain, (domain[1] + domain[0]) / 2])
+      .tickSizeOuter(0);
+    
+    const legendSvg = svg.append("svg")
+    	.attr("height", legend_height)
+    	.attr("width", legend_width);
+
+    console.log('graph width', graph_width)
+    console.log(window.innerWidth)
+    
+    const legendBar = svg
+    	.append("g")
+    	.datum(expandedDomain)
+    	.call(svgBar)
+        .attr('transform', 'translate(' + (graph_width + 3/2*margin.right) + ',' + (graph_height/2) + ')')
+        .append('text')
+    
+    const barWidth = Math.abs(legendBar.node().getBoundingClientRect().x);
+
+    legendSvg.append("g")
+        .attr("transform", `translate(${barWidth})`)
+        // .attr('transform', 'translate(' + (graph_width + 3/2*margin.right) + ',' + (graph_height/2) + ')')
+        .datum(expandedDomain)
+        .call(axisLabel)
+        .select(".domain")
+        .attr("visibility", "hidden")
+    //   .attr('transform', 'translate(' + 100 + ',' + graph_height + ')');
+    
+
+    svg.append("text")
+        .attr('transform', 'translate(' + (graph_width + margin.right ) + ',' + (graph_height/2) + ')')
+        .text("1.0")
+
+
+    svg.style("margin", "1em");
 }
 
-// TODO replace data given by this function with weather data
-function gen_rain_data(ndatapoints) {
-    let d = []
 
-    for (let i = 0; i < ndatapoints; i++) {
-        d[i] = Math.random()
-    }
 
-    return d
-}
 
 // build_barchart(gen_rain_data(num_data_points))
-build_barchart(generate_hourly_data())
+foo_data = generate_hourly_data()
+build_barchart(foo_data[0], foo_data[1])
 
 // export{fillChart, gen_data, CHARTS, indices_to_compare, DATAPOINT_COUNTS}
