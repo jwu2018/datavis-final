@@ -165,15 +165,26 @@ function build_barchart(data, chances) {
         yScale = d3.scaleLinear().range ([graph_height, 0]);
 
     // domains
-    xScale.domain(Array(num_data_points).fill().map((element, index) => index + 1));
+    xScale.domain(Array(num_data_points).fill().map((element, index) => index));
     yScale.domain([0, 0.6]);
 
+
+    var x_axis = d3.axisBottom()
+        .scale(xScale)
+        .tickValues(Array(num_data_points).fill().map((element, index) => index))
+        .tickFormat(function(d){ return get_time_string(d); });
+
     // x scale
+    // TODO change x scale to 1PM, 2PM, est
     g.append('g')
         .attr('transform', 'translate(0,' + (graph_height)+ ')')
-        .call(d3.axisBottom(xScale))
-        .append('text')
+        .call(x_axis)
+        // .append('text')
+        // .text(function(data) {return get_time_string(data);})
+        // .text('midnight')
         .attr('text-anchor', 'end')
+        // .tickValues([1, 2, 3, 5, 8, 13, 21])
+        // .tickFormat(function(d, i){ return "Num = " + d; });
 
     // y scale
     g.append('g')
@@ -182,95 +193,41 @@ function build_barchart(data, chances) {
         .attr('text-anchor', 'end')
 
     // Bar colors
-    // TODO add saturation colors for the bars to visualize the chance of rain
-    var colors = d3.scaleLinear()
-        .domain([0, .50, 1])
-        .range(['lightcyan', 'skyblue', 'deepskyblue'])
+    function color_by_category(prediction) {
+        if (prediction < 0.1) return "lightcyan"
+        if (prediction < 0.3) return "deepskyblue"
+        return "steelblue"
+    }
     
     // Build bars
     for (let i = 0; i < num_data_points; i++) {
         svg.append('rect')
             // .attr('fill', 'skyblue')
-            .attr('fill', colors(chances[i]))
+            .attr('fill', color_by_category(data[i]))
             .attr('stroke', 'black')
             .attr('transform', 'translate('+margin.left+', '+ margin.bottom+')')
-            .attr('x', xScale(i+1))
+            .attr('x', xScale(i))
             .attr('y', yScale(data[i]))
             .attr('height', graph_height - yScale(data[i]))
             .attr("width", xScale.bandwidth())
     }
 
-    
-    // Legend
-    const domain = colors.domain();
-    
-    const legend_width = 50;
-    const legend_height = 150;
-    
-    const paddedDomain = fc.extentLinear()
-  		.pad([0.1, 0.1])
-  		.padUnit("percent")(domain);
-		const [legend_min, legend_max] = paddedDomain;
-		const expandedDomain = d3.range(legend_min, legend_max, (legend_max - legend_min) / legend_height);
-    
-    const legend_xScale = d3
-    	.scaleBand()
-    	.domain([0, 1])
-    	.range([0, legend_width]);
-    
-    const legend_yScale = d3
-    	.scaleLinear()
-    	.domain(paddedDomain)
-    	.range([legend_height, 0]);
-    
-    const svgBar = fc
-      .autoBandwidth(fc.seriesSvgBar())
-      .xScale(legend_xScale)
-      .yScale(legend_yScale)
-      .crossValue(0)
-      .baseValue((_, i) => (i > 0 ? expandedDomain[i - 1] : 0))
-      .mainValue(d => d)
-      .decorate(selection => {
-        selection.selectAll("path").style("fill", d => colors(d));
-      });
-    
-    const axisLabel = fc
-      .axisRight(legend_yScale)
-      .tickValues([...domain, (domain[1] + domain[0]) / 2])
-      .tickSizeOuter(0);
-    
-    const legendSvg = svg.append("svg")
-    	.attr("height", legend_height)
-    	.attr("width", legend_width);
-
-    console.log('graph width', graph_width)
-    console.log(window.innerWidth)
-    
-    const legendBar = svg
-    	.append("g")
-    	.datum(expandedDomain)
-    	.call(svgBar)
-        .attr('transform', 'translate(' + (graph_width + 3/2*margin.right) + ',' + (graph_height/2) + ')')
-        .append('text')
-    
-    const barWidth = Math.abs(legendBar.node().getBoundingClientRect().x);
-
-    legendSvg.append("g")
-        .attr("transform", `translate(${barWidth})`)
-        // .attr('transform', 'translate(' + (graph_width + 3/2*margin.right) + ',' + (graph_height/2) + ')')
-        .datum(expandedDomain)
-        .call(axisLabel)
-        .select(".domain")
-        .attr("visibility", "hidden")
-    //   .attr('transform', 'translate(' + 100 + ',' + graph_height + ')');
-    
-
-    svg.append("text")
-        .attr('transform', 'translate(' + (graph_width + margin.right ) + ',' + (graph_height/2) + ')')
-        .text("1.0")
+}
 
 
-    svg.style("margin", "1em");
+
+function get_time_string(time) {
+    let am_pm = 'AM'
+    if (time >= 12) {
+        am_pm = 'PM'
+    }
+    let time_string = (time % 12) + am_pm
+    if (time == 0) {
+        time_string = '12AM'
+    } else if (time == 12) {
+        time_string = '12PM'
+    }
+    return time_string
 }
 
 
