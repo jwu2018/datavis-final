@@ -175,7 +175,6 @@ function build_barchart(data, chances) {
         .tickFormat(function(d){ return get_time_string(d); });
 
     // x scale
-    // TODO change x scale to 1PM, 2PM, est
     g.append('g')
         .attr('transform', 'translate(0,' + (graph_height)+ ')')
         .call(x_axis)

@@ -179,13 +179,18 @@ function build_hop(predictions) {
         yScale = d3.scaleLinear().range([graph_height, 0]);
 
     // domains
-    xScale.domain(Array(num_data_points).fill().map((element, index) => index + 1));
+    xScale.domain(Array(num_data_points).fill().map((element, index) => index));
     yScale.domain([0, 0.6]);
+
+    var x_axis = d3.axisBottom()
+        .scale(xScale)
+        .tickValues(Array(num_data_points).fill().map((element, index) => index))
+        .tickFormat(function(d){ return get_time_string(d); });
 
     // x scale
     g.append('g')
         .attr('transform', 'translate(0,' + (graph_height) + ')')
-        .call(d3.axisBottom(xScale))
+        .call(x_axis)
         .append('text')
         .attr('text-anchor', 'end')
 
@@ -219,12 +224,10 @@ function build_hop(predictions) {
             .attr('fill', color_by_category(predictions[i]))
             .attr('stroke', 'black')
             .attr('transform', 'translate(' + margin.left + ', ' + margin.bottom + ')')
-            .attr('x', xScale(i + 1))
+            .attr('x', xScale(i))
             .attr('y', yScale(predictions[i]))
             .attr('height', graph_height - yScale(predictions[i]))
             .attr("width", xScale.bandwidth())
-        // TODO add text for chances?
-        // .attr('text', )
     }
 }
 
@@ -319,6 +322,24 @@ function weightedRand(spec) {
         sum += spec[i];
         if (r <= sum) return i;
     }
+}
+
+
+
+
+
+function get_time_string(time) {
+    let am_pm = 'AM'
+    if (time >= 12) {
+        am_pm = 'PM'
+    }
+    let time_string = (time % 12) + am_pm
+    if (time == 0) {
+        time_string = '12AM'
+    } else if (time == 12) {
+        time_string = '12PM'
+    }
+    return time_string
 }
 
 
