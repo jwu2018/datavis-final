@@ -2,7 +2,11 @@
 /* data generation
 /***************************************************************** */
 
-function generate_hourly_data(pop_range_start = 0, pop_range_end = 1, type = null, n = 24) {
+
+let N_HOURS = 5
+
+
+function generate_hourly_data(pop_range_start = 0, pop_range_end = 1, type = null, n = N_HOURS) {
     // start with a totally random pop between pop_range_start and pop_range_end
     let pops = []
     pops[0] = Math.round(random_in_range(pop_range_start, pop_range_end) * 20) / 20
@@ -74,7 +78,7 @@ function generate_hourly_data(pop_range_start = 0, pop_range_end = 1, type = nul
 
 // example sentence: At 9:00 am tomorrow, there is a 30% chance of getting 0.15 inches of precipitation, which would be moderate precipitation.
 
-function baseline_text(amounts, pops, time = null) {
+function baseline_text(amounts, pops, time_index = null, time_string = null, time_offset = 13) {
     // time should be an integer between 0 and 23
     // 0 = midnight
     // 23 = 11pm 
@@ -84,14 +88,35 @@ function baseline_text(amounts, pops, time = null) {
 
     // limit the range to the ohurs people would normally be outside
     // 9am - 8pm
-    let earliest_time = 9
-    let latest_time = 20
-    if (time == null) {
-        time = Math.round(random_in_range(earliest_time, latest_time))
+    // or 1 hour after start or 1 hour before end of range if not 24 hour range
+
+    let n = pops.length
+    let earliest_time_index = 1
+    let latest_time_index = n - 2
+
+    if (n == 24) {
+        earliest_time = 9
+        latest_time = 20
     }
-    let time_string = get_time_string(time)
-    let precipitation_class = classify_preciptiation(amounts[time])
-    let text = "At " + time_string + " tomorrow, there is a " + pops[time]*100 + "% chance of getting " + amounts[time] + " inches of precipitation, which would be " + precipitation_class + " precipitation."
+
+    if (time_index == null) {
+        time_index = Math.round(random_in_range(earliest_time_index, latest_time_index))
+        // time_string = get_time_string(time)
+    }
+
+    // let precipitation_class = classify_preciptiation(amounts[time])
+
+    let text = 'The following describes the chance of percipitation for tomorrow:\n'
+    for (let i = 0; i < n; i++) {
+        if (amounts[i] > 0) {
+            text += " - At " + get_time_string(i + time_offset) + ", there is a " + pops[i] + "% chance of " + classify_preciptiation(amounts[i]) + " precipitation.\n"
+        } else {
+            text += " - At " + get_time_string(i + time_offset) + ", there is no chance of precipitation.\n"
+        }
+    }
+
+
+    // let text = "At " + time_string + " tomorrow, there is a " + pops[time_index]*100 + "% chance of getting " + amounts[time_index] + " inches of precipitation, which would be " + precipitation_class + " precipitation."
     return text
 }
 
@@ -108,6 +133,10 @@ function get_time_string(time) {
         time_string = '12:00 pm'
     }
     return time_string
+}
+
+function get_time_int(index) {
+
 }
 
 
