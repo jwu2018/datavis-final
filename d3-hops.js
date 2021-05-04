@@ -123,17 +123,17 @@ const std_dev = 0.02 // std dev for the normal distribution
 
 let svg, og_predictions, og_chances
 
-const margin = { 
-    top: window.innerHeight / 10, 
-    bottom: window.innerHeight / 10, 
-    left: window.innerWidth / 10, 
+const margin = {
+    top: window.innerHeight / 10,
+    bottom: window.innerHeight / 10,
+    left: 130,
     right: window.innerWidth / 10,
     bar: window.innerWidth / 20
 },
-svg_width = window.innerWidth,
-svg_height = 600 - margin.top - margin.bottom,
-graph_width = svg_width - margin.left - margin.right,
-graph_height = svg_height - margin.top - margin.bottom;
+    svg_width = window.innerWidth,
+    svg_height = 600 - margin.top - margin.bottom,
+    graph_width = svg_width - margin.left - margin.right,
+    graph_height = svg_height - margin.top - margin.bottom;
 
 
 console.log('margins\ntop:', margin.top, 'bottom:', margin.bottom, 'left:', margin.left, 'right:', margin.right)
@@ -158,7 +158,7 @@ function build_svg() {
 
     console.log('appended svg')
 }
- 
+
 /**------------------------------------------------------------------------
  *                           Build the Bar Chart
  *------------------------------------------------------------------------**/
@@ -175,8 +175,8 @@ function build_hop(predictions) {
         .attr('id', 'barchart')
 
     // x and y scales
-    let xScale = d3.scaleBand().range ([0, graph_width]).padding(0.4),
-        yScale = d3.scaleLinear().range ([graph_height, 0]);
+    let xScale = d3.scaleBand().range([0, graph_width]).padding(0.4),
+        yScale = d3.scaleLinear().range([graph_height, 0]);
 
     // domains
     xScale.domain(Array(num_data_points).fill().map((element, index) => index + 1));
@@ -184,16 +184,33 @@ function build_hop(predictions) {
 
     // x scale
     g.append('g')
-        .attr('transform', 'translate(0,' + (graph_height)+ ')')
+        .attr('transform', 'translate(0,' + (graph_height) + ')')
         .call(d3.axisBottom(xScale))
         .append('text')
         .attr('text-anchor', 'end')
 
-    // TODO label axis: light rain, mod, heavy
+    // label axis: light rain, mod, heavy
+    // ['Light', 'Moderate', 'Heavy']
+    svg.append('text')
+        .attr('x', 0)
+        .attr('y', graph_height / 3 + margin.top)
+        .text('Heavy Precipitation')
+        .attr('font-size', 11)
+    svg.append('text')
+        .attr('x', 0)
+        .attr('y', 8 * graph_height / 12 + margin.top)
+        .text('Moderate Precipitation')
+        .attr('font-size', 11)
+    svg.append('text')
+        .attr('x', 0)
+        .attr('y', graph_height * 11 / 12 + margin.top)
+        .text('Light Precipitation')
+        .attr('font-size', 11)
+
     // y scale
     g.append('g')
-        .call(d3.axisLeft(yScale).ticks(10))
-        .append('text')
+        .call(d3.axisLeft(yScale).ticks(6))
+        .append('text', '')
         .attr('text-anchor', 'end')
 
     // Bars
@@ -201,11 +218,13 @@ function build_hop(predictions) {
         svg.append('rect')
             .attr('fill', color_by_category(predictions[i]))
             .attr('stroke', 'black')
-            .attr('transform', 'translate('+margin.left+', '+ margin.bottom+')')
-            .attr('x', xScale(i+1))
+            .attr('transform', 'translate(' + margin.left + ', ' + margin.bottom + ')')
+            .attr('x', xScale(i + 1))
             .attr('y', yScale(predictions[i]))
             .attr('height', graph_height - yScale(predictions[i]))
             .attr("width", xScale.bandwidth())
+        // TODO add text for chances?
+        // .attr('text', )
     }
 }
 
@@ -219,13 +238,13 @@ function color_by_category(prediction) {
  * Updates the HOP every second
  */
 function update_hop() {
-    timer = setInterval(function() { 
+    timer = setInterval(function () {
         remove_svg()
         build_hop(gen_hypothetical_data())
     }, 1000);
 
     // stopTimer()
-    
+
 }
 
 /**
@@ -233,7 +252,7 @@ function update_hop() {
  */
 function stopTimer() {
     alert("Timer stopped");
-    clearInterval(timer); 
+    clearInterval(timer);
 }
 
 
@@ -246,18 +265,18 @@ function gen_hypothetical_data() {
     let categories = []
 
     console.log('chances', og_chances)
-    
+
     // choose what categories the hypothetical prediction should be in:
     //      close to prediction,
     //      lower than prediction, or
     //      no precipitation
     for (let i = 0; i < num_data_points; i++) {
         let category = weightedRand({
-            "close to prediction":(2*og_chances[i]/3), 
-            "lower than prediction":(og_chances[i]/3), 
-            "no precipitation":(1-og_chances[i])
+            "close to prediction": (2 * og_chances[i] / 3),
+            "lower than prediction": (og_chances[i] / 3),
+            "no precipitation": (1 - og_chances[i])
         });
-        console.log('prediction:', og_data[i],'\nchance:', og_chances[i],'\ncategory for bar:\n',category)
+        console.log('prediction:', og_data[i], '\nchance:', og_chances[i], '\ncategory for bar:\n', category)
         categories[i] = category
     }
 
@@ -266,7 +285,7 @@ function gen_hypothetical_data() {
         let min = og_data[i] - std_dev;
         let max = og_data[i] + std_dev;
 
-        switch(categories[i]) {
+        switch (categories[i]) {
             case "close to prediction":
                 // pick random number from min to max (within 1 std dev of prediction)
                 hypothetical_predictions[i] = Math.random() * (max - min) + min;
@@ -294,15 +313,15 @@ function gen_hypothetical_data() {
  * @param {*} spec The weighted categories
  */
 function weightedRand(spec) {
-    var i, sum=0, r=Math.random();
+    var i, sum = 0, r = Math.random();
 
     for (i in spec) {
         sum += spec[i];
         if (r <= sum) return i;
     }
 }
-  
- 
+
+
 /**------------------------------------------------------------------------
  *                                RUN
  *------------------------------------------------------------------------**/
@@ -315,6 +334,5 @@ og_chances = chances
 
 build_hop(predictions)
 update_hop()
- 
+
  // export{fillChart, gen_data, CHARTS, indices_to_compare, DATAPOINT_COUNTS}
- 
