@@ -22,6 +22,8 @@ function handleDotPlots() {
   // Animate the graphs
   let interval = setInterval(generatePlots, 1000);
 
+  let color = "steelblue";
+
   // Generate both plots and the title
   function generatePlots() {
     // If the dot plots are gone, stop
@@ -29,6 +31,16 @@ function handleDotPlots() {
       clearInterval(interval);
       return;
     }
+
+    // Choose the colors
+    if(rainAmount[i] < 0.2){
+      color = "lightcyan";
+    }else if(rainAmount[i] < 0.4){
+      color = "deepskyblue";
+    }else{
+      color = "steelblue";
+    }
+
 
     MakeTitle();
 
@@ -54,21 +66,34 @@ function handleDotPlots() {
   }
 
   // Handle chaning the selected value
+  let isAnimating = true;
   let theSelector = document.getElementById("dotplotselection");
+  let theAnimationSelector = document.getElementById("animateSpeed");
   theSelector.addEventListener("change", function () {
     let selectedValue = parseInt(theSelector.value);
     // If it's the animate, animate
     if (selectedValue === 25) {
       //i = 0;
-      interval = setInterval(generatePlots, 1000);
+      isAnimating = true;
+      theAnimationSelector.style.display = "block"
+      interval = setInterval(generatePlots, theAnimationSelector.value);
     } else { // Otherwise load the plot for that hour
       clearInterval(interval);
+      isAnimating = false;
+      theAnimationSelector.style.display = "none"
       i = selectedValue;
       MakeTitle();
       createQuantileDotPlotAmount(selectedValue);
       createQuantileDotPlotProbability(selectedValue);
     }
+  });
 
+  // Handle the animation speed
+  theAnimationSelector.addEventListener("change", function(){
+    if(isAnimating){
+      clearInterval(interval);
+      interval = setInterval(generatePlots, theAnimationSelector.value);
+    }
   });
 
   // Creates the dot plot
@@ -166,7 +191,9 @@ function handleDotPlots() {
               "x": { "scale": "x", "field": "bin" },
               "y": { "scale": "y", "signal": "datum.y0 + 0.5" },
               "size": { "signal": "area" },
-              "fill": { "value": "blue" }
+              "fill": { "value": color },
+              "stroke": {"value":"black"},
+              "strokeWidth":{"value":"0.1"}
             },
           }
         }
@@ -287,7 +314,9 @@ function handleDotPlots() {
               "x": { "scale": "x", "field": "bin" },
               "y": { "scale": "y", "signal": "datum.y0 + 0.5" },
               "size": { "signal": "area" },
-              "fill": { "value": "steelblue" }
+              "fill": { "value": color },
+              "stroke": {"value":"black"},
+              "strokeWidth":{"value":"0.1"}
             },
           }
         }
@@ -310,6 +339,7 @@ function handleDotPlotHTML() {
   let chartTitleHolder = document.createElement("div");
   let chartTitle = document.createElement("p");
   let selector = createSelect();
+  let secondSelector = createSecondSelect();
 
   probabilityView.id = "probabilityview";
   probabilityView.style = "height: min-content;"
@@ -317,6 +347,7 @@ function handleDotPlotHTML() {
   amountView.style = "height: min-content;"
   chartTitle.id = "charttitle";
   chartTitle.style = "margin: 0 10 0 0"
+  selector.style = "margin-right: 10px"
   chartTitleHolder.style = "display: flex";
 
   // Add the needed elements to the DOM
@@ -324,6 +355,7 @@ function handleDotPlotHTML() {
 
   chartTitleHolder.appendChild(chartTitle);
   chartTitleHolder.appendChild(selector);
+  chartTitleHolder.appendChild(secondSelector);
   document.getElementById(targetElementId).appendChild(chartTitleHolder);
   document.getElementById(targetElementId).appendChild(probabilityView);
   document.getElementById(targetElementId).appendChild(amountView);
@@ -346,5 +378,28 @@ function createSelect() {
     option.innerText = timeHour;
     selector.appendChild(option);
   }
+  return selector;
+}
+
+function createSecondSelect(){
+  let selector = document.createElement("select");
+  selector.id = "animateSpeed";
+  let option = document.createElement("option");
+  option.value = 1000;
+  option.innerText = "1 second";
+  selector.appendChild(option);
+  option = document.createElement("option");
+  option.value = 2000;
+  option.innerText = "2 seconds";
+  selector.appendChild(option);
+  option = document.createElement("option");
+  option.value = 5000;
+  option.innerText = "5 seconds";
+  selector.appendChild(option);
+  option = document.createElement("option");
+  option.value = 10;
+  option.innerText = "Really Fast";
+  selector.appendChild(option);
+
   return selector;
 }
