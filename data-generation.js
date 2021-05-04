@@ -3,7 +3,7 @@
 /***************************************************************** */
 
 
-let N_HOURS = 5
+let N_HOURS = 24
 
 
 function generate_hourly_data(pop_range_start = 0, pop_range_end = 1, type = null, n = N_HOURS) {
@@ -78,7 +78,7 @@ function generate_hourly_data(pop_range_start = 0, pop_range_end = 1, type = nul
 
 // example sentence: At 9:00 am tomorrow, there is a 30% chance of getting 0.15 inches of precipitation, which would be moderate precipitation.
 
-function baseline_text(amounts, pops, time_index = null, time_string = null, time_offset = 13) {
+function baseline_text(amounts, pops, time_index = null, time_string = null, time_offset = 0) {
     // time should be an integer between 0 and 23
     // 0 = midnight
     // 23 = 11pm 
@@ -101,22 +101,16 @@ function baseline_text(amounts, pops, time_index = null, time_string = null, tim
 
     if (time_index == null) {
         time_index = Math.round(random_in_range(earliest_time_index, latest_time_index))
-        // time_string = get_time_string(time)
     }
-
-    // let precipitation_class = classify_preciptiation(amounts[time])
 
     let text = 'The following describes the chance of precipitation for tomorrow:\n'
     for (let i = 0; i < n; i++) {
         if (amounts[i] > 0) {
-            text += " - At " + get_time_string(i + time_offset) + ", there is a " + pops[i] + "% chance of " + classify_preciptiation(amounts[i]) + " precipitation.\n"
+            text += " - At " + get_time_string(i + time_offset) + ", there is a " + pops[i]*100 + "% chance of " + classify_preciptiation(amounts[i]) + " precipitation.\n"
         } else {
             text += " - At " + get_time_string(i + time_offset) + ", there is no chance of precipitation.\n"
         }
     }
-
-
-    // let text = "At " + time_string + " tomorrow, there is a " + pops[time_index]*100 + "% chance of getting " + amounts[time_index] + " inches of precipitation, which would be " + precipitation_class + " precipitation."
     return text
 }
 
