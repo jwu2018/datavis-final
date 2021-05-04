@@ -10,6 +10,7 @@ const PAGES = {
   experiment: 'Experiment',
   about: 'About',
   survey: 'Survey',
+  ExitSurvey: 'ExitSurvey',
   thanks: 'Thanks'
 }
 
