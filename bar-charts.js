@@ -182,7 +182,7 @@ function build_barchart(data) {
         .attr('text-anchor', 'end')
 
     // Bars
-    // TODO add error bars?
+    // TODO add saturation colors for the bars to visualize the chance of rain
     
     for (let i = 0; i < num_data_points; i++) {
         svg.append('rect')

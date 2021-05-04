@@ -206,8 +206,6 @@ function build_hop(predictions) {
             .attr('y', yScale(predictions[i]))
             .attr('height', graph_height - yScale(predictions[i]))
             .attr("width", xScale.bandwidth())
-            // TODO add text for chances?
-            // .attr('text', )
     }
 }
 
