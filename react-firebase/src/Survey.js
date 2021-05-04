@@ -24,39 +24,53 @@ class Survey extends Component {
       document.title = "Background Survey"
       super(props);
       this.state = {
-        familiarity: 'No Formal Education',
-        education: 'No Formal Stats Training',
-        stats: 'Not familiar',
-        field: ''
+        frequency: 'More than once per day',
+        app: '',
+        experience: 'Very unfavorable',
+        inaccurate: 'Very often',
+        Reliable: 'Very reliable',
+        stats: ''
       }
     }
   
-    handleChangeFamiliarity = e => {
+    handleChangeFrequency = e => {
       this.setState({
-        familiarity: e.target.value,
+        frequency: e.target.value,
+      })
+    }
+
+    handleChangeApp = e => {
+      this.setState({
+        app: e.target.value,
       })
     }
   
-    handleChangeEducation = e => {
+    handleChangeExperience = e => {
       this.setState({
-        education: e.target.value,
+        experience: e.target.value,
       })
     }
-  
+
+    handleChangeInaccurate = e => {
+      this.setState({
+        inaccurate: e.target.value,
+      })
+    }
+
+    handleChangeReliable = e => {
+      this.setState({
+        reliable: e.target.value,
+      })
+    }
+
     handleChangeStats = e => {
       this.setState({
         stats: e.target.value,
       })
     }
   
-    handleChangeField = e => {
-      this.setState({
-        field: e.target.value,
-      })
-    }
-  
-    fieldIsValid = () => {
-      return this.state.field !== "" && this.state.field !== undefined;
+    inputIsValid = () => {
+      return this.state.app !== "" && this.state.app !== undefined && this.state.stats !== "" && this.state.stats !== undefined;
     }
   
     render() {
@@ -65,70 +79,94 @@ class Survey extends Component {
           <h2>Background Survey</h2>
           <form>
             <label>
-              What is the highest education level you are currently pursuing or have achieved?
-            <select value={this.state.education} onChange={this.handleChangeEducation}>
-                <option value="No Formal Education">
-                  No Formal Education
+              How frequently do you use a weather app?
+            <select value={this.state.frequency} onChange={this.handleChangeFrequency}>
+                <option value="More than once per day">
+                  More than once per day
               </option>
-                <option value="High School">
-                  High School
+                <option value="Daily">
+                  Daily
               </option>
-                <option value="Bacherlors Degree (BA)">
-                  Bachelors Degree (BA)
+                <option value="Almost daily">
+                  Almost Daily
               </option>
-                <option value="Bachelors Degree (BS)">
-                  Bachelors Degree (BS)
+                <option value="Sometimes">
+                  Sometimes
               </option>
-                <option value="Vocational Training">
-                  Vocational Training
-              </option>
-                <option value="Masters Degree">
-                  Masters Degree
-              </option>
-                <option value="PhD/Doctorate">
-                  PhD/Doctorate
+                <option value="Never">
+                  Never
               </option>
               </select>
             </label>
             <label>
-              How familiar are you with statistics?
-            <select value={this.state.stats} onChange={this.handleChangeStats}>
-                <option value="No Formal Stats Training">
-                  No Formal Stats Training
+              Which weather app do you use?
+            <input type="text" onChange={this.handleChangeApp}></input>
+            </label>
+            <label>
+              How would you characterize your experience with this app?
+            <select value={this.state.experience} onChange={this.handleChangeExperience}>
+                <option value="Very unfavorable">
+                  Very unfavorable
               </option>
-                <option value="Some Basic Statistics Training">
-                  Some Basic Statistics Training
+                <option value="Unfavorable">
+                  Unfavorable
               </option>
-                <option value="A lot of statistics experience">
-                  A lot of statistics experience
+                <option value="Neutral">
+                  Neutral
               </option>
-                <option value="I use statistics everyday">
-                  I use statistics everyday
+                <option value="Favorable">
+                  Favorable
+              </option>
+                <option value="Very favorable">
+                  Very Favorable
               </option>
               </select>
             </label>
             <label>
-              How familiar would you say you are with data visualizations?
-            <select value={this.state.familiarity} onChange={this.handleChangeFamiliarity}>
-                <option value="Not familiar">
-                  Not familiar
+              How often have you observed this app to report information you feel to be inaccurate?
+            <select value={this.state.inaccurate} onChange={this.handleChangeInaccurate}>
+                <option value="Very often">
+                  Very Often
               </option>
-                <option value="Passing Knowledge">
-                  Passing Knowledge
+                <option value="Often">
+                  Often
               </option>
-                <option value="Knowledgable">
-                  Knowledgable
+                <option value="Sometimes">
+                  Sometimes
               </option>
-                <option value="Expert">
-                  Expert
+                <option value="Not very often">
+                  Not Very Often
+              </option>
+                <option value="Never">
+                  Never
               </option>
               </select>
             </label>
             <label>
-              What is your area of study or field you work in?
-            <input type="text" onChange={this.handleChangeField}></input>
+              How reliable do you find this app?
+            <select value={this.state.reliable} onChange={this.handleChangeReliable}>
+                <option value="Very reliable">
+                  Very Reliable
+              </option>
+                <option value="Somewhat reliable">
+                  Somewhat Reliable
+              </option>
+                <option value="Neutral">
+                  Neutral
+              </option>
+                <option value="Not very reliable">
+                  Not very Reliable
+              </option>
+                <option value="Never reliable">
+                  Never Reliable
+              </option>
+              </select>
             </label>
-            <button type="submit" className="button" onClick={() => this.props.handleSurvey(this.state)} disabled={!this.fieldIsValid()}>Submit</button>
+            <label>
+              Describe your experience with statistics and/or data visualization?
+            <input type="text" onChange={this.handleChangeStats}></input>
+            </label>
+            <button type="submit" className="button" onClick={() => this.props.handleSurvey(this.state)} disabled={!this.inputIsValid()}>Submit</button>
           </form>
         </div>
       )
