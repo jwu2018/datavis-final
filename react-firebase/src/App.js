@@ -303,6 +303,7 @@ class VisForm extends Component {
     // if(this.props.type === CHARTS.dot) {
     if(true) {
       // handleDotPlots(this.props.points);
+      document.querySelector('#svgcontainer').innerHTML = baseline_text(this.props.points[0], this.props.points[1])
     }
   }
 
