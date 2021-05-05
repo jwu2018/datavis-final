@@ -91,13 +91,23 @@ class Page extends Component {
   }
   
   handleExitSurvey = response => {
-    this.setState({ exitSurveyResults: response });
+    this.setState({ exitSurveyResults: response },() =>{
+      fire.database().ref('data').push(this.state);
+    });    
     this.setPage(PAGES.thanks);
     console.log('Exit survey handled!!')
   }
 
   handleDataset = dataset => {
     this.setState({ dataset: dataset });
+  }
+
+  handleOrder = order => {
+    this.setState({ order: order });
+  }
+
+  handleTrials = trials => {
+    this.setState({ trials: trials });
   }
 
   resetData = () => {
@@ -122,6 +132,10 @@ class Page extends Component {
             dataset={this.state.dataset}
             handleDataset={this.handleDataset}
             demographics={this.state.demographic}
+            order={this.state.order}
+            trials={this.state.trials}
+            handleOrder={this.handleOrder}
+            handleTrials={this.handleTrials}
             setPage={this.setPage}
           />
         );
@@ -197,11 +211,7 @@ function Welcome(props) {
       <h2>Welcome!</h2>
       <p>
         Welcome to our Data Vis Project! Thank you for taking a few minutes of
-        your day to help us out. This website is a replication of 
-        <a href="https://www.jstor.org/stable/2288400?seq=1" rel="noopener noreferrer" target="_blank"> a paper on Graphical 
-        Perception by Cleaveland and McGill.</a> This is part of an assignment
-        for CS 573 Data Visualization and was created by Imogen Cleaver-Stigum, Andrew Nolan, Matt St.
-        Louis, and Jyalu Wu. For the best experience, please use a laptop or a computer instead of a mobile device.
+        your day to help us out. This survey is meant to study the differences and effectiveness in uncertainy visualizations for weather data. This is part of our final project for CS 573 Data Visualization and was created by Imogen Cleaver-Stigum, Andrew Nolan, Matt St. Louis, and Jyalu Wu. For the best experience, please use a laptop or a computer instead of a mobile device.
       </p>
       <img src={team_members} alt="Picture of the team members"></img>
       <br></br><br></br>
@@ -294,7 +304,7 @@ class Experiment extends Component {
     // let { high, low } = this.getHighLow(points, markedIndices)
 
     trials.push({
-      guess: null,
+      guess: guess,
       // high: high,
       // low: low,
       type: type,
@@ -304,11 +314,13 @@ class Experiment extends Component {
     });
     this.setState({
       trials: trials,
+      },()=>{
+        if (trials.length === 3){//TRIALS.length) {
+          // this.uploadToFirebase(guess);
+          this.props.handleTrials(this.state.trials)
+          this.setPage(PAGES.exitSurvey);
+        }
     })
-    if (trials.length === TRIALS.length) {
-      this.uploadToFirebase(guess);
-      this.setPage(PAGES.exitSurvey);
-    }
   }
 
   uploadToFirebase = e => {
