@@ -1,11 +1,20 @@
 import React, { Component } from 'react';
 import './App.css';
 import fire from './firebase';
-import { fillChart, gen_data, CHARTS, indices_to_compare, DATAPOINT_COUNTS } from './all-charts';
+// import { fillChart, gen_data, CHARTS, indices_to_compare, DATAPOINT_COUNTS } from './all-charts';
 import { shuffle } from 'd3-array';
 import team_members from './team-members.jpg'
+import { generate_hourly_data, baseline_text } from './data-generation';
 
 import { Survey } from './Survey';
+import { handleDotPlots } from './dotplot';
+
+const CHARTS = {
+  text: 'text',
+  bar: 'bar',
+  hop: 'hop',
+  dot: 'dot',
+}
 
 const PAGES = {
   welcome: 'Welcome',
@@ -17,8 +26,9 @@ const PAGES = {
 
 const TRIALS = [
   CHARTS.bar, CHARTS.bar, CHARTS.bar, CHARTS.bar, CHARTS.bar,
-  CHARTS.pie, CHARTS.pie, CHARTS.pie, CHARTS.pie, CHARTS.pie,
-  CHARTS.spiral, CHARTS.spiral, CHARTS.spiral, CHARTS.spiral, CHARTS.spiral,
+  CHARTS.hop, CHARTS.hop, CHARTS.hop, CHARTS.hop, CHARTS.hop,
+  CHARTS.text, CHARTS.text, CHARTS.text, CHARTS.text, CHARTS.text,
+  CHARTS.dot, CHARTS.dot, CHARTS.dot, CHARTS.dot, CHARTS.dot,
 ]
 
 function uuidv4() {
@@ -173,9 +183,9 @@ class Experiment extends Component {
     super(props);
     const order = shuffleArray(TRIALS);
     let type = order[0];
-    let points = gen_data(DATAPOINT_COUNTS[type]);
-    let markedIndices = indices_to_compare(DATAPOINT_COUNTS[type]);
-    let { high, low } = this.getHighLow(points, markedIndices);
+    let points = generate_hourly_data();
+    // let markedIndices = indices_to_compare(DATAPOINT_COUNTS[type]);
+    // let { high, low } = this.getHighLow(points, markedIndices);
     this.setPage = props.setPage;
 
     this.state = {
@@ -183,10 +193,10 @@ class Experiment extends Component {
       order: order,
       trials: [{
         guess: null,
-        high: high,
-        low: low,
+        // high: high,
+        // low: low,
         type: type,
-        markedIndices: markedIndices,
+        // markedIndices: markedIndices,
         points: points,
       }],
     };
@@ -197,16 +207,16 @@ class Experiment extends Component {
     trials[trials.length - 1].guess = guess;
 
     let type = this.state.order[trials.length - 1];
-    let points = gen_data(DATAPOINT_COUNTS[type]);
-    let markedIndices = indices_to_compare(DATAPOINT_COUNTS[type]);
-    let { high, low } = this.getHighLow(points, markedIndices)
+    let points = generate_hourly_data();
+    // let markedIndices = indices_to_compare(DATAPOINT_COUNTS[type]);
+    // let { high, low } = this.getHighLow(points, markedIndices)
 
     trials.push({
       guess: null,
-      high: high,
-      low: low,
+      // high: high,
+      // low: low,
       type: type,
-      markedIndices: markedIndices,
+      // markedIndices: markedIndices,
       points: points,
     });
     this.setState({
@@ -242,10 +252,10 @@ class Experiment extends Component {
         <h2>Experiment</h2>
         <p>Trial {this.state.trials.length} out of {this.state.order.length}</p>
         <VisForm
-          high={this.state.trials[this.state.trials.length - 1].high}
-          low={this.state.trials[this.state.trials.length - 1].low}
+          // high={this.state.trials[this.state.trials.length - 1].high}
+          // low={this.state.trials[this.state.trials.length - 1].low}
           type={this.state.trials[this.state.trials.length - 1].type}
-          markedIndices={this.state.trials[this.state.trials.length - 1].markedIndices}
+          // markedIndices={this.state.trials[this.state.trials.length - 1].markedIndices}
           points={this.state.trials[this.state.trials.length - 1].points}
           nextTrial={this.nextTrial}
           key={this.state.trials.length - 1}
@@ -282,7 +292,10 @@ class VisForm extends Component {
   }
 
   componentDidMount() {
-    fillChart(this.props.type, this.props.points, this.props.markedIndices);
+    // if(this.props.type === CHARTS.dot) {
+    if(true) {
+      handleDotPlots(this.props.points);
+    }
   }
 
   renderError() {

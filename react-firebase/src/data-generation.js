@@ -136,3 +136,5 @@ function random_in_range(range_start = 0, range_end = 1) {
 let p = generate_hourly_data()
 console.log(p)
 console.log(baseline_text(p[0], p[1]))
+
+export { generate_hourly_data, baseline_text }
