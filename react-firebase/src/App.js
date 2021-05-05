@@ -7,6 +7,7 @@ import team_members from './team-members.jpg'
 import { generate_hourly_data, baseline_text } from './data-generation';
 
 import { Survey } from './Survey';
+import { ExitSurvey } from './ExitSurvey';
 import { handleDotPlots } from './dotplot';
 
 const CHARTS = {
@@ -21,6 +22,7 @@ const PAGES = {
   experiment: 'Experiment',
   about: 'About',
   survey: 'Survey',
+  exitSurvey: 'ExitSurvey',
   thanks: 'Thanks'
 }
 
@@ -61,6 +63,7 @@ class Page extends Component {
     this.state = {
       page: PAGES.welcome,
       demographic: null,
+      exitSurveyResults: null,
       dataset: [],
       sessionID: SESSION_ID,
     }
@@ -104,6 +107,11 @@ class Page extends Component {
             handleSurvey={this.handleSurvey}
           />
         );
+      case PAGES.exitSurvey:
+        // TODO: This function renders the exit survey but I think it needs to handle ending the survey afterwards
+        return <ExitSurvey
+                  exitSurveyResults={this.state.exitSurveyResults}
+                />
       case PAGES.about:
         return <About />
       case PAGES.thanks:
