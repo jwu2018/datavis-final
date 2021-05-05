@@ -146,6 +146,7 @@ class Question extends Component {
                         <option value="Neutral">Neutral</option>
                         <option value="Unfavorable">Unsure</option>
                         <option value="Very unfavorable">Very Unsure</option>
+                        <option value="Void">So unsure that I would prefer not to guess</option>
                     </select>
                 </label>
                 {this.renderFollowUp()}

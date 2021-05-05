@@ -15,6 +15,7 @@ import { Question, QUESTION_TYPES } from './Question';
 import { build_barchart } from './bar-charts';
 import { handleDotPlots } from './dotplot';
 import build_animated_hop from './d3-hops';
+import { Help, Instructions } from './Instructions';
 
 const CHARTS = {
   text: 'Text',
@@ -222,49 +223,6 @@ function Welcome(props) {
   )
 }
 
-function Instructions(props) {
-  document.title = "Instructions"
-  return (
-    <div>
-      <h2>Instructions</h2>
-      <p>Here we describe key terms and visualizations you will see in this survey:</p>
-      <h3>Probability of Precipitation</h3>
-      <p>The probability of precipitation is a percent value (10%, 100%, etc) that represents the chance that precipitation will occur. For example, a 10% probability of precipitation means that there is a 10% chance of any amount of rain happening, and a 90% chance of no rain at all. </p>
-      <h3>Amount of Precipitation</h3>
-      <p>The amount of precipitation is always in units of inches per hour. </p>
-      <ul>
-        <li>Up to 0.1 inches per hour is “light precipitation”</li>
-        <li>0.1-0.3 inches per hour is “moderate precipitation”</li>
-        <li>0.3 or more inches per hour is “heavy precipitation”</li>
-      </ul>
-      <h3>Text</h3>
-      <p>This text describes the precipitation forecast for tomorrow afternoon. <br/><br/>
-        The following describes the chance of precipitation for tomorrow:<br/>
-        - At 5:00 pm, there is a 30% chance of moderate precipitation.<br/>
-        - At 6:00 pm, there is a 15% chance of light precipitation.<br/>
-        - At 7:00 pm, there is a 30% chance of moderate precipitation.<br/>
-        - At 8:00 pm, there is a 30% chance of moderate precipitation.<br/>
-        - At 9:00 pm, there is no chance of precipitation.
-      </p>
-      <h3>Bar Plot</h3>
-      <p>These bar plots show the precipitation forecast for tomorrow. The y-axis is the predicted rate of precipitation (e.g. 0.2 in/hr) and the x-axis is the time (e.g. 1PM). Each bar represents a different hour and is colored based on the amount of precipitation (light, moderate, or heavy).</p>
-      <img src={bars} alt="The weather bar chart"></img>
-      <h3>Hypothetical Outcome Plot</h3>
-      <p>Hypothetical outcome plots (HOPs) are like bar plots but upgraded. They are animated to show many hypothetical predictions of how much rain you might get based on the chances of precipitation for each hour. Each second of the animation shows a different hypothetical prediction of tomorrow’s weather forecast.</p>
-      <p>Like the bar plots, HOPs have a different bar for each hour and are colored based on the amount of precipitation.</p>
-      <img src={hop} alt="The hypothetical outcome plot"></img>
-      <h3>Quantile Dot Plot</h3>
-      <p>These dot plots describe the precipitation forecast for tomorrow afternoon. The plots are iterating through each hour of the afternoon (1pm, 2pm, 3pm, etc) to show how the predictions change over the course of the afternoon.</p>
-      <p>The dropdown menu allows you to choose a particular time of day to get a closer look at the forecast for that time of day.</p>
-      <img src={dots} alt="The quantile dot plot"></img>
-      <br></br><br></br>
-      <button type="button" className="button" onClick={() => props.setPage(PAGES.survey)}>
-        I'm ready to go!
-      </button>
-    </div>
-  )
-}
-
 class Experiment extends Component {
   setPage;
   constructor(props) {
@@ -368,8 +326,12 @@ class VisForm extends Component {
       guess: null,
       message: this.props.message,
       intervals: [],
+      showHelp: false,
+      askedForHelp: false,
     }
   }
+
+  toggleHelp = () => this.setState({ showHelp: !this.state.showHelp, askedForHelp: true });
 
   handleChange = e => {
     this.setState({
@@ -407,9 +369,20 @@ class VisForm extends Component {
     return null;
   }
 
+  renderHelp() {
+    if(!this.state.showHelp) {
+      return;
+    }
+    return <Help type={this.props.type}/>
+  }
+
   render() {
     return (
       <div className="vis-form">
+        <button type="button" className="button" onClick={this.toggleHelp}>
+          {`${this.state.showHelp ? 'Hide' : 'Show'} Help`}
+        </button>
+        {this.renderHelp()}
         <h3>{this.props.type}</h3>
         {renderChartTarget()}
         <form>
