@@ -9,6 +9,7 @@ import { generate_hourly_data, baseline_text } from './data-generation';
 import { Survey } from './Survey';
 import { ExitSurvey } from './ExitSurvey';
 // import { handleDotPlots } from './dotplot';
+import { build_barchart } from './bar-charts';
 
 const CHARTS = {
   text: 'text',
@@ -301,9 +302,11 @@ class VisForm extends Component {
 
   componentDidMount() {
     // if(this.props.type === CHARTS.dot) {
+    debugger;
     if(true) {
       // handleDotPlots(this.props.points);
-      document.querySelector('#svgcontainer').innerHTML = baseline_text(this.props.points[0], this.props.points[1])
+      // document.querySelector('#svgcontainer').innerHTML = baseline_text(this.props.points[0], this.props.points[1])
+      build_barchart(this.props.points[0], this.props.points[1])
     }
   }
 
