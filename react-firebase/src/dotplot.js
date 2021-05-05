@@ -1,6 +1,8 @@
 import * as vega from 'vega';
 import * as vegaLite from 'vega-lite';
-import * as vegaEmbed from 'vega-embed';
+import embed from 'vega-embed';
+
+let interval;
 
 // Stops dot plot interval and clear any created elements
 // Needs to be called after the dot plots are done
@@ -10,6 +12,10 @@ function stopDotPlots() {
 
 // Function to call to handle all of the quantile dot plot stuff
 function handleDotPlots(d) {
+  // Clear it if for some reason it didn't
+  clearInterval(interval);
+  stopDotPlots();
+
   // Set up the needed HTMl
   handleDotPlotHTML();
 
@@ -22,7 +28,7 @@ function handleDotPlots(d) {
   let i = 0;
 
   // Animate the graphs
-  let interval = setInterval(generatePlots, 1000);
+  interval = setInterval(generatePlots, 1000);
 
   let color = "steelblue";
 
@@ -203,7 +209,7 @@ function handleDotPlots(d) {
     }
 
     // Put the vega lite chart in the HTML
-    vegaEmbed(
+    embed(
       '#probabilityview',
       vegaSpecification
     );
@@ -326,7 +332,7 @@ function handleDotPlots(d) {
     }
 
     // Put the vega-lite chart in the HTML
-    vegaEmbed(
+    embed(
       '#amountview',
       vegaSpecification
     );
@@ -336,6 +342,7 @@ function handleDotPlots(d) {
 // A helper to handle setting up any HTML stuff
 function handleDotPlotHTML() {
   // Create the needed HTML elements
+  let viewDiv = document.createElement("div");
   let probabilityView = document.createElement("div");
   let amountView = document.createElement("div");
   let chartTitleHolder = document.createElement("div");
@@ -348,9 +355,11 @@ function handleDotPlotHTML() {
   amountView.id = "amountview";
   amountView.style = "height: min-content;"
   chartTitle.id = "charttitle";
-  chartTitle.style = "margin: 0 10 0 0"
-  selector.style = "margin-right: 10px"
+  chartTitle.style = "margin-right: 10px"
+  selector.style = "margin-right: 10px; width:auto"
+  secondSelector.style = "width:auto"
   chartTitleHolder.style = "display: flex";
+  viewDiv.style = "display: flex";
 
   // Add the needed elements to the DOM
   const targetElementId = "svgcontainer";
@@ -360,8 +369,9 @@ function handleDotPlotHTML() {
     chartTitleHolder.appendChild(selector);
     chartTitleHolder.appendChild(secondSelector);
     document.getElementById(targetElementId).appendChild(chartTitleHolder);
-    document.getElementById(targetElementId).appendChild(probabilityView);
-    document.getElementById(targetElementId).appendChild(amountView);
+    viewDiv.appendChild(probabilityView);
+    viewDiv.appendChild(amountView);
+    document.getElementById(targetElementId).appendChild(viewDiv);
   }
 }
 
@@ -408,4 +418,4 @@ function createSecondSelect(){
   return selector;
 }
 
-export { handleDotPlots }
+export { handleDotPlots, stopDotPlots }
