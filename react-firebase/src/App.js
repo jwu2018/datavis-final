@@ -8,15 +8,16 @@ import { generate_hourly_data, baseline_text } from './data-generation';
 
 import { Survey } from './Survey';
 import { ExitSurvey } from './ExitSurvey';
+import { Question, QUESTION_TYPES } from './Question';
 import { build_barchart } from './bar-charts';
 import { handleDotPlots } from './dotplot';
 import build_animated_hop from './d3-hops';
 
 const CHARTS = {
-  text: 'text',
-  bar: 'bar',
-  hop: 'hop',
-  dot: 'dot',
+  text: 'Text',
+  bar: 'Static Bar Chart',
+  hop: 'Hypothetical Outcome Plot',
+  dot: 'Quantile Dot Plot',
 }
 
 const PAGES = {
@@ -28,12 +29,21 @@ const PAGES = {
   thanks: 'Thanks'
 }
 
-const TRIALS = [
-  CHARTS.bar, CHARTS.bar, CHARTS.bar, CHARTS.bar, CHARTS.bar,
-  CHARTS.hop, CHARTS.hop, CHARTS.hop, CHARTS.hop, CHARTS.hop,
-  CHARTS.text, CHARTS.text, CHARTS.text, CHARTS.text, CHARTS.text,
-  CHARTS.dot, CHARTS.dot, CHARTS.dot, CHARTS.dot, CHARTS.dot,
-]
+// const TRIALS = [
+//   CHARTS.bar, CHARTS.bar, CHARTS.bar, CHARTS.bar, CHARTS.bar,
+//   CHARTS.hop, CHARTS.hop, CHARTS.hop, CHARTS.hop, CHARTS.hop,
+//   CHARTS.text, CHARTS.text, CHARTS.text, CHARTS.text, CHARTS.text,
+//   CHARTS.dot, CHARTS.dot, CHARTS.dot, CHARTS.dot, CHARTS.dot,
+// ]
+const TRIALS = []
+for (let chartType in CHARTS){
+  for (let questionType in QUESTION_TYPES){
+    TRIALS.push({
+      chartType: CHARTS[chartType], 
+      questionType: QUESTION_TYPES[questionType],
+    })
+  }
+}
 
 function uuidv4() {
   return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function (c) {
@@ -75,6 +85,12 @@ class Page extends Component {
     this.setState({ demographic: response });
     this.setPage(PAGES.experiment);
   }
+  
+  handleExitSurvey = response => {
+    this.setState({ exitSurveyResults: response });
+    this.setPage(PAGES.thanks);
+    console.log('Exit survey handled!!')
+  }
 
   handleDataset = dataset => {
     this.setState({ dataset: dataset });
@@ -86,7 +102,8 @@ class Page extends Component {
 
   setPage = newPage => {
     this.setState({ page: newPage });
-    document.getElementById(newPage).classList.add('curPage');
+    if (document.getElementById(newPage))
+      document.getElementById(newPage).classList.add('curPage');
   }
 
   renderContent() {
@@ -113,6 +130,7 @@ class Page extends Component {
         // TODO: This function renders the exit survey but I think it needs to handle ending the survey afterwards
         return <ExitSurvey
                   exitSurveyResults={this.state.exitSurveyResults}
+                  handleExitSurvey={this.handleExitSurvey}
                 />
       case PAGES.about:
         return <About />
@@ -141,6 +159,7 @@ class Page extends Component {
               <li><button id="Welcome" className="" class="button curPage">Welcome</button></li>
               <li><button id="Survey" className="button">Background Survey</button></li>
               <li><button id="Experiment" className="button">Experiment</button></li>
+              <li><button id="ExitSurvey" className="button">Exit Survey</button></li>
               <li><button id="Thanks" className="button">Thanks!</button></li>
             </ul>
           </div>
@@ -192,7 +211,8 @@ class Experiment extends Component {
     document.title = "Experiment"
     super(props);
     const order = shuffleArray(TRIALS);
-    let type = order[0];
+    let type = order[0].chartType;
+    let questionType = order[0].questionType;
     let points = generate_hourly_data();
     // let markedIndices = indices_to_compare(DATAPOINT_COUNTS[type]);
     // let { high, low } = this.getHighLow(points, markedIndices);
@@ -206,6 +226,7 @@ class Experiment extends Component {
         // high: high,
         // low: low,
         type: type,
+        questionType: questionType,
         // markedIndices: markedIndices,
         points: points,
       }],
@@ -216,7 +237,8 @@ class Experiment extends Component {
     const trials = this.state.trials.slice();
     trials[trials.length - 1].guess = guess;
 
-    let type = this.state.order[trials.length - 1];
+    let type = this.state.order[trials.length - 1].chartType;
+    let questionType = this.state.order[trials.length - 1].questionType;
     let points = generate_hourly_data();
     // let markedIndices = indices_to_compare(DATAPOINT_COUNTS[type]);
     // let { high, low } = this.getHighLow(points, markedIndices)
@@ -226,15 +248,16 @@ class Experiment extends Component {
       // high: high,
       // low: low,
       type: type,
+      questionType: questionType,
       // markedIndices: markedIndices,
       points: points,
     });
     this.setState({
       trials: trials,
     })
-    if (trials.length === 16) {
+    if (trials.length === TRIALS.length) {
       this.uploadToFirebase(guess);
-      this.setPage(PAGES.thanks);
+      this.setPage(PAGES.exitSurvey);
     }
   }
 
@@ -265,6 +288,7 @@ class Experiment extends Component {
           // high={this.state.trials[this.state.trials.length - 1].high}
           // low={this.state.trials[this.state.trials.length - 1].low}
           type={this.state.trials[this.state.trials.length - 1].type}
+          questionType={this.state.trials[this.state.trials.length - 1].questionType}
           // markedIndices={this.state.trials[this.state.trials.length - 1].markedIndices}
           points={this.state.trials[this.state.trials.length - 1].points}
           nextTrial={this.nextTrial}
@@ -281,6 +305,7 @@ class VisForm extends Component {
     this.state = {
       guess: null,
       message: this.props.message,
+      intervals: [],
     }
   }
 
@@ -293,22 +318,25 @@ class VisForm extends Component {
 
   handleSubmit = e => {
     if (this.guessIsValid()) {
+      this.state.intervals.map(i => clearInterval(i))
       this.props.nextTrial(this.state.guess)
     }
   }
 
   guessIsValid = () => {
-    return this.state.guess && (0 < this.state.guess && this.state.guess <= 1);
+    return true
+    // return this.state.guess && (0 < this.state.guess && this.state.guess <= 1);
   }
 
   componentDidMount() {
-    // if(this.props.type === CHARTS.dot) {
-    debugger;
-    if(true) {
-      // document.querySelector('#svgcontainer').innerHTML = baseline_text(this.props.points[0], this.props.points[1])
-      // build_barchart(this.props.points[0], this.props.points[1])
-      // handleDotPlots(this.props.points);
-      build_animated_hop(this.props.points)
+    if(this.props.type === CHARTS.text) {
+      document.querySelector('#svgcontainer').innerHTML = baseline_text(this.props.points[0], this.props.points[1])
+    } else if(this.props.type === CHARTS.bar) {
+      build_barchart(this.props.points[0], this.props.points[1])
+    } else if(this.props.type === CHARTS.dot) {
+      handleDotPlots(this.props.points);
+    } else if(this.props.type === CHARTS.hop) {
+      this.state.intervals.push(build_animated_hop(this.props.points))
     }
   }
 
@@ -320,18 +348,10 @@ class VisForm extends Component {
   render() {
     return (
       <div className="vis-form">
+        <h3>{this.props.type}</h3>
         {renderChartTarget()}
-        {/* <p>True Value: {this.props.low / this.props.high}</p> */}
-        <p>What percentage of the larger section is the smaller section?</p>
-        <p>(Answer as a decimal Example if the small section is 50% the size of the large section, you would answer 0.5)</p>
         <form>
-          <input
-            type="number"
-            min={0}
-            max={1}
-            step={0.01}
-            onChange={this.handleChange}
-          ></input>
+          <Question type={this.props.questionType}/>
           <br />
           <button
             type="submit"

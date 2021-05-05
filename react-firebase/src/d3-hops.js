@@ -139,6 +139,7 @@ function update_hop() {
         remove_svg()
         build_hop(gen_hypothetical_data())
     }, 1000);
+    return timer
 
     // stopTimer()
 
@@ -242,5 +243,5 @@ export default function build_animated_hop(data) {
     let chances = data[1];
     og_chances = chances
     build_hop(predictions)
-    update_hop()
+    return update_hop()
 }

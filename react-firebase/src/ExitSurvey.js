@@ -231,7 +231,7 @@ class ExitSurvey extends Component {
               Do you have any other feedback for us?
             <input type="text" onChange={this.handleChangeFeedback}></input>
             </label>
-            <button type="submit" className="button" onClick={() => this.props.handleSurvey(this.state)} disabled={!this.rankIsValid()}>Submit</button>
+            <button type="submit" className="button" onClick={() => this.props.handleExitSurvey(this.state)} disabled={!this.rankIsValid()}>Submit</button>
           </form>
         </div>
       )
