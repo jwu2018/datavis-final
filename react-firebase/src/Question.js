@@ -83,6 +83,7 @@ class Question extends Component {
     handleChangeMainAnswer = e => this.setState({MainAnswer: e.target.value})
     handleChangeConfidence = e => this.setState({Confidence: e.target.value})
     handleChangeAmount = e => this.setState({Amount: e.target.value})
+    handleChangeFollowUp = e => this.setState({FollowUpText: e.target.value})
 
     renderAnswer() {
         switch(this.props.type) {
@@ -120,7 +121,7 @@ class Question extends Component {
                     <label>
                         {QUESTIONS[this.props.type].followupText}
                         <br/>
-                        <input type="text" value="" onChange={this.handleChangeFollowUp}></input>
+                        <input type="text" onChange={this.handleChangeFollowUp}></input>
                     </label>
                 )
             case QUESTION_TYPES.amount:

@@ -135,21 +135,19 @@ function color_by_category(prediction) {
  * Updates the HOP every second
  */
 function update_hop() {
+    stopTimer()
     timer = setInterval(function () {
         remove_svg()
         build_hop(gen_hypothetical_data())
     }, 1000);
     return timer
-
-    // stopTimer()
-
 }
 
 /**
  * Stops the timer and thus stops the HOPs from animating
  */
 function stopTimer() {
-    alert("Timer stopped");
+    //alert("Timer stopped");
     clearInterval(timer);
 }
 
