@@ -77,13 +77,17 @@ class Question extends Component {
     constructor(props) {
         super(props)
         this.state = {
+            handleChangeMainAnswer: props.handleChangeMainAnswer,
+            handleChangeConfidence: props.handleChangeConfidence,
+            handleChangeAmount: props.handleChangeAmount,
+            handleChangeFollowUp: props.handleChangeFollowUp,
         }
     }
 
-    handleChangeMainAnswer = e => this.setState({MainAnswer: e.target.value})
-    handleChangeConfidence = e => this.setState({Confidence: e.target.value})
-    handleChangeAmount = e => this.setState({Amount: e.target.value})
-    handleChangeFollowUp = e => this.setState({FollowUpText: e.target.value})
+    // handleChangeMainAnswer = e => this.setState({MainAnswer: e.target.value})
+    // handleChangeConfidence = e => this.setState({Confidence: e.target.value})
+    // handleChangeAmount = e => this.setState({Amount: e.target.value})
+    // handleChangeFollowUp = e => this.setState({FollowUpText: e.target.value})
 
     renderAnswer() {
         switch(this.props.type) {
@@ -92,9 +96,9 @@ class Question extends Component {
             case QUESTION_TYPES.event:
                 return (
                     <div>
-                        <input type="radio" id="yes-answer" value="Yes" name="main-answer" onChange={this.handleChangeMainAnswer}></input>
+                        <input type="radio" id="yes-answer" value="Yes" name="main-answer" onChange={this.state.handleChangeMainAnswer}></input>
                         <label for="yes-answer">Yes</label>
-                        <input type="radio" id="no-answer" value="No" name="main-answer"  onChange={this.handleChangeMainAnswer}></input>
+                        <input type="radio" id="no-answer" value="No" name="main-answer"  onChange={this.state.handleChangeMainAnswer}></input>
                         <label for="no-answer">No</label>
                     </div>
                 )
@@ -103,7 +107,7 @@ class Question extends Component {
                 return (
                     <input 
                         type="number" 
-                        onChange={this.handleChangeAmount}
+                        onChange={this.state.handleChangeAmount}
                         min="0"
                         max="100"
                         step="1"
@@ -121,7 +125,7 @@ class Question extends Component {
                     <label>
                         {QUESTIONS[this.props.type].followupText}
                         <br/>
-                        <input type="text" onChange={this.handleChangeFollowUp}></input>
+                        <input type="text" onChange={this.state.handleChangeFollowUp}></input>
                     </label>
                 )
             case QUESTION_TYPES.amount:
@@ -140,7 +144,7 @@ class Question extends Component {
                 </label>
                 <label>
                     {QUESTIONS[this.props.type].confidenceText}
-                    <select value={this.state.EffortText} onChange={this.handleChangeConfidence}>
+                    <select value={this.state.EffortText} onChange={this.state.handleChangeConfidence}>
                         <option value="Very favorable">Very confident</option>
                         <option value="Favorable">Kind of confident</option>
                         <option value="Neutral">Neutral</option>

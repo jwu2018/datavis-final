@@ -251,23 +251,21 @@ class Experiment extends Component {
     };
   }
 
-  nextTrial = guess => {
+  nextTrial = (confidence, followUp, followUpText, mainAnswer, askedForHelp) => {
     const trials = this.state.trials.slice();
-    trials[trials.length - 1].guess = guess;
+    trials[trials.length - 1].confidence = confidence;
+    trials[trials.length - 1].followUp = followUp;
+    trials[trials.length - 1].followUpText = followUpText;
+    trials[trials.length - 1].mainAnswer = mainAnswer;
+    trials[trials.length - 1].askedForHelp = askedForHelp;
 
     let type = this.state.order[trials.length - 1].chartType;
     let questionType = this.state.order[trials.length - 1].questionType;
     let points = generate_hourly_data();
-    // let markedIndices = indices_to_compare(DATAPOINT_COUNTS[type]);
-    // let { high, low } = this.getHighLow(points, markedIndices)
 
     trials.push({
-      guess: guess,
-      // high: high,
-      // low: low,
       type: type,
       questionType: questionType,
-      // markedIndices: markedIndices,
       points: points,
     });
     this.setState({
@@ -323,27 +321,33 @@ class VisForm extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      guess: null,
       message: this.props.message,
       intervals: [],
       showHelp: false,
       askedForHelp: false,
+      MainAnswer: "",
+      Confidence: "Very favorable",
+      FollowUp: "",
     }
   }
 
   toggleHelp = () => this.setState({ showHelp: !this.state.showHelp, askedForHelp: true });
 
-  handleChange = e => {
-    this.setState({
-      guess: e.target.value,
-      message: this.state.message,
-    });
-  }
+  handleChangeMainAnswer = e => this.setState({MainAnswer: e.target.value})
+  handleChangeConfidence = e => this.setState({Confidence: e.target.value})
+  handleChangeAmount = e => this.setState({Amount: e.target.value})
+  handleChangeFollowUp = e => this.setState({FollowUpText: e.target.value})
 
   handleSubmit = e => {
     if (this.guessIsValid()) {
       this.state.intervals.map(i => clearInterval(i))
-      this.props.nextTrial(this.state.guess)
+      this.props.nextTrial(
+        this.state.Confidence,
+        this.state.FollowUp,
+        this.state.FollowUpText,
+        this.state.MainAnswer,
+        this.state.askedForHelp,
+      )
     }
   }
 
@@ -386,7 +390,13 @@ class VisForm extends Component {
         <h3>{this.props.type}</h3>
         {renderChartTarget()}
         <form>
-          <Question type={this.props.questionType}/>
+          <Question 
+            type={this.props.questionType}
+            handleChangeMainAnswer={e => this.handleChangeMainAnswer(e)}
+            handleChangeConfidence={e => this.handleChangeConfidence(e)}
+            handleChangeAmount={e => this.handleChangeAmount(e)}
+            handleChangeFollowUp={e => this.handleChangeFollowUp(e)}
+            />
           <br />
           <button
             type="submit"
