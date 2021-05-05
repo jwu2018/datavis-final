@@ -328,6 +328,7 @@ class VisForm extends Component {
       MainAnswer: "",
       Confidence: "Very favorable",
       FollowUp: "",
+      FollowUpText:""
     }
   }
 
