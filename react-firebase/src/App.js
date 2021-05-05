@@ -10,6 +10,7 @@ import { Survey } from './Survey';
 import { ExitSurvey } from './ExitSurvey';
 import { build_barchart } from './bar-charts';
 import { handleDotPlots } from './dotplot';
+import build_animated_hop from './d3-hops';
 
 const CHARTS = {
   text: 'text',
@@ -306,7 +307,8 @@ class VisForm extends Component {
     if(true) {
       // document.querySelector('#svgcontainer').innerHTML = baseline_text(this.props.points[0], this.props.points[1])
       // build_barchart(this.props.points[0], this.props.points[1])
-      handleDotPlots(this.props.points);
+      // handleDotPlots(this.props.points);
+      build_animated_hop(this.props.points)
     }
   }
 

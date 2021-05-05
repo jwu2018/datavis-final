@@ -106,9 +106,9 @@ function baseline_text(amounts, pops, time_index = null, time_string = null, tim
     let text = ['<p>The following describes the chance of precipitation for tomorrow:<p><ul>']
     for (let i = 0; i < n; i++) {
         if (amounts[i] > 0) {
-            text.push("<li>At " + get_time_string(i + time_offset) + ", there is a " + pops[i]*100 + "% chance of " + classify_preciptiation(amounts[i]) + " precipitation.</li>")
+            text.push(`<li>At ${get_time_string(i + time_offset)}, there is a ${pops[i]*100}% chance of ${classify_preciptiation(amounts[i])} precipitation.</li>`)
         } else {
-            text.push("<li>At " + get_time_string(i + time_offset) + ", there is no chance of precipitation.</li>")
+            text.push(`<li>At ${get_time_string(i + time_offset)}, there is no chance of precipitation.</li>`)
         }
     }
     text.push('</ul>')
