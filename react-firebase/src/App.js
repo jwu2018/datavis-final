@@ -176,7 +176,7 @@ class Page extends Component {
         <div className="top-bar">
           <div className="top-bar-left">
             <ul className="menu">
-              <li className="menu-text">CS 573 Data Vis Project 3</li>
+              <li className="menu-text">CS 573 Data Vis Final Project</li>
               <li><button id="Welcome" className="" class="button curPage">Welcome</button></li>
               <li><button id="Instructions" className="button">Instructions</button></li>
               <li><button id="Survey" className="button">Background Survey</button></li>
@@ -271,7 +271,7 @@ class Experiment extends Component {
     this.setState({
       trials: trials,
       },()=>{
-        if (trials.length === 3){//TRIALS.length) {
+        if (trials.length === TRIALS.length) {
           // this.uploadToFirebase(guess);
           this.props.handleTrials(this.state.trials)
           this.setPage(PAGES.exitSurvey);

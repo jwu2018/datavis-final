@@ -29,11 +29,11 @@ class ExitSurvey extends Component {
         Rank2: 'Text',
         Rank3: 'Text',
         Rank4: 'Text',
-        EffortText: '',
-        EffortBar: '',
-        EffortHOP: '',
-        EffortDot: '',
-        Feedback: ''
+        EffortText: 'Very unfavorable',
+        EffortBar: 'Very unfavorable',
+        EffortHOP: 'Very unfavorable',
+        EffortDot: 'Very unfavorable',
+        Feedback: 'Very unfavorable'
       }
     }
   
