@@ -8,7 +8,7 @@ import { generate_hourly_data, baseline_text } from './data-generation';
 
 import { Survey } from './Survey';
 import { ExitSurvey } from './ExitSurvey';
-import { handleDotPlots } from './dotplot';
+// import { handleDotPlots } from './dotplot';
 
 const CHARTS = {
   text: 'text',
@@ -302,7 +302,7 @@ class VisForm extends Component {
   componentDidMount() {
     // if(this.props.type === CHARTS.dot) {
     if(true) {
-      handleDotPlots(this.props.points);
+      // handleDotPlots(this.props.points);
     }
   }
 
