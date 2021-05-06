@@ -271,7 +271,7 @@ class Experiment extends Component {
     this.setState({
       trials: trials,
       },()=>{
-        if (trials.length === TRIALS.length) {
+        if (trials.length === TRIALS.length+1) {
           // this.uploadToFirebase(guess);
           this.props.handleTrials(this.state.trials)
           this.setPage(PAGES.exitSurvey);
