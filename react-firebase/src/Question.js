@@ -68,7 +68,7 @@ const QUESTIONS =  {
     },
     probability: {
         type: 'probability',
-        questionText: "Based on this visualization, what percent chance of rain would you expect at 3pm tomorrow?",
+        questionText: "Based on this visualization, what percent chance of rain would you expect at 3pm tomorrow? (1-100)",
         confidenceText: COMMON_TEXTS.literacyConfidence,
     },
 }

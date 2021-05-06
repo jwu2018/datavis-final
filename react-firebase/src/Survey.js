@@ -164,7 +164,7 @@ class Survey extends Component {
               </select>
             </label>
             <label>
-              Describe your experience with statistics and/or data visualization?
+              Please describe your experience with statistics and/or data visualization.
             <input type="text" onChange={this.handleChangeStats}></input>
             </label>
             <button type="submit" className="button" onClick={() => this.props.handleSurvey(this.state)} disabled={!this.inputIsValid()}>Submit</button>
