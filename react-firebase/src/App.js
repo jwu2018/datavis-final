@@ -263,16 +263,24 @@ class Experiment extends Component {
     // let questionType = this.state.order[trials.length - 1].questionType;
     let points = generate_hourly_data();
 
+    
     trials.push({
-      type: this.state.order[trials.length].chartType,
-      questionType: this.state.order[trials.length].questionType,
+      type: this.state.order[trials.length-1].chartType,
+      questionType: this.state.order[trials.length-1].questionType,
       points: points,
     });
+    
+
     this.setState({
       trials: trials,
       },()=>{
         if (trials.length === TRIALS.length+1) {
           // this.uploadToFirebase(guess);
+          // trials[trials.length - 1].confidence = confidence;
+          // trials[trials.length - 1].followUp = followUp;
+          // trials[trials.length - 1].followUpText = followUpText;
+          // trials[trials.length - 1].mainAnswer = mainAnswer;
+          // trials[trials.length - 1].askedForHelp = askedForHelp;
           this.props.handleTrials(this.state.trials)
           this.setPage(PAGES.exitSurvey);
         }
@@ -326,7 +334,7 @@ class VisForm extends Component {
       showHelp: false,
       askedForHelp: false,
       MainAnswer: "",
-      Confidence: "Very favorable",
+      Confidence: "Very Confident",
       FollowUp: "",
       FollowUpText:""
     }

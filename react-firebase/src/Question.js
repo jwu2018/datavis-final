@@ -107,7 +107,7 @@ class Question extends Component {
                 return (
                     <input 
                         type="number" 
-                        onChange={this.state.handleChangeAmount}
+                        onChange={this.state.handleChangeMainAnswer}
                         min="0"
                         max="100"
                         step="1"
@@ -145,12 +145,12 @@ class Question extends Component {
                 <label>
                     {QUESTIONS[this.props.type].confidenceText}
                     <select value={this.state.EffortText} onChange={this.state.handleChangeConfidence}>
-                        <option value="Very favorable">Very confident</option>
-                        <option value="Favorable">Kind of confident</option>
+                        <option value="Very confident">Very confident</option>
+                        <option value="Kind of confident">Kind of confident</option>
                         <option value="Neutral">Neutral</option>
-                        <option value="Unfavorable">Unsure</option>
-                        <option value="Very unfavorable">Very Unsure</option>
-                        <option value="Void">So unsure that I would prefer not to guess</option>
+                        <option value="Unsure">Unsure</option>
+                        <option value="Very unsure">Very Unsure</option>
+                        <option value="So unsure">So unsure that I would prefer not to guess</option>
                     </select>
                 </label>
                 {this.renderFollowUp()}
