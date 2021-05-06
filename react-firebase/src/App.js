@@ -263,12 +263,23 @@ class Experiment extends Component {
     // let questionType = this.state.order[trials.length - 1].questionType;
     let points = generate_hourly_data();
 
+      console.log(trials.length)
+      console.log(this.state.order)
+
+    if(trials.length < 20){
+      trials.push({
+        type: this.state.order[trials.length].chartType,
+        questionType: this.state.order[trials.length].questionType,
+        points: points,
+      });
+    }else{
+      trials.push({
+        done: "This means the trials are done, you can ignore this data point",
+        type: this.state.order[0].chartType, //These are only here as dummy data so it doesn't crash, hacky workaround but a work-a-round
+        questionType: this.state.order[0].questionType,
+      });
+    }
     
-    trials.push({
-      type: this.state.order[trials.length-1].chartType,
-      questionType: this.state.order[trials.length-1].questionType,
-      points: points,
-    });
     
 
     this.setState({
@@ -306,22 +317,28 @@ class Experiment extends Component {
   }
 
   render() {
-    return (
-      <div id="experiment">
-        <h2>Experiment</h2>
-        <p>Trial {this.state.trials.length} out of {this.state.order.length}</p>
-        <VisForm
-          // high={this.state.trials[this.state.trials.length - 1].high}
-          // low={this.state.trials[this.state.trials.length - 1].low}
-          type={this.state.trials[this.state.trials.length - 1].type}
-          questionType={this.state.trials[this.state.trials.length - 1].questionType}
-          // markedIndices={this.state.trials[this.state.trials.length - 1].markedIndices}
-          points={this.state.trials[this.state.trials.length - 1].points}
-          nextTrial={this.nextTrial}
-          key={this.state.trials.length - 1}
-        />
-      </div>
-    )
+    if(this.state.trials.length <= 20){
+      return (
+        <div id="experiment">
+          <h2>Experiment</h2>
+          <p>Trial {this.state.trials.length} out of {this.state.order.length}</p>
+          <VisForm
+            // high={this.state.trials[this.state.trials.length - 1].high}
+            // low={this.state.trials[this.state.trials.length - 1].low}
+            type={this.state.trials[this.state.trials.length - 1].type}
+            questionType={this.state.trials[this.state.trials.length - 1].questionType}
+            // markedIndices={this.state.trials[this.state.trials.length - 1].markedIndices}
+            points={this.state.trials[this.state.trials.length - 1].points}
+            nextTrial={this.nextTrial}
+            key={this.state.trials.length - 1}
+          />
+        </div>
+      )
+    }else{
+      return(
+        <p>You should not be seeing this message, something went horribly wrong. Sorry :(</p>
+      )
+    }
   }
 }
 
