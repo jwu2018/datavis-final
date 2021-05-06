@@ -259,13 +259,13 @@ class Experiment extends Component {
     trials[trials.length - 1].mainAnswer = mainAnswer;
     trials[trials.length - 1].askedForHelp = askedForHelp;
 
-    let type = this.state.order[trials.length - 1].chartType;
-    let questionType = this.state.order[trials.length - 1].questionType;
+    // let type = this.state.order[trials.length - 1].chartType;
+    // let questionType = this.state.order[trials.length - 1].questionType;
     let points = generate_hourly_data();
 
     trials.push({
-      type: type,
-      questionType: questionType,
+      type: this.state.order[trials.length].chartType,
+      questionType: this.state.order[trials.length].questionType,
       points: points,
     });
     this.setState({
