@@ -57,7 +57,7 @@ const QUESTIONS =  {
     },
     event: {
         type: 'event',
-        questionText: "You are in charge of planning an extracurricular club event or a community event that is currently to be held outdoors. This event has been planned for a few weeks, and you have neglected to book an indoor location as a backup. The day before the event, you saw the following forecast for the day of the event. Would you pay a small fee to book the late space at the last minute in case it rains?",
+        questionText: "You are in charge of planning an extracurricular club event or a community event that is currently to be held outdoors. This event has been planned for a few weeks, and you have neglected to book an indoor location as a backup. The day before the event, you saw the following forecast for the day of the event. Would you pay a small fee to book the indoor space at the last minute in case it rains?",
         confidenceText: COMMON_TEXTS.decisionConfidence,
         followupText: COMMON_TEXTS.followup,
     },
