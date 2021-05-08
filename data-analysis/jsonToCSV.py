@@ -119,10 +119,37 @@ with open('data-analysis/output.csv', 'w', newline='') as csvfile:
                 subRow.append(row[14])
                 # print(subRow)
                 csvWriter.writerow(subRow)
-            
+
+
+'''
+Return the true prediction and true chance of precipitation for a
+specific trial question. The true values can either be a point
+value or a weighted average, based on the type of question.
+'''
+def true_values(all_predictions, all_chances, question_type):
+    if (question_type == 'friend' || question_type == 'alone' || question_type == 'event'):
+        data_avg(all_predictions, all_chances, question_type)
+
+    elif (question_type == 'amount' || question_type == 'probability'):
+        return [all_predictions[15], all_chances[15]]
+
+    else: print('Error: Not a trial')
+        
 
 '''
 Calculate the weighted average prediction and weighted average chance
-of precipitation based on the type of viz 
+of precipitation based on the type of viz
 '''
-def data_avg(all__predictions, all_chances, vis_type, calc_type):
+def data_avg(all__predictions, all_chances, question_type):
+    before_sum = 0
+    after_sum = 0
+    during_value = 0
+
+    # check weather 2 hrs before to see if ground is wet
+    # and 4 hrs after bc hiking will probs take that long
+    if question_type == 'friend':
+        before_sum = 
+
+    elif question_type == 'alone':
+
+    elif question_type == 'event':
