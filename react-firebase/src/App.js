@@ -228,7 +228,29 @@ class Experiment extends Component {
   constructor(props) {
     document.title = "Experiment"
     super(props);
-    const order = shuffleArray(TRIALS);
+    // const order = shuffleArray(TRIALS);
+    const order = [
+      {chartType: CHARTS.text, questionType: QUESTION_TYPES.amount},
+      {chartType: CHARTS.bar, questionType: QUESTION_TYPES.amount},
+      {chartType: CHARTS.hop, questionType: QUESTION_TYPES.amount},
+      {chartType: CHARTS.dot, questionType: QUESTION_TYPES.event},
+      {chartType: CHARTS.dot, questionType: QUESTION_TYPES.event},
+      {chartType: CHARTS.dot, questionType: QUESTION_TYPES.event},
+      {chartType: CHARTS.dot, questionType: QUESTION_TYPES.event},
+      {chartType: CHARTS.dot, questionType: QUESTION_TYPES.event},
+      {chartType: CHARTS.dot, questionType: QUESTION_TYPES.event},
+      {chartType: CHARTS.dot, questionType: QUESTION_TYPES.event},
+      {chartType: CHARTS.dot, questionType: QUESTION_TYPES.event},
+      {chartType: CHARTS.dot, questionType: QUESTION_TYPES.event},
+      {chartType: CHARTS.dot, questionType: QUESTION_TYPES.event},
+      {chartType: CHARTS.dot, questionType: QUESTION_TYPES.event},
+      {chartType: CHARTS.dot, questionType: QUESTION_TYPES.event},
+      {chartType: CHARTS.dot, questionType: QUESTION_TYPES.event},
+      {chartType: CHARTS.dot, questionType: QUESTION_TYPES.event},
+      {chartType: CHARTS.dot, questionType: QUESTION_TYPES.event},
+      {chartType: CHARTS.dot, questionType: QUESTION_TYPES.event},
+      {chartType: CHARTS.dot, questionType: QUESTION_TYPES.event},
+    ]
     let type = order[0].chartType;
     let questionType = order[0].questionType;
     let points = generate_hourly_data();
