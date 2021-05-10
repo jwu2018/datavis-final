@@ -2,6 +2,7 @@ Final Project - Interactive Data Visualization
 ===
 
 Project Website: https://cs573-finalproject.web.app/
+
 Project Video: https://www.youtube.com/watch?v=pXo9WaOtt0o
 
 The key learning experience of this course is the final project. 
