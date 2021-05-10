@@ -1,6 +1,9 @@
 Final Project - Interactive Data Visualization  
 ===
 
+Project Website: https://cs573-finalproject.web.app/
+Project Video: https://www.youtube.com/watch?v=pXo9WaOtt0o
+
 The key learning experience of this course is the final project. 
 You will design a web site and interactive visualizations that answer questions you have or provide an exploratory interface to some topic of your own choosing. 
 You will acquire the data, design your visualizations, implement them, and critically evaluate the results. 
