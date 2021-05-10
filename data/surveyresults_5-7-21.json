@@ -1,0 +1,2924 @@
+{
+  "data" : {
+    "-M_1ecelgtcgmASbnSYz" : {
+      "demographic" : {
+        "Reliable" : "Very reliable",
+        "app" : "Apple Weather",
+        "experience" : "Favorable",
+        "frequency" : "Daily",
+        "inaccurate" : "Not very often",
+        "reliable" : "Somewhat reliable",
+        "stats" : "Nop"
+      },
+      "exitSurveyResults" : {
+        "EffortBar" : "Favorable",
+        "EffortDot" : "Very unfavorable",
+        "EffortHOP" : "Very unfavorable",
+        "EffortText" : "Very favorable",
+        "Feedback" : "why cant i pause the animation",
+        "Rank1" : "Text",
+        "Rank2" : "Bar",
+        "Rank3" : "QDP",
+        "Rank4" : "Hop"
+      },
+      "page" : "Thanks",
+      "sessionID" : "4c56edd8-ad3e-4587-881e-5879999fb464",
+      "trials" : [ {
+        "askedForHelp" : false,
+        "confidence" : "Neutral",
+        "followUp" : "",
+        "followUpText" : "i got to do this 20 times??????",
+        "mainAnswer" : "No",
+        "points" : [ [ 0.6, 0.5, 0.4, 0.35, 0.05, 0.25, 0.15, 0.15, 0.25, 0.1, 0.05, 0, 0, 0.05, 0.15, 0.1, 0.2, 0.3, 0.25, 0.3, 0.05, 0.45, 0.55, 0.55 ], [ 0.95, 1, 0.8, 0.6, 0.45, 0.35, 0.3, 0.55, 0.45, 0.2, 0.1, 0, 0, 0.1, 0.2, 0.25, 0.35, 0.4, 0.45, 0.65, 0.7, 0.85, 1, 0.9 ] ],
+        "questionType" : "alone",
+        "type" : "Quantile Dot Plot"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "So unsure",
+        "followUp" : "",
+        "followUpText" : "",
+        "mainAnswer" : "50",
+        "points" : [ [ 0.35, 0.15, 0.05, 0.2, 0.15, 0, 0, 0.1, 0.15, 0.1, 0.35, 0.1, 0.1, 0.05, 0.4, 0.25, 0.2, 0.05, 0.2, 0.2, 0.15, 0.15, 0.05, 0 ], [ 0.9, 0.7, 0.55, 0.35, 0.25, 0.05, 0, 0.15, 0.35, 0.5, 0.6, 0.65, 0.75, 0.95, 0.95, 0.95, 1, 0.8, 0.55, 0.45, 0.45, 0.35, 0.1, 0.05 ] ],
+        "questionType" : "probability",
+        "type" : "Hypothetical Outcome Plot"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Very Confident",
+        "followUp" : "",
+        "followUpText" : "thank god the animations are gone",
+        "mainAnswer" : "No",
+        "points" : [ [ 0.05, 0.05, 0.05, 0, 0, 0.05, 0.15, 0.1, 0.1, 0.3, 0.1, 0.35, 0.45, 0.4, 0.2, 0.2, 0.2, 0.05, 0.2, 0.2, 0.4, 0.3, 0.35, 0.1 ], [ 0.05, 0.15, 0.05, 0, 0.05, 0.15, 0.25, 0.35, 0.45, 0.6, 0.7, 0.85, 1, 0.8, 0.8, 0.7, 0.8, 0.6, 0.4, 0.65, 0.65, 0.7, 0.6, 0.55 ] ],
+        "questionType" : "alone",
+        "type" : "Text"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "So unsure",
+        "followUp" : "",
+        "followUpText" : "",
+        "mainAnswer" : "No",
+        "points" : [ [ 0, 0, 0.1, 0.15, 0.2, 0.05, 0.1, 0.4, 0.2, 0.45, 0.4, 0.2, 0.25, 0.05, 0.15, 0.05, 0.25, 0.1, 0.1, 0, 0, 0, 0.1, 0.05 ], [ 0.05, 0, 0.1, 0.3, 0.4, 0.5, 0.6, 0.85, 1, 0.75, 0.6, 0.45, 0.35, 0.3, 0.3, 0.25, 0.35, 0.2, 0.1, 0, 0, 0, 0.25, 0.4 ] ],
+        "questionType" : "friend",
+        "type" : "Hypothetical Outcome Plot"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Kind of confident",
+        "followUp" : "",
+        "followUpText" : "",
+        "mainAnswer" : "5",
+        "points" : [ [ 0.15, 0, 0, 0.1, 0.25, 0.15, 0.2, 0.35, 0.45, 0.35, 0.3, 0.45, 0.15, 0.2, 0.2, 0.2, 0.35, 0.2, 0.1, 0.1, 0.1, 0.15, 0, 0 ], [ 0.2, 0.05, 0, 0.2, 0.4, 0.6, 0.85, 0.9, 0.7, 0.9, 0.75, 0.8, 0.9, 1, 0.8, 0.65, 0.6, 0.5, 0.3, 0.15, 0.15, 0.15, 0, 0.05 ] ],
+        "questionType" : "amount",
+        "type" : "Text"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "So unsure",
+        "followUp" : "",
+        "followUpText" : "",
+        "mainAnswer" : "5",
+        "points" : [ [ 0.1, 0.1, 0.15, 0.15, 0.1, 0.15, 0, 0, 0, 0, 0.05, 0, 0.05, 0.1, 0, 0.05, 0.2, 0.3, 0.3, 0.1, 0.35, 0.4, 0.15, 0.2 ], [ 0.4, 0.15, 0.35, 0.4, 0.3, 0.15, 0, 0, 0, 0, 0.2, 0.05, 0.2, 0.2, 0, 0.15, 0.4, 0.45, 0.65, 0.6, 0.7, 0.95, 0.95, 1 ] ],
+        "questionType" : "amount",
+        "type" : "Hypothetical Outcome Plot"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Very Confident",
+        "followUp" : "",
+        "followUpText" : "",
+        "mainAnswer" : "50",
+        "points" : [ [ 0.1, 0.05, 0.15, 0.15, 0, 0, 0.15, 0.1, 0.1, 0.2, 0.05, 0.1, 0.25, 0.2, 0.15, 0.1, 0.1, 0.1, 0.25, 0.4, 0.45, 0.05, 0.1, 0.3 ], [ 0.25, 0.05, 0.15, 0.2, 0, 0, 0.2, 0.15, 0.2, 0.3, 0.4, 0.25, 0.35, 0.45, 0.5, 0.6, 0.45, 0.45, 0.7, 0.7, 0.9, 1, 0.75, 0.75 ] ],
+        "questionType" : "probability",
+        "type" : "Text"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Very Confident",
+        "followUp" : "",
+        "followUpText" : "",
+        "mainAnswer" : "Yes",
+        "points" : [ [ 0.4, 0.5, 0.35, 0.4, 0.2, 0.15, 0.1, 0, 0, 0.1, 0.1, 0.25, 0.05, 0.05, 0.4, 0.15, 0.2, 0.15, 0.35, 0.4, 0.25, 0.25, 0.2, 0.15 ], [ 0.75, 0.75, 0.7, 0.75, 0.55, 0.4, 0.3, 0.05, 0, 0.15, 0.35, 0.4, 0.25, 0.35, 0.55, 0.65, 0.9, 0.9, 1, 0.75, 0.65, 0.5, 0.45, 0.45 ] ],
+        "questionType" : "event",
+        "type" : "Quantile Dot Plot"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Very Confident",
+        "followUp" : "",
+        "followUpText" : "",
+        "mainAnswer" : "No",
+        "points" : [ [ 0.15, 0.3, 0.05, 0.1, 0.1, 0.1, 0, 0.15, 0.1, 0.2, 0.2, 0.15, 0.1, 0.15, 0.05, 0.15, 0.05, 0.25, 0.35, 0.45, 0.2, 0.45, 0.25, 0.2 ], [ 0.75, 0.55, 0.35, 0.2, 0.2, 0.2, 0, 0.2, 0.2, 0.35, 0.35, 0.2, 0.4, 0.55, 0.65, 0.65, 0.7, 0.65, 0.65, 0.9, 1, 0.85, 0.85, 0.6 ] ],
+        "questionType" : "alone",
+        "type" : "Hypothetical Outcome Plot"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Very unsure",
+        "followUp" : "",
+        "followUpText" : "",
+        "mainAnswer" : "50",
+        "points" : [ [ 0.45, 0.25, 0.55, 0.3, 0.35, 0.4, 0.1, 0.3, 0.05, 0.1, 0, 0, 0, 0.1, 0.15, 0.05, 0.1, 0.1, 0, 0.1, 0.2, 0.2, 0.2, 0.4 ], [ 0.75, 0.95, 1, 0.8, 0.7, 0.6, 0.5, 0.4, 0.3, 0.2, 0.05, 0, 0, 0.1, 0.25, 0.15, 0.25, 0.1, 0, 0.2, 0.4, 0.4, 0.65, 0.9 ] ],
+        "questionType" : "probability",
+        "type" : "Quantile Dot Plot"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Very Confident",
+        "followUp" : "",
+        "followUpText" : "",
+        "mainAnswer" : "0.3",
+        "points" : [ [ 0.35, 0.1, 0.25, 0.05, 0.3, 0.3, 0.2, 0, 0, 0.1, 0.1, 0.1, 0.15, 0.3, 0.2, 0.3, 0.5, 0.2, 0.4, 0.05, 0.2, 0.05, 0.15, 0.15 ], [ 0.7, 0.65, 0.45, 0.45, 0.4, 0.5, 0.25, 0, 0, 0.1, 0.2, 0.25, 0.35, 0.45, 0.55, 0.75, 1, 1, 0.75, 0.75, 0.7, 0.45, 0.3, 0.2 ] ],
+        "questionType" : "amount",
+        "type" : "Static Bar Chart"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Kind of confident",
+        "followUp" : "",
+        "followUpText" : "",
+        "mainAnswer" : "40",
+        "points" : [ [ 0.1, 0, 0, 0, 0.1, 0.15, 0.15, 0.1, 0.3, 0.3, 0.25, 0.25, 0.15, 0.2, 0.55, 0.4, 0.15, 0.4, 0.25, 0.05, 0.45, 0.25, 0.2, 0.05 ], [ 0.1, 0, 0, 0, 0.1, 0.25, 0.25, 0.35, 0.55, 0.45, 0.45, 0.65, 0.85, 0.95, 0.85, 1, 0.9, 0.75, 0.65, 0.6, 0.75, 0.65, 0.9, 0.9 ] ],
+        "questionType" : "probability",
+        "type" : "Static Bar Chart"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Very Confident",
+        "followUp" : "",
+        "followUpText" : "",
+        "mainAnswer" : "Yes",
+        "points" : [ [ 0.3, 0.2, 0, 0, 0.1, 0.05, 0.1, 0.1, 0.1, 0.15, 0.15, 0.25, 0.4, 0.05, 0.25, 0.25, 0.2, 0.1, 0.45, 0.05, 0.1, 0.5, 0.35, 0.35 ], [ 0.5, 0.3, 0.05, 0, 0.1, 0.2, 0.3, 0.5, 0.3, 0.4, 0.45, 0.55, 0.8, 0.6, 0.65, 0.8, 0.8, 0.8, 0.95, 1, 0.9, 0.75, 0.75, 0.7 ] ],
+        "questionType" : "alone",
+        "type" : "Static Bar Chart"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Very Confident",
+        "followUp" : "",
+        "followUpText" : "",
+        "mainAnswer" : "No",
+        "points" : [ [ 0.15, 0.3, 0.35, 0.05, 0.1, 0.6, 0.2, 0.15, 0.15, 0.1, 0.2, 0.15, 0.05, 0, 0, 0.15, 0.1, 0.2, 0.25, 0.25, 0.2, 0.3, 0.4, 0.15 ], [ 0.35, 0.55, 0.7, 0.75, 0.9, 1, 0.85, 0.65, 0.65, 0.55, 0.45, 0.35, 0.15, 0.05, 0, 0.15, 0.2, 0.35, 0.4, 0.55, 0.65, 0.7, 0.85, 0.95 ] ],
+        "questionType" : "friend",
+        "type" : "Static Bar Chart"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "So unsure",
+        "followUp" : "",
+        "followUpText" : "",
+        "mainAnswer" : "No",
+        "points" : [ [ 0.3, 0.1, 0.05, 0.2, 0.1, 0.2, 0.2, 0.1, 0.25, 0.05, 0.1, 0.1, 0, 0, 0.1, 0.25, 0.2, 0.4, 0.25, 0.1, 0.1, 0.25, 0.35, 0.35 ], [ 0.4, 0.55, 0.3, 0.3, 0.5, 0.3, 0.5, 0.5, 0.4, 0.35, 0.25, 0.2, 0.05, 0, 0.1, 0.35, 0.55, 0.65, 0.85, 0.6, 0.6, 0.75, 0.95, 1 ] ],
+        "questionType" : "event",
+        "type" : "Hypothetical Outcome Plot"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Very Confident",
+        "followUp" : "",
+        "followUpText" : "",
+        "mainAnswer" : "No",
+        "points" : [ [ 0, 0, 0.1, 0, 0, 0, 0, 0.05, 0, 0, 0, 0.05, 0.05, 0.4, 0.15, 0.1, 0.4, 0.15, 0.2, 0.45, 0.35, 0.35, 0.15, 0.35 ], [ 0.05, 0.05, 0.15, 0, 0, 0, 0, 0.1, 0, 0, 0.05, 0.2, 0.45, 0.6, 0.7, 0.55, 0.6, 0.6, 0.55, 0.7, 0.8, 0.9, 1, 0.9 ] ],
+        "questionType" : "event",
+        "type" : "Static Bar Chart"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Very Confident",
+        "followUp" : "",
+        "followUpText" : "",
+        "mainAnswer" : "Yes",
+        "points" : [ [ 0.2, 0.2, 0.3, 0.15, 0.1, 0.1, 0.1, 0.1, 0.15, 0.05, 0.35, 0.2, 0.35, 0.35, 0.25, 0.1, 0.5, 0.55, 0.2, 0.3, 0.2, 0.25, 0.3, 0.25 ], [ 0.35, 0.5, 0.5, 0.7, 0.7, 0.45, 0.45, 0.6, 0.7, 0.8, 0.8, 0.85, 1, 1, 1, 1, 0.95, 1, 0.85, 0.6, 0.5, 0.5, 0.45, 0.4 ] ],
+        "questionType" : "friend",
+        "type" : "Text"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "So unsure",
+        "followUp" : "",
+        "followUpText" : "",
+        "mainAnswer" : "",
+        "points" : [ [ 0.2, 0.4, 0.3, 0.2, 0.05, 0.1, 0.15, 0.25, 0.05, 0, 0.1, 0.05, 0.1, 0.2, 0.1, 0.05, 0.3, 0.2, 0.05, 0.25, 0.3, 0.25, 0.2, 0.35 ], [ 0.45, 0.6, 0.5, 0.55, 0.35, 0.35, 0.35, 0.35, 0.1, 0, 0.2, 0.35, 0.15, 0.4, 0.55, 0.75, 0.85, 1, 0.75, 0.7, 0.6, 0.8, 0.85, 0.7 ] ],
+        "questionType" : "friend",
+        "type" : "Quantile Dot Plot"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Very Confident",
+        "followUp" : "",
+        "followUpText" : "",
+        "mainAnswer" : "Yes",
+        "points" : [ [ 0.15, 0.2, 0.3, 0.3, 0.1, 0.1, 0, 0.15, 0.25, 0.25, 0.05, 0.35, 0.45, 0.4, 0.05, 0.25, 0.3, 0.15, 0.4, 0.4, 0.5, 0.35, 0.15, 0.1 ], [ 0.9, 0.7, 0.5, 0.45, 0.25, 0.1, 0, 0.2, 0.35, 0.4, 0.45, 0.6, 0.7, 0.65, 0.7, 0.6, 0.7, 0.75, 0.85, 0.95, 1, 0.95, 0.85, 0.65 ] ],
+        "questionType" : "event",
+        "type" : "Text"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Neutral",
+        "followUp" : "",
+        "followUpText" : "",
+        "mainAnswer" : "0.2",
+        "points" : [ [ 0.15, 0.25, 0.05, 0.2, 0.25, 0.2, 0.45, 0.1, 0.1, 0.4, 0.2, 0.1, 0.1, 0.1, 0.1, 0.1, 0.05, 0.05, 0.1, 0.1, 0.15, 0.15, 0.15, 0.1 ], [ 0.65, 0.75, 0.95, 1, 1, 1, 0.75, 0.5, 0.7, 0.6, 0.45, 0.2, 0.15, 0.1, 0.1, 0.1, 0.2, 0.15, 0.2, 0.25, 0.25, 0.2, 0.35, 0.15 ] ],
+        "questionType" : "amount",
+        "type" : "Quantile Dot Plot"
+      }, {
+        "done" : "This means the trials are done, you can ignore this data point",
+        "questionType" : "alone",
+        "type" : "Quantile Dot Plot"
+      } ]
+    },
+    "-M_1fy8MmG0wGaXQP-6f" : {
+      "demographic" : {
+        "Reliable" : "Very reliable",
+        "app" : "iPhone default weather app",
+        "experience" : "Very favorable",
+        "frequency" : "Almost daily",
+        "inaccurate" : "Not very often",
+        "reliable" : "Somewhat reliable",
+        "stats" : "I'm in the data vis class"
+      },
+      "exitSurveyResults" : {
+        "EffortBar" : "Unfavorable",
+        "EffortDot" : "Neutral",
+        "EffortHOP" : "Unfavorable",
+        "EffortText" : "Neutral",
+        "Feedback" : "",
+        "Rank1" : "Text",
+        "Rank2" : "QDP",
+        "Rank3" : "Hop",
+        "Rank4" : "Bar"
+      },
+      "page" : "Thanks",
+      "sessionID" : "bef01b75-9805-42ef-ab13-18bd69dbfaf4",
+      "trials" : [ {
+        "askedForHelp" : false,
+        "confidence" : "Very Confident",
+        "followUp" : "",
+        "followUpText" : "0% chance at 3pm",
+        "mainAnswer" : "No",
+        "points" : [ [ 0.55, 0.35, 0.15, 0.2, 0.15, 0.05, 0.15, 0.1, 0.1, 0.05, 0.1, 0.2, 0.05, 0, 0, 0, 0.1, 0.1, 0.25, 0.15, 0.4, 0.4, 0.35, 0.3 ], [ 0.95, 1, 0.75, 0.6, 0.4, 0.6, 0.55, 0.35, 0.45, 0.45, 0.55, 0.45, 0.2, 0, 0, 0, 0.1, 0.35, 0.45, 0.6, 0.65, 0.65, 0.7, 0.85 ] ],
+        "questionType" : "friend",
+        "type" : "Quantile Dot Plot"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Kind of confident",
+        "followUp" : "",
+        "followUpText" : "It seems like the rain chance is very low",
+        "mainAnswer" : "Yes",
+        "points" : [ [ 0.15, 0.1, 0.15, 0.5, 0.1, 0.05, 0.15, 0.1, 0.1, 0.45, 0.35, 0.1, 0.15, 0.25, 0.2, 0.1, 0.2, 0.1, 0.25, 0.1, 0.1, 0, 0, 0.15 ], [ 0.8, 0.85, 1, 0.9, 0.85, 0.7, 0.55, 0.35, 0.55, 0.75, 0.55, 0.35, 0.45, 0.4, 0.3, 0.2, 0.4, 0.5, 0.45, 0.4, 0.25, 0.05, 0, 0.25 ] ],
+        "questionType" : "alone",
+        "type" : "Text"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Kind of confident",
+        "followUp" : "",
+        "followUpText" : "",
+        "mainAnswer" : "2",
+        "points" : [ [ 0.1, 0.35, 0.6, 0.45, 0.1, 0.25, 0.2, 0.1, 0.1, 0.05, 0.25, 0.1, 0.2, 0.15, 0.25, 0.25, 0.1, 0.2, 0.2, 0.1, 0.05, 0, 0, 0 ], [ 0.7, 0.95, 1, 0.9, 0.8, 0.65, 0.55, 0.5, 0.7, 0.6, 0.45, 0.6, 0.5, 0.5, 0.35, 0.35, 0.2, 0.35, 0.3, 0.35, 0.1, 0, 0.05, 0 ] ],
+        "questionType" : "probability",
+        "type" : "Hypothetical Outcome Plot"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Kind of confident",
+        "followUp" : "",
+        "followUpText" : "It looks like it will rain",
+        "mainAnswer" : "Yes",
+        "points" : [ [ 0, 0.1, 0, 0, 0.1, 0.05, 0.1, 0.2, 0.25, 0.35, 0.15, 0.15, 0.3, 0.25, 0.2, 0.1, 0.3, 0.1, 0.3, 0.15, 0.2, 0.2, 0.1, 0 ], [ 0.05, 0.15, 0.05, 0, 0.1, 0.15, 0.4, 0.6, 0.5, 0.7, 0.9, 1, 0.85, 0.75, 0.9, 0.7, 0.7, 0.5, 0.45, 0.45, 0.4, 0.25, 0.1, 0 ] ],
+        "questionType" : "event",
+        "type" : "Text"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Unsure",
+        "followUp" : "",
+        "followUpText" : "",
+        "mainAnswer" : "0.05",
+        "points" : [ [ 0.3, 0.4, 0.05, 0.15, 0.4, 0.05, 0.2, 0.25, 0.15, 0.1, 0, 0, 0, 0.05, 0.2, 0.05, 0.2, 0.35, 0.05, 0.35, 0.35, 0.45, 0.25, 0.3 ], [ 0.85, 0.95, 1, 0.95, 0.75, 0.55, 0.45, 0.4, 0.3, 0.1, 0, 0, 0, 0.1, 0.35, 0.3, 0.5, 0.55, 0.7, 0.85, 1, 0.8, 0.8, 0.65 ] ],
+        "questionType" : "amount",
+        "type" : "Text"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Kind of confident",
+        "followUp" : "",
+        "followUpText" : "",
+        "mainAnswer" : "0",
+        "points" : [ [ 0.4, 0.4, 0.15, 0.15, 0.3, 0.1, 0.1, 0.15, 0.1, 0.05, 0.1, 0.05, 0, 0.1, 0.15, 0.15, 0.25, 0.15, 0.15, 0.3, 0.35, 0.15, 0.15, 0.35 ], [ 0.8, 0.8, 0.8, 0.7, 0.6, 0.5, 0.25, 0.4, 0.35, 0.3, 0.2, 0.1, 0, 0.1, 0.3, 0.4, 0.45, 0.5, 0.6, 0.5, 0.6, 0.8, 1, 1 ] ],
+        "questionType" : "amount",
+        "type" : "Quantile Dot Plot"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Very Confident",
+        "followUp" : "",
+        "followUpText" : "It seems likely that it will rain",
+        "mainAnswer" : "Yes",
+        "points" : [ [ 0.2, 0.25, 0.15, 0.2, 0.05, 0.1, 0, 0.1, 0.15, 0.2, 0.1, 0.35, 0.05, 0.1, 0.15, 0.2, 0.35, 0.1, 0.35, 0.2, 0.2, 0.45, 0.1, 0.4 ], [ 0.6, 0.4, 0.55, 0.5, 0.3, 0.15, 0, 0.2, 0.3, 0.3, 0.55, 0.55, 0.5, 0.6, 0.8, 1, 1, 0.8, 0.95, 0.9, 0.8, 0.75, 0.6, 0.8 ] ],
+        "questionType" : "event",
+        "type" : "Hypothetical Outcome Plot"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Neutral",
+        "followUp" : "",
+        "followUpText" : "It seems like there is not more than a 50% chance of rain",
+        "mainAnswer" : "No",
+        "points" : [ [ 0.1, 0.3, 0.2, 0.5, 0.15, 0.05, 0.45, 0.45, 0.35, 0.25, 0.45, 0.15, 0.25, 0.35, 0.2, 0.4, 0.3, 0.5, 0.5, 0.1, 0.1, 0.2, 0.15, 0.1 ], [ 0.3, 0.4, 0.55, 0.8, 0.9, 1, 0.9, 0.85, 0.7, 0.95, 0.95, 0.95, 1, 1, 1, 0.85, 0.75, 0.9, 1, 0.8, 0.6, 0.4, 0.25, 0.15 ] ],
+        "questionType" : "event",
+        "type" : "Static Bar Chart"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Unsure",
+        "followUp" : "",
+        "followUpText" : "It looks very wet",
+        "mainAnswer" : "Yes",
+        "points" : [ [ 0.55, 0.4, 0.2, 0.5, 0.25, 0.6, 0.2, 0.15, 0.5, 0.45, 0.5, 0.55, 0.4, 0.25, 0.6, 0.2, 0.25, 0.45, 0.3, 0.5, 0.25, 0.15, 0.3, 0.1 ], [ 0.95, 0.7, 0.8, 0.9, 0.85, 1, 1, 0.95, 0.9, 1, 1, 1, 0.9, 1, 1, 0.8, 0.75, 1, 0.95, 0.95, 0.85, 0.85, 1, 1 ] ],
+        "questionType" : "alone",
+        "type" : "Static Bar Chart"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Very unsure",
+        "followUp" : "",
+        "followUpText" : "",
+        "mainAnswer" : "0.2",
+        "points" : [ [ 0.2, 0.35, 0.15, 0.35, 0.45, 0.4, 0.45, 0.35, 0.1, 0.2, 0.3, 0.2, 0.1, 0.15, 0.4, 0.3, 0.2, 0.1, 0.2, 0.35, 0.3, 0.15, 0.3, 0.1 ], [ 0.65, 0.55, 0.5, 0.7, 0.9, 0.85, 0.9, 0.8, 0.95, 0.85, 0.8, 0.65, 0.85, 0.7, 0.8, 1, 1, 0.75, 0.65, 0.65, 0.65, 0.65, 0.45, 0.4 ] ],
+        "questionType" : "probability",
+        "type" : "Static Bar Chart"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Very Confident",
+        "followUp" : "",
+        "followUpText" : "It seems like it'll rain in the afternoon/evening",
+        "mainAnswer" : "Yes",
+        "points" : [ [ 0.05, 0.05, 0.2, 0.15, 0.15, 0.15, 0.45, 0.2, 0.3, 0.45, 0.25, 0.1, 0.45, 0.15, 0.05, 0.3, 0.25, 0.1, 0.15, 0.1, 0.45, 0.3, 0.3, 0.3 ], [ 0.1, 0.3, 0.45, 0.4, 0.5, 0.75, 0.9, 1, 1, 1, 1, 1, 0.75, 0.7, 0.55, 0.6, 0.45, 0.5, 0.75, 0.9, 0.75, 0.65, 0.6, 0.45 ] ],
+        "questionType" : "friend",
+        "type" : "Text"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Kind of confident",
+        "followUp" : "",
+        "followUpText" : "",
+        "mainAnswer" : "0.05",
+        "points" : [ [ 0.25, 0.4, 0.25, 0.4, 0.3, 0.35, 0.1, 0.1, 0.25, 0.15, 0.05, 0.05, 0, 0, 0, 0.05, 0.15, 0.05, 0.15, 0.35, 0.15, 0.25, 0.1, 0.25 ], [ 0.9, 0.85, 0.85, 0.8, 0.65, 0.55, 0.4, 0.5, 0.45, 0.3, 0.3, 0.1, 0, 0.05, 0.05, 0.2, 0.2, 0.1, 0.3, 0.55, 0.35, 0.35, 0.2, 0.4 ] ],
+        "questionType" : "amount",
+        "type" : "Static Bar Chart"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Neutral",
+        "followUp" : "",
+        "followUpText" : "It seems like a low chance of rain",
+        "mainAnswer" : "Yes",
+        "points" : [ [ 0.25, 0.1, 0.1, 0.05, 0, 0, 0, 0, 0, 0, 0.1, 0, 0, 0.1, 0.25, 0.35, 0.2, 0.1, 0.55, 0.2, 0.1, 0.2, 0.3, 0.4 ], [ 0.55, 0.35, 0.2, 0.05, 0, 0, 0, 0.05, 0, 0.05, 0.2, 0.05, 0, 0.15, 0.4, 0.5, 0.6, 0.85, 1, 0.85, 0.8, 0.95, 0.9, 0.8 ] ],
+        "questionType" : "alone",
+        "type" : "Quantile Dot Plot"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Very Confident",
+        "followUp" : "",
+        "followUpText" : "",
+        "mainAnswer" : "1",
+        "points" : [ [ 0.25, 0.25, 0.3, 0.4, 0.05, 0.2, 0.3, 0.3, 0.25, 0.15, 0.35, 0.15, 0.1, 0.15, 0.1, 0, 0, 0, 0, 0.1, 0.15, 0.25, 0.15, 0.1 ], [ 0.75, 0.95, 0.85, 0.85, 0.8, 0.75, 0.65, 0.8, 0.6, 0.65, 0.7, 0.55, 0.35, 0.3, 0.3, 0.05, 0, 0, 0, 0.1, 0.2, 0.35, 0.25, 0.3 ] ],
+        "questionType" : "probability",
+        "type" : "Quantile Dot Plot"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Very Confident",
+        "followUp" : "",
+        "followUpText" : "",
+        "mainAnswer" : "40",
+        "points" : [ [ 0.25, 0.1, 0.2, 0.4, 0.45, 0.6, 0.15, 0.6, 0.15, 0.15, 0.1, 0.05, 0.4, 0.05, 0.05, 0.1, 0.05, 0.1, 0.1, 0, 0, 0, 0.15, 0.05 ], [ 0.4, 0.55, 0.6, 0.75, 0.9, 1, 1, 1, 1, 1, 0.85, 0.8, 0.7, 0.65, 0.4, 0.4, 0.25, 0.2, 0.15, 0, 0.05, 0.05, 0.2, 0.25 ] ],
+        "questionType" : "probability",
+        "type" : "Text"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Kind of confident",
+        "followUp" : "",
+        "followUpText" : "",
+        "mainAnswer" : "0",
+        "points" : [ [ 0.2, 0.1, 0.15, 0.25, 0.15, 0.1, 0.1, 0.1, 0.5, 0.15, 0.4, 0.05, 0.1, 0.25, 0.3, 0.1, 0.1, 0.1, 0, 0.1, 0, 0, 0, 0 ], [ 0.5, 0.75, 0.85, 0.9, 0.65, 0.7, 0.9, 1, 1, 1, 0.95, 0.8, 0.75, 0.55, 0.45, 0.2, 0.15, 0.1, 0, 0.1, 0.05, 0, 0, 0 ] ],
+        "questionType" : "amount",
+        "type" : "Hypothetical Outcome Plot"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Unsure",
+        "followUp" : "",
+        "followUpText" : "It seems like there is some rain in the afternoon and evening",
+        "mainAnswer" : "Yes",
+        "points" : [ [ 0.25, 0.45, 0.15, 0.4, 0.25, 0.15, 0.2, 0.1, 0, 0, 0, 0.1, 0.05, 0.15, 0.35, 0.25, 0.4, 0.15, 0.5, 0.65, 0.25, 0.2, 0.25, 0.15 ], [ 1, 0.8, 0.8, 0.65, 0.5, 0.45, 0.3, 0.1, 0, 0, 0, 0.15, 0.25, 0.3, 0.5, 0.4, 0.65, 0.8, 0.95, 1, 0.8, 0.7, 0.5, 0.4 ] ],
+        "questionType" : "friend",
+        "type" : "Static Bar Chart"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Very Confident",
+        "followUp" : "",
+        "followUpText" : "Looks like only morning rain",
+        "mainAnswer" : "Yes",
+        "points" : [ [ 0.35, 0.35, 0.1, 0.55, 0.1, 0.15, 0.2, 0.15, 0.4, 0.3, 0.15, 0.1, 0.05, 0.1, 0, 0, 0.05, 0.1, 0.1, 0, 0.15, 0.1, 0.05, 0.1 ], [ 0.5, 0.65, 0.8, 0.95, 0.8, 1, 0.75, 0.65, 0.6, 0.45, 0.35, 0.2, 0.15, 0.1, 0, 0, 0.1, 0.1, 0.1, 0, 0.2, 0.3, 0.3, 0.3 ] ],
+        "questionType" : "alone",
+        "type" : "Hypothetical Outcome Plot"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Very Confident",
+        "followUp" : "",
+        "followUpText" : "Same as the last one, it looks like the rain is just in the morning",
+        "mainAnswer" : "No",
+        "points" : [ [ 0.2, 0.35, 0.5, 0.35, 0.1, 0.35, 0.55, 0.3, 0.3, 0.5, 0.1, 0.2, 0.15, 0.05, 0, 0.05, 0, 0, 0.1, 0.1, 0.2, 0.05, 0.25, 0.45 ], [ 0.9, 0.85, 1, 0.75, 0.8, 1, 0.85, 0.95, 1, 0.8, 0.55, 0.4, 0.3, 0.1, 0, 0.1, 0, 0, 0.15, 0.3, 0.35, 0.45, 0.7, 0.8 ] ],
+        "questionType" : "friend",
+        "type" : "Hypothetical Outcome Plot"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Very Confident",
+        "followUp" : "",
+        "followUpText" : "Seems like a high chance of rain in the afternoon",
+        "mainAnswer" : "Yes",
+        "points" : [ [ 0.05, 0.1, 0, 0, 0, 0.1, 0.05, 0.05, 0.2, 0.25, 0.2, 0.3, 0.05, 0.15, 0.65, 0.15, 0.5, 0.5, 0.35, 0.4, 0.3, 0.3, 0.5, 0.25 ], [ 0.1, 0.1, 0, 0, 0, 0.15, 0.35, 0.5, 0.4, 0.5, 0.7, 0.7, 0.8, 0.95, 1, 1, 0.95, 0.9, 0.7, 0.65, 0.45, 0.55, 0.75, 0.7 ] ],
+        "questionType" : "event",
+        "type" : "Quantile Dot Plot"
+      }, {
+        "done" : "This means the trials are done, you can ignore this data point",
+        "questionType" : "friend",
+        "type" : "Quantile Dot Plot"
+      } ]
+    },
+    "-M_1mnbtDjN28wEWem7z" : {
+      "demographic" : {
+        "Reliable" : "Very reliable",
+        "app" : "Weather.com",
+        "experience" : "Favorable",
+        "frequency" : "More than once per day",
+        "inaccurate" : "Sometimes",
+        "reliable" : "Somewhat reliable",
+        "stats" : "None."
+      },
+      "exitSurveyResults" : {
+        "EffortBar" : "Neutral",
+        "EffortDot" : "Very unfavorable",
+        "EffortHOP" : "Very unfavorable",
+        "EffortText" : "Unfavorable",
+        "Feedback" : "I think I may have picked the opposite of what I meant for some of the hiking questions. But I believe my rationale makes it clear what I meant. ",
+        "Rank1" : "Text",
+        "Rank2" : "QDP",
+        "Rank3" : "Hop",
+        "Rank4" : "Bar"
+      },
+      "page" : "Thanks",
+      "sessionID" : "dc4645d1-051a-4dd0-915f-69a5a1cbbdee",
+      "trials" : [ {
+        "askedForHelp" : false,
+        "confidence" : "Kind of confident",
+        "followUp" : "",
+        "followUpText" : "I interpreted this as a 75% chance of no precipitation at 3:00pm.",
+        "mainAnswer" : "Yes",
+        "points" : [ [ 0.3, 0.05, 0.1, 0.45, 0.4, 0.05, 0.2, 0.05, 0, 0, 0.05, 0.1, 0, 0, 0.1, 0.15, 0.15, 0.15, 0.05, 0.15, 0.15, 0.35, 0.3, 0.05 ], [ 0.65, 0.85, 0.85, 0.75, 0.65, 0.6, 0.35, 0.25, 0.05, 0, 0.1, 0.15, 0, 0, 0.15, 0.25, 0.4, 0.3, 0.1, 0.3, 0.45, 0.6, 0.8, 0.9 ] ],
+        "questionType" : "alone",
+        "type" : "Text"
+      }, {
+        "askedForHelp" : true,
+        "confidence" : "Very unsure",
+        "followUp" : "",
+        "followUpText" : "",
+        "mainAnswer" : "50",
+        "points" : [ [ 0.1, 0.1, 0.15, 0.2, 0.1, 0.25, 0.25, 0.45, 0.3, 0.15, 0.2, 0.35, 0.4, 0.4, 0.2, 0.1, 0.1, 0.15, 0, 0, 0.1, 0.1, 0.3, 0.25 ], [ 0.3, 0.4, 0.45, 0.4, 0.5, 0.6, 0.75, 0.8, 1, 1, 0.95, 1, 1, 0.95, 0.85, 0.65, 0.45, 0.2, 0, 0, 0.1, 0.25, 0.45, 0.45 ] ],
+        "questionType" : "probability",
+        "type" : "Hypothetical Outcome Plot"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Unsure",
+        "followUp" : "",
+        "followUpText" : "",
+        "mainAnswer" : "0",
+        "points" : [ [ 0.2, 0.3, 0.2, 0.3, 0.35, 0.2, 0.25, 0.6, 0.15, 0.15, 0.55, 0.55, 0.3, 0.3, 0.25, 0.1, 0.1, 0.05, 0.15, 0.05, 0.1, 0.05, 0.2, 0.15 ], [ 0.25, 0.4, 0.6, 0.55, 0.65, 0.85, 1, 1, 0.95, 0.95, 1, 0.9, 0.85, 0.6, 0.5, 0.25, 0.1, 0.1, 0.25, 0.15, 0.15, 0.1, 0.3, 0.2 ] ],
+        "questionType" : "amount",
+        "type" : "Text"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Kind of confident",
+        "followUp" : "",
+        "followUpText" : "If the event is between 12 am and 8am, I would book the indoor space. If the event is between 9am and 5pm, I would not book the indoor space. If the event is after 6pm, I would definitely pay the fee. The probability of precipitation is quite high after that point. But if the event is all day, I would book the indoor space.",
+        "mainAnswer" : "Yes",
+        "points" : [ [ 0.5, 0.35, 0.25, 0.3, 0.25, 0.15, 0.05, 0.05, 0.25, 0.15, 0.1, 0, 0, 0.1, 0.1, 0.1, 0.2, 0.35, 0.1, 0.05, 0.2, 0.1, 0.6, 0.25 ], [ 0.75, 0.7, 0.55, 0.65, 0.65, 0.6, 0.8, 0.55, 0.4, 0.2, 0.15, 0.05, 0, 0.1, 0.1, 0.3, 0.45, 0.55, 0.55, 0.7, 0.95, 1, 1, 1 ] ],
+        "questionType" : "event",
+        "type" : "Quantile Dot Plot"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Kind of confident",
+        "followUp" : "",
+        "followUpText" : "60% chance is more than half. I'd rather not risk hiking in a downpour.",
+        "mainAnswer" : "Yes",
+        "points" : [ [ 0.45, 0.05, 0.3, 0.3, 0.15, 0.1, 0.15, 0.1, 0.05, 0.15, 0.25, 0.05, 0.1, 0.15, 0.1, 0.4, 0.15, 0.4, 0.35, 0.15, 0.2, 0.1, 0.1, 0.1 ], [ 0.7, 0.5, 0.4, 0.65, 0.4, 0.35, 0.3, 0.55, 0.65, 0.45, 0.45, 0.25, 0.35, 0.3, 0.35, 0.6, 0.6, 0.6, 0.55, 0.4, 0.35, 0.3, 0.15, 0.1 ] ],
+        "questionType" : "friend",
+        "type" : "Text"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Kind of confident",
+        "followUp" : "",
+        "followUpText" : "Although I can't tell the chance of precipitation, I'd be fine walking in some moderate rain.",
+        "mainAnswer" : "Yes",
+        "points" : [ [ 0.5, 0.6, 0.25, 0.45, 0.3, 0.05, 0.25, 0.2, 0.1, 0.1, 0, 0, 0.1, 0.2, 0.2, 0.2, 0.05, 0.3, 0.45, 0.35, 0.25, 0.35, 0.4, 0.15 ], [ 0.95, 0.9, 0.8, 0.7, 0.6, 0.6, 0.5, 0.25, 0.2, 0.1, 0, 0.05, 0.15, 0.3, 0.35, 0.4, 0.5, 0.65, 0.85, 0.9, 0.65, 0.75, 0.85, 1 ] ],
+        "questionType" : "alone",
+        "type" : "Static Bar Chart"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Very Confident",
+        "followUp" : "",
+        "followUpText" : "There are more HOPs that indicate no rain for 3pm than those that indicate moderate rain.",
+        "mainAnswer" : "Yes",
+        "points" : [ [ 0.25, 0.2, 0.1, 0.3, 0.25, 0.2, 0, 0.1, 0, 0, 0.15, 0, 0, 0, 0, 0.15, 0.35, 0.25, 0.35, 0.6, 0.3, 0.4, 0.6, 0.2 ], [ 0.75, 0.7, 0.7, 0.55, 0.5, 0.25, 0.05, 0.1, 0, 0, 0.15, 0, 0, 0, 0.05, 0.3, 0.55, 0.65, 0.85, 0.95, 1, 0.95, 1, 0.9 ] ],
+        "questionType" : "alone",
+        "type" : "Hypothetical Outcome Plot"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Kind of confident",
+        "followUp" : "",
+        "followUpText" : "There seems to be an overall high probability of precipitation over the course of the day. Even if the amount of rain seems to be low for most of the day, I'd rather not go hiking in the rain.",
+        "mainAnswer" : "No",
+        "points" : [ [ 0.5, 0.1, 0.45, 0.2, 0.25, 0.1, 0.3, 0.3, 0.45, 0.15, 0.05, 0.4, 0.35, 0.65, 0.55, 0.25, 0.35, 0.5, 0.15, 0.1, 0.3, 0.3, 0.25, 0.05 ], [ 0.85, 0.65, 0.8, 0.9, 0.8, 0.6, 0.8, 0.8, 0.85, 0.7, 0.8, 0.7, 0.9, 1, 0.95, 0.95, 0.9, 0.85, 0.6, 0.55, 0.6, 0.45, 0.45, 0.35 ] ],
+        "questionType" : "friend",
+        "type" : "Quantile Dot Plot"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Unsure",
+        "followUp" : "",
+        "followUpText" : "",
+        "mainAnswer" : "0.20",
+        "points" : [ [ 0.1, 0.1, 0.25, 0.25, 0.1, 0.35, 0.35, 0.4, 0.15, 0.15, 0.3, 0.3, 0.6, 0.1, 0.35, 0.2, 0.25, 0.3, 0.4, 0.25, 0.2, 0.15, 0.15, 0.25 ], [ 0.2, 0.25, 0.4, 0.6, 0.65, 0.65, 0.75, 0.95, 0.95, 0.75, 0.75, 1, 0.9, 1, 0.8, 0.7, 0.65, 0.65, 0.6, 0.4, 0.3, 0.35, 0.55, 0.35 ] ],
+        "questionType" : "amount",
+        "type" : "Static Bar Chart"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Very Confident",
+        "followUp" : "",
+        "followUpText" : "0 percent chance of rain with 0 inches.",
+        "mainAnswer" : "Yes",
+        "points" : [ [ 0.35, 0.15, 0.45, 0.25, 0.3, 0.25, 0.25, 0.25, 0.4, 0.05, 0.1, 0.15, 0.15, 0.1, 0, 0, 0.1, 0.2, 0.1, 0.4, 0.05, 0.2, 0.35, 0.1 ], [ 0.8, 0.95, 1, 0.8, 0.7, 0.45, 0.4, 0.4, 0.6, 0.55, 0.5, 0.25, 0.2, 0.2, 0.05, 0, 0.1, 0.35, 0.45, 0.6, 0.65, 0.65, 0.8, 0.95 ] ],
+        "questionType" : "alone",
+        "type" : "Quantile Dot Plot"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Unsure",
+        "followUp" : "",
+        "followUpText" : "",
+        "mainAnswer" : "0",
+        "points" : [ [ 0.2, 0.1, 0.25, 0.25, 0.05, 0.1, 0.05, 0.45, 0.2, 0.3, 0.4, 0.25, 0.15, 0.15, 0.65, 0.1, 0.45, 0.3, 0.15, 0.15, 0.3, 0.3, 0.2, 0.1 ], [ 0.25, 0.15, 0.4, 0.5, 0.5, 0.45, 0.6, 0.7, 0.9, 0.75, 0.8, 0.85, 0.85, 0.9, 1, 0.95, 0.85, 0.75, 0.55, 0.55, 0.5, 0.55, 0.4, 0.35 ] ],
+        "questionType" : "amount",
+        "type" : "Hypothetical Outcome Plot"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Neutral",
+        "followUp" : "",
+        "followUpText" : "",
+        "mainAnswer" : "0",
+        "points" : [ [ 0.05, 0.15, 0.1, 0.3, 0.1, 0.2, 0.15, 0.15, 0.35, 0.25, 0.1, 0.3, 0.35, 0.55, 0.15, 0.2, 0.35, 0.1, 0.15, 0.15, 0.1, 0.1, 0.1, 0 ], [ 0.1, 0.2, 0.35, 0.6, 0.8, 0.55, 0.65, 0.65, 0.5, 0.55, 0.65, 0.75, 0.75, 0.95, 1, 0.8, 0.7, 0.7, 0.6, 0.4, 0.3, 0.2, 0.15, 0 ] ],
+        "questionType" : "amount",
+        "type" : "Quantile Dot Plot"
+      }, {
+        "askedForHelp" : true,
+        "confidence" : "Neutral",
+        "followUp" : "",
+        "followUpText" : "If it does end up raining, hard to say if it will, there will probably be quite a lot of rain.",
+        "mainAnswer" : "Yes",
+        "points" : [ [ 0.25, 0.35, 0.15, 0.35, 0.15, 0.1, 0.1, 0, 0, 0, 0.05, 0.15, 0.15, 0.3, 0.15, 0.15, 0.1, 0.25, 0.5, 0.25, 0.5, 0.45, 0.4, 0.15 ], [ 0.5, 0.5, 0.7, 0.55, 0.35, 0.25, 0.15, 0.05, 0, 0, 0.1, 0.3, 0.45, 0.5, 0.65, 0.9, 1, 0.9, 1, 1, 1, 1, 0.9, 0.8 ] ],
+        "questionType" : "event",
+        "type" : "Static Bar Chart"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Kind of confident",
+        "followUp" : "",
+        "followUpText" : "The possibility of rain in most of the HOPs after 12 pm seems low. So I would try to push the event to the afternoon.",
+        "mainAnswer" : "No",
+        "points" : [ [ 0.3, 0.4, 0.15, 0.5, 0.3, 0.2, 0.35, 0.4, 0.25, 0.35, 0.2, 0.05, 0.1, 0.1, 0, 0, 0.1, 0.25, 0.25, 0.2, 0.15, 0.15, 0.2, 0.1 ], [ 0.85, 0.8, 0.8, 0.85, 0.85, 1, 0.9, 0.9, 0.75, 0.6, 0.4, 0.25, 0.2, 0.1, 0, 0.05, 0.1, 0.35, 0.45, 0.4, 0.35, 0.3, 0.35, 0.55 ] ],
+        "questionType" : "event",
+        "type" : "Hypothetical Outcome Plot"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Neutral",
+        "followUp" : "",
+        "followUpText" : "Seems like if it rains, it will be a lot of rain. I don't know if it will actually rain though.",
+        "mainAnswer" : "No",
+        "points" : [ [ 0.1, 0.15, 0.05, 0, 0.05, 0.1, 0.15, 0.2, 0.05, 0.15, 0.35, 0.25, 0.15, 0.35, 0.3, 0.15, 0.1, 0.4, 0.25, 0.45, 0.25, 0.1, 0.55, 0.2 ], [ 0.3, 0.3, 0.15, 0, 0.1, 0.15, 0.2, 0.3, 0.5, 0.6, 0.6, 0.65, 0.8, 0.55, 0.5, 0.55, 0.45, 0.65, 0.9, 1, 1, 0.95, 0.95, 0.95 ] ],
+        "questionType" : "friend",
+        "type" : "Static Bar Chart"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Unsure",
+        "followUp" : "",
+        "followUpText" : "",
+        "mainAnswer" : "0",
+        "points" : [ [ 0.2, 0.1, 0.4, 0.25, 0.4, 0.4, 0.25, 0.5, 0.25, 0.15, 0.15, 0.15, 0.15, 0.2, 0.1, 0, 0, 0.05, 0.1, 0.15, 0.25, 0.2, 0.35, 0.3 ], [ 0.45, 0.5, 0.75, 0.9, 1, 0.9, 0.75, 0.8, 0.6, 0.4, 0.3, 0.2, 0.25, 0.25, 0.1, 0, 0.05, 0.1, 0.2, 0.3, 0.4, 0.3, 0.55, 0.7 ] ],
+        "questionType" : "probability",
+        "type" : "Static Bar Chart"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Kind of confident",
+        "followUp" : "",
+        "followUpText" : "",
+        "mainAnswer" : "95",
+        "points" : [ [ 0.4, 0.15, 0.45, 0.2, 0.1, 0.15, 0, 0, 0.2, 0.05, 0.2, 0.25, 0.35, 0.5, 0.45, 0.05, 0.4, 0.55, 0.25, 0.2, 0.4, 0.35, 0.3, 0.2 ], [ 0.7, 0.7, 0.7, 0.5, 0.3, 0.3, 0.05, 0, 0.25, 0.4, 0.45, 0.65, 0.7, 0.8, 1, 1, 0.85, 0.85, 0.7, 0.55, 0.6, 0.5, 0.45, 0.55 ] ],
+        "questionType" : "probability",
+        "type" : "Quantile Dot Plot"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Kind of confident",
+        "followUp" : "",
+        "followUpText" : "Assuming the event isn't between 4am and 8 am, if it rains, it seems like it'll be moderate or heavy rain.",
+        "mainAnswer" : "Yes",
+        "points" : [ [ 0.1, 0.1, 0.1, 0.15, 0, 0, 0, 0, 0, 0.05, 0.15, 0.1, 0.25, 0.1, 0.2, 0.05, 0.1, 0.05, 0.05, 0.4, 0.6, 0.2, 0.15, 0.3 ], [ 0.1, 0.1, 0.3, 0.3, 0.05, 0.05, 0, 0, 0.05, 0.2, 0.2, 0.45, 0.5, 0.45, 0.4, 0.2, 0.3, 0.55, 0.75, 0.8, 0.95, 1, 1, 1 ] ],
+        "questionType" : "event",
+        "type" : "Text"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Very Confident",
+        "followUp" : "",
+        "followUpText" : "",
+        "mainAnswer" : "40",
+        "points" : [ [ 0, 0, 0.05, 0.05, 0.15, 0.15, 0.15, 0.3, 0.3, 0.3, 0.3, 0.2, 0.4, 0.25, 0.05, 0.3, 0.15, 0.1, 0.15, 0, 0, 0, 0, 0 ], [ 0.05, 0, 0.2, 0.25, 0.25, 0.35, 0.5, 0.55, 0.75, 1, 1, 0.85, 0.65, 0.45, 0.4, 0.4, 0.4, 0.25, 0.25, 0, 0, 0, 0, 0 ] ],
+        "questionType" : "probability",
+        "type" : "Text"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Very Confident",
+        "followUp" : "",
+        "followUpText" : "Almost every HOP shows there being light or moderate rain at 3pm.",
+        "mainAnswer" : "Yes",
+        "points" : [ [ 0.1, 0, 0, 0, 0.1, 0.3, 0.1, 0.25, 0.05, 0.3, 0.15, 0.2, 0.6, 0.1, 0.1, 0.1, 0.2, 0.3, 0.6, 0.25, 0.1, 0.2, 0.25, 0.1 ], [ 0.15, 0, 0, 0.05, 0.2, 0.4, 0.55, 0.45, 0.5, 0.65, 0.85, 0.9, 1, 1, 1, 1, 0.85, 0.85, 0.9, 0.85, 0.6, 0.6, 0.4, 0.4 ] ],
+        "questionType" : "friend",
+        "type" : "Hypothetical Outcome Plot"
+      }, {
+        "done" : "This means the trials are done, you can ignore this data point",
+        "questionType" : "alone",
+        "type" : "Text"
+      } ]
+    },
+    "-M_1qHG0GfcL2jZSGVI-" : {
+      "demographic" : {
+        "Reliable" : "Very reliable",
+        "app" : "Weather.com",
+        "experience" : "Favorable",
+        "frequency" : "Daily",
+        "inaccurate" : "Not very often",
+        "stats" : "Not much"
+      },
+      "exitSurveyResults" : {
+        "EffortBar" : "Neutral",
+        "EffortDot" : "Neutral",
+        "EffortHOP" : "Unfavorable",
+        "EffortText" : "Favorable",
+        "Feedback" : "Very unfavorable",
+        "Rank1" : "Text",
+        "Rank2" : "QDP",
+        "Rank3" : "Bar",
+        "Rank4" : "Hop"
+      },
+      "page" : "Thanks",
+      "sessionID" : "96c3fa3d-fcb5-4a65-a457-bd3fdada321a",
+      "trials" : [ {
+        "askedForHelp" : true,
+        "confidence" : "Kind of confident",
+        "followUp" : "",
+        "followUpText" : "It seems like there is a low chance of rain, and even if there is rain, it doesn't look like there will be much. And I don't particularly mind hiking in a drizzle, but I would bring a rain jacket just in case",
+        "mainAnswer" : "No",
+        "points" : [ [ 0.55, 0.4, 0.2, 0.45, 0.1, 0.4, 0.35, 0.25, 0.2, 0.35, 0.25, 0.05, 0.2, 0.25, 0.25, 0.2, 0.3, 0.05, 0, 0, 0, 0.05, 0, 0 ], [ 0.9, 0.85, 1, 0.9, 0.85, 0.7, 0.8, 1, 0.75, 0.75, 0.65, 0.65, 0.65, 0.5, 0.45, 0.4, 0.55, 0.3, 0.05, 0, 0, 0.25, 0.05, 0 ] ],
+        "questionType" : "friend",
+        "type" : "Quantile Dot Plot"
+      }, {
+        "askedForHelp" : true,
+        "confidence" : "Very unsure",
+        "followUp" : "",
+        "followUpText" : "",
+        "mainAnswer" : "100",
+        "points" : [ [ 0.55, 0.6, 0.4, 0.05, 0.1, 0.05, 0.05, 0.3, 0.2, 0.2, 0.5, 0.1, 0.2, 0.2, 0.5, 0.4, 0.05, 0.25, 0.2, 0.4, 0.45, 0.4, 0.15, 0.15 ], [ 0.95, 1, 1, 1, 0.85, 0.6, 0.65, 0.45, 0.6, 0.8, 0.8, 0.8, 0.9, 1, 1, 1, 0.95, 0.9, 0.85, 0.65, 0.75, 0.65, 0.9, 0.7 ] ],
+        "questionType" : "probability",
+        "type" : "Static Bar Chart"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Very Confident",
+        "followUp" : "",
+        "followUpText" : "It looks like there is about a 80% chance of rain, and it will rain a fair bit",
+        "mainAnswer" : "No",
+        "points" : [ [ 0.25, 0.5, 0.25, 0.2, 0.15, 0.1, 0.15, 0, 0, 0, 0.1, 0.25, 0.05, 0.4, 0.55, 0.5, 0.35, 0.45, 0.55, 0.3, 0.2, 0.35, 0.6, 0.3 ], [ 0.6, 0.75, 0.6, 0.6, 0.6, 0.4, 0.3, 0.05, 0, 0, 0.2, 0.45, 0.65, 0.8, 0.95, 0.85, 0.9, 1, 1, 1, 0.8, 0.75, 0.95, 0.9 ] ],
+        "questionType" : "alone",
+        "type" : "Quantile Dot Plot"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Very Confident",
+        "followUp" : "",
+        "followUpText" : "70% chance of rain is a no go",
+        "mainAnswer" : "No",
+        "points" : [ [ 0.15, 0.2, 0.2, 0.1, 0.15, 0.2, 0.35, 0.25, 0.1, 0.25, 0.5, 0.4, 0.4, 0.6, 0.1, 0.25, 0.35, 0.35, 0.15, 0.1, 0.1, 0.15, 0, 0.1 ], [ 0.35, 0.4, 0.35, 0.5, 0.5, 0.6, 0.85, 0.9, 0.7, 0.65, 0.8, 0.8, 1, 0.9, 0.8, 0.7, 0.7, 0.6, 0.4, 0.2, 0.25, 0.2, 0.05, 0.15 ] ],
+        "questionType" : "alone",
+        "type" : "Text"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Very Confident",
+        "followUp" : "",
+        "followUpText" : "75% chance of heavy rain is a no go",
+        "mainAnswer" : "No",
+        "points" : [ [ 0.45, 0.25, 0.2, 0.2, 0.25, 0.3, 0.4, 0.5, 0.4, 0.35, 0.05, 0.35, 0.5, 0.3, 0.05, 0.4, 0.35, 0.15, 0.2, 0.15, 0.05, 0.1, 0.1, 0.1 ], [ 0.65, 0.9, 0.9, 0.8, 0.95, 1, 1, 1, 0.9, 0.75, 0.6, 0.55, 0.75, 0.75, 0.55, 0.75, 0.6, 0.55, 0.3, 0.25, 0.15, 0.15, 0.1, 0.2 ] ],
+        "questionType" : "friend",
+        "type" : "Text"
+      }, {
+        "askedForHelp" : true,
+        "confidence" : "So unsure",
+        "followUp" : "",
+        "followUpText" : "it seems like it will stop raining after 11 or so? but idk what kind of event I am running, maybe I would just start a little later, like at noon?",
+        "mainAnswer" : "",
+        "points" : [ [ 0.3, 0.3, 0.15, 0.45, 0.55, 0.1, 0.05, 0.25, 0.2, 0.5, 0.2, 0.5, 0.2, 0.1, 0.15, 0.15, 0.15, 0, 0, 0.1, 0.2, 0.1, 0.15, 0.3 ], [ 0.7, 0.85, 1, 1, 0.9, 0.85, 0.75, 0.7, 0.6, 0.8, 0.9, 0.8, 0.95, 0.75, 0.55, 0.3, 0.25, 0.05, 0, 0.15, 0.25, 0.35, 0.4, 0.4 ] ],
+        "questionType" : "event",
+        "type" : "Hypothetical Outcome Plot"
+      }, {
+        "askedForHelp" : true,
+        "confidence" : "Very Confident",
+        "followUp" : "",
+        "followUpText" : "",
+        "mainAnswer" : "0.35",
+        "points" : [ [ 0, 0.1, 0.05, 0.15, 0.1, 0.25, 0.25, 0.35, 0.2, 0.45, 0.3, 0.45, 0.05, 0.3, 0.3, 0.35, 0.1, 0.1, 0.05, 0.1, 0, 0.05, 0.05, 0.25 ], [ 0, 0.25, 0.4, 0.4, 0.45, 0.4, 0.35, 0.55, 0.6, 0.8, 0.9, 1, 0.9, 0.75, 0.55, 0.55, 0.35, 0.2, 0.15, 0.1, 0, 0.15, 0.2, 0.45 ] ],
+        "questionType" : "amount",
+        "type" : "Static Bar Chart"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Very Confident",
+        "followUp" : "",
+        "followUpText" : "assuming it ends by 4, we should be good",
+        "mainAnswer" : "No",
+        "points" : [ [ 0.4, 0.3, 0.1, 0.25, 0.15, 0.05, 0, 0, 0, 0, 0, 0, 0, 0, 0.05, 0.15, 0.15, 0.05, 0.3, 0.2, 0.3, 0.15, 0.35, 0.2 ], [ 0.85, 0.8, 0.65, 0.45, 0.2, 0.15, 0, 0, 0.05, 0, 0.05, 0, 0, 0.05, 0.1, 0.3, 0.25, 0.4, 0.55, 0.7, 0.55, 0.8, 0.6, 0.75 ] ],
+        "questionType" : "event",
+        "type" : "Text"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Very Confident",
+        "followUp" : "",
+        "followUpText" : "doesnt look like there will be much rain at 3",
+        "mainAnswer" : "Yes",
+        "points" : [ [ 0.2, 0.15, 0.05, 0.1, 0.1, 0.15, 0.15, 0, 0, 0.1, 0, 0, 0.1, 0.1, 0.15, 0.1, 0.05, 0.1, 0, 0, 0, 0.05, 0.3, 0.25 ], [ 0.5, 0.3, 0.2, 0.15, 0.35, 0.3, 0.25, 0.05, 0, 0.1, 0, 0, 0.15, 0.1, 0.2, 0.3, 0.1, 0.1, 0.05, 0, 0, 0.2, 0.45, 0.4 ] ],
+        "questionType" : "alone",
+        "type" : "Static Bar Chart"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Kind of confident",
+        "followUp" : "",
+        "followUpText" : "it seems like no matter what there wont be much rain at 3pm tomorrow",
+        "mainAnswer" : "Yes",
+        "points" : [ [ 0, 0.1, 0.15, 0.15, 0.15, 0.15, 0.2, 0.3, 0.15, 0.45, 0.25, 0.25, 0.25, 0.3, 0.1, 0.2, 0.15, 0.1, 0, 0, 0, 0, 0.05, 0 ], [ 0.05, 0.2, 0.2, 0.4, 0.6, 0.7, 0.6, 0.8, 0.95, 1, 0.85, 0.8, 0.75, 0.7, 0.5, 0.4, 0.25, 0.15, 0, 0, 0, 0, 0.05, 0.05 ] ],
+        "questionType" : "alone",
+        "type" : "Hypothetical Outcome Plot"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Kind of confident",
+        "followUp" : "",
+        "followUpText" : "",
+        "mainAnswer" : "0.3",
+        "points" : [ [ 0.2, 0.1, 0.1, 0.1, 0.1, 0.2, 0.2, 0.1, 0.1, 0.1, 0.25, 0.35, 0.3, 0.25, 0.15, 0.35, 0.25, 0.1, 0.15, 0.45, 0.05, 0.45, 0.4, 0.05 ], [ 0.35, 0.5, 0.45, 0.25, 0.35, 0.4, 0.3, 0.5, 0.35, 0.55, 0.65, 0.7, 0.9, 1, 0.95, 0.85, 0.8, 0.95, 0.85, 1, 1, 0.85, 0.65, 0.5 ] ],
+        "questionType" : "amount",
+        "type" : "Hypothetical Outcome Plot"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Very Confident",
+        "followUp" : "",
+        "followUpText" : "",
+        "mainAnswer" : "40",
+        "points" : [ [ 0, 0.1, 0, 0.1, 0, 0, 0, 0, 0.1, 0, 0, 0, 0, 0, 0.2, 0.05, 0.1, 0.05, 0.4, 0.3, 0.1, 0.2, 0.35, 0.4 ], [ 0, 0.1, 0.05, 0.1, 0, 0, 0.05, 0, 0.15, 0, 0.05, 0, 0, 0.05, 0.3, 0.4, 0.5, 0.55, 0.55, 0.45, 0.3, 0.55, 0.55, 0.75 ] ],
+        "questionType" : "probability",
+        "type" : "Text"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Unsure",
+        "followUp" : "",
+        "followUpText" : "",
+        "mainAnswer" : "0.2",
+        "points" : [ [ 0.35, 0.2, 0.1, 0.2, 0.1, 0.2, 0.1, 0, 0, 0.15, 0.25, 0.15, 0.05, 0.35, 0.55, 0.3, 0.25, 0.05, 0.2, 0.4, 0.2, 0.15, 0.2, 0.15 ], [ 0.5, 0.45, 0.55, 0.5, 0.45, 0.25, 0.1, 0, 0.05, 0.25, 0.4, 0.3, 0.45, 0.65, 0.8, 0.85, 1, 1, 0.8, 0.7, 0.5, 0.5, 0.25, 0.5 ] ],
+        "questionType" : "probability",
+        "type" : "Hypothetical Outcome Plot"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Kind of confident",
+        "followUp" : "",
+        "followUpText" : "",
+        "mainAnswer" : "40",
+        "points" : [ [ 0.25, 0.1, 0.1, 0.1, 0.1, 0.45, 0.25, 0.2, 0.2, 0.3, 0.2, 0.25, 0.15, 0.35, 0.3, 0.1, 0.2, 0.1, 0.05, 0, 0.05, 0.15, 0.1, 0.4 ], [ 0.55, 0.55, 0.4, 0.5, 0.7, 0.7, 0.5, 0.5, 0.4, 0.45, 0.3, 0.5, 0.3, 0.5, 0.45, 0.45, 0.45, 0.3, 0.1, 0, 0.25, 0.35, 0.5, 0.6 ] ],
+        "questionType" : "probability",
+        "type" : "Quantile Dot Plot"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Kind of confident",
+        "followUp" : "",
+        "followUpText" : "seems like there is a good enough chance of rain all day that it would be worth it",
+        "mainAnswer" : "Yes",
+        "points" : [ [ 0.35, 0.35, 0.1, 0.3, 0.15, 0.3, 0.45, 0.1, 0.15, 0.15, 0.1, 0.35, 0.25, 0.15, 0.3, 0.2, 0.1, 0, 0, 0.2, 0.15, 0.05, 0.25, 0.45 ], [ 0.7, 0.65, 0.75, 0.7, 0.7, 0.8, 1, 1, 0.95, 0.8, 0.6, 0.55, 0.5, 0.65, 0.6, 0.4, 0.2, 0, 0.05, 0.25, 0.35, 0.5, 0.75, 0.9 ] ],
+        "questionType" : "event",
+        "type" : "Static Bar Chart"
+      }, {
+        "askedForHelp" : true,
+        "confidence" : "Very Confident",
+        "followUp" : "",
+        "followUpText" : "it looks like there is going to be a lot of rain after 4, which would be during the hike",
+        "mainAnswer" : "Yes",
+        "points" : [ [ 0.1, 0.05, 0.2, 0.15, 0.05, 0, 0.1, 0.2, 0.05, 0.1, 0.2, 0.05, 0.1, 0.15, 0.25, 0.15, 0.3, 0.3, 0.35, 0.4, 0.2, 0.05, 0.45, 0.05 ], [ 0.5, 0.4, 0.25, 0.15, 0.1, 0, 0.15, 0.3, 0.2, 0.15, 0.25, 0.05, 0.15, 0.2, 0.4, 0.35, 0.45, 0.5, 0.75, 0.8, 0.75, 0.9, 1, 0.85 ] ],
+        "questionType" : "friend",
+        "type" : "Static Bar Chart"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Kind of confident",
+        "followUp" : "",
+        "followUpText" : "Seems like it wont start raining until late in the day",
+        "mainAnswer" : "No",
+        "points" : [ [ 0.45, 0.5, 0.3, 0.55, 0.35, 0.25, 0.3, 0.15, 0.15, 0, 0.1, 0.1, 0.1, 0.05, 0.1, 0.3, 0.4, 0.25, 0.2, 0.15, 0.15, 0.5, 0.35, 0.2 ], [ 0.65, 0.75, 0.7, 0.9, 1, 0.85, 0.6, 0.4, 0.2, 0, 0.15, 0.15, 0.25, 0.3, 0.45, 0.65, 0.65, 0.75, 0.95, 0.8, 0.95, 1, 1, 0.9 ] ],
+        "questionType" : "event",
+        "type" : "Quantile Dot Plot"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Very Confident",
+        "followUp" : "",
+        "followUpText" : "most of the outcomes don't rain after 3pm",
+        "mainAnswer" : "No",
+        "points" : [ [ 0.15, 0.15, 0.2, 0.25, 0.15, 0.25, 0.05, 0.05, 0.45, 0.15, 0.5, 0.45, 0.35, 0.35, 0.05, 0.25, 0.15, 0.05, 0, 0.1, 0.3, 0.1, 0.15, 0.05 ], [ 0.25, 0.5, 0.7, 0.5, 0.55, 0.55, 0.6, 0.7, 0.75, 0.8, 0.85, 1, 0.85, 0.6, 0.4, 0.35, 0.25, 0.05, 0, 0.2, 0.45, 0.45, 0.25, 0.45 ] ],
+        "questionType" : "friend",
+        "type" : "Hypothetical Outcome Plot"
+      }, {
+        "askedForHelp" : true,
+        "confidence" : "Unsure",
+        "followUp" : "",
+        "followUpText" : "",
+        "mainAnswer" : "0.02",
+        "points" : [ [ 0.05, 0.15, 0.2, 0.2, 0.4, 0.4, 0.4, 0.5, 0.4, 0.35, 0.3, 0.15, 0.15, 0.15, 0.1, 0.1, 0, 0, 0.1, 0.1, 0.15, 0.3, 0.05, 0.3 ], [ 0.1, 0.2, 0.35, 0.5, 0.65, 0.65, 0.75, 1, 1, 0.75, 0.6, 0.45, 0.2, 0.15, 0.1, 0.1, 0, 0.05, 0.15, 0.1, 0.35, 0.6, 0.6, 0.8 ] ],
+        "questionType" : "amount",
+        "type" : "Text"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Kind of confident",
+        "followUp" : "",
+        "followUpText" : "",
+        "mainAnswer" : "0.3",
+        "points" : [ [ 0.1, 0.1, 0.1, 0, 0, 0, 0.15, 0, 0, 0.1, 0.15, 0.25, 0.3, 0.45, 0.1, 0.3, 0.1, 0.3, 0.5, 0.3, 0.1, 0.4, 0.35, 0.5 ], [ 0.35, 0.35, 0.2, 0.05, 0, 0.05, 0.2, 0, 0, 0.15, 0.25, 0.35, 0.55, 0.8, 0.95, 1, 0.85, 0.75, 0.9, 0.9, 0.8, 0.85, 0.85, 1 ] ],
+        "questionType" : "amount",
+        "type" : "Quantile Dot Plot"
+      }, {
+        "done" : "This means the trials are done, you can ignore this data point",
+        "questionType" : "friend",
+        "type" : "Quantile Dot Plot"
+      } ]
+    },
+    "-M_1uTo6gjhDhQH9Dp6Q" : {
+      "demographic" : {
+        "Reliable" : "Very reliable",
+        "app" : "Apple Weather App",
+        "experience" : "Favorable",
+        "frequency" : "More than once per day",
+        "inaccurate" : "Not very often",
+        "reliable" : "Somewhat reliable",
+        "stats" : "Some experience with statistics and no experience with data visualization."
+      },
+      "exitSurveyResults" : {
+        "EffortBar" : "Very favorable",
+        "EffortDot" : "Favorable",
+        "EffortHOP" : "Very unfavorable",
+        "EffortText" : "Very favorable",
+        "Feedback" : "Very unfavorable",
+        "Rank1" : "Bar",
+        "Rank2" : "Text",
+        "Rank3" : "QDP",
+        "Rank4" : "Hop"
+      },
+      "page" : "Thanks",
+      "sessionID" : "68b68a11-c8dc-4ecb-baf5-220198b320f7",
+      "trials" : [ {
+        "askedForHelp" : false,
+        "confidence" : "Kind of confident",
+        "followUp" : "",
+        "followUpText" : "The chance of rain is moderate, but is supposed to be quite heavy at 2 pm.",
+        "mainAnswer" : "No",
+        "points" : [ [ 0.1, 0.4, 0.15, 0.45, 0.2, 0.3, 0.45, 0.3, 0.15, 0.55, 0.5, 0.4, 0.3, 0.15, 0.4, 0.15, 0.05, 0, 0, 0, 0.1, 0.1, 0.15, 0.3 ], [ 0.45, 0.55, 0.6, 0.75, 0.75, 0.65, 0.85, 0.9, 0.9, 1, 1, 0.85, 0.95, 0.75, 0.7, 0.55, 0.3, 0.05, 0.05, 0, 0.15, 0.35, 0.45, 0.55 ] ],
+        "questionType" : "alone",
+        "type" : "Static Bar Chart"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Kind of confident",
+        "followUp" : "",
+        "followUpText" : "The chance of rain is moderate, but isn't supposed to be raining at 2 pm so rain will likely be lighter than anticipated.",
+        "mainAnswer" : "No",
+        "points" : [ [ 0.45, 0.3, 0.35, 0.3, 0.15, 0.3, 0.1, 0.2, 0.35, 0.25, 0.1, 0.1, 0.15, 0.05, 0, 0.1, 0.1, 0.2, 0.35, 0.25, 0.25, 0.25, 0.3, 0.25 ], [ 0.8, 0.65, 0.9, 0.85, 0.65, 0.55, 0.6, 0.5, 0.6, 0.35, 0.45, 0.25, 0.15, 0.1, 0, 0.1, 0.15, 0.3, 0.5, 0.5, 0.5, 0.5, 0.65, 0.65 ] ],
+        "questionType" : "friend",
+        "type" : "Static Bar Chart"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Very Confident",
+        "followUp" : "",
+        "followUpText" : "The chance of rain in the afternoon is quite high. Unless the event happens in the morning, I would recommend a rain location.",
+        "mainAnswer" : "Yes",
+        "points" : [ [ 0.2, 0.25, 0.1, 0.15, 0.1, 0.1, 0, 0, 0.1, 0.15, 0.1, 0.1, 0.05, 0.1, 0.25, 0.3, 0.15, 0.15, 0.45, 0.3, 0.1, 0.2, 0.1, 0.05 ], [ 0.5, 0.35, 0.3, 0.45, 0.4, 0.3, 0.05, 0, 0.2, 0.15, 0.1, 0.2, 0.3, 0.35, 0.5, 0.7, 0.9, 1, 0.8, 0.75, 0.65, 0.5, 0.35, 0.15 ] ],
+        "questionType" : "event",
+        "type" : "Text"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Kind of confident",
+        "followUp" : "",
+        "followUpText" : "The chance of precipitation is very high at 3 pm, although it's moderate.",
+        "mainAnswer" : "No",
+        "points" : [ [ 0.1, 0.15, 0.05, 0.1, 0.05, 0.25, 0.1, 0.25, 0.4, 0.25, 0.2, 0.45, 0.5, 0.1, 0.5, 0.35, 0.25, 0.4, 0.4, 0.25, 0.3, 0.25, 0.1, 0.05 ], [ 0.1, 0.2, 0.3, 0.55, 0.55, 0.55, 0.4, 0.6, 0.75, 0.75, 0.65, 0.7, 0.9, 0.9, 0.85, 1, 1, 0.9, 0.75, 0.7, 0.5, 0.4, 0.25, 0.2 ] ],
+        "questionType" : "alone",
+        "type" : "Quantile Dot Plot"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Very Confident",
+        "followUp" : "",
+        "followUpText" : "There is a very high chance of rain tomorrow at 3 pm.",
+        "mainAnswer" : "No",
+        "points" : [ [ 0.05, 0.15, 0, 0, 0.1, 0.2, 0.2, 0.4, 0.2, 0.4, 0.4, 0.25, 0.45, 0.35, 0.45, 0.25, 0.5, 0.25, 0.15, 0.2, 0.2, 0.05, 0.1, 0.1 ], [ 0.25, 0.15, 0.05, 0, 0.15, 0.35, 0.5, 0.7, 0.75, 0.95, 1, 0.75, 0.75, 0.65, 0.9, 0.75, 0.75, 0.55, 0.45, 0.3, 0.3, 0.35, 0.2, 0.4 ] ],
+        "questionType" : "alone",
+        "type" : "Text"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Unsure",
+        "followUp" : "",
+        "followUpText" : "It's very difficult to figure out which outcome is the correct one.",
+        "mainAnswer" : "No",
+        "points" : [ [ 0.35, 0.55, 0.45, 0.05, 0.55, 0.05, 0.25, 0.2, 0.2, 0.35, 0.1, 0.05, 0, 0, 0.15, 0.25, 0.3, 0.4, 0.4, 0.4, 0.25, 0.55, 0.5, 0.05 ], [ 0.95, 1, 1, 1, 0.9, 0.9, 0.85, 0.7, 0.45, 0.5, 0.3, 0.1, 0, 0, 0.15, 0.4, 0.55, 0.8, 0.95, 1, 0.75, 0.95, 0.8, 0.65 ] ],
+        "questionType" : "alone",
+        "type" : "Hypothetical Outcome Plot"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Very Confident",
+        "followUp" : "",
+        "followUpText" : "",
+        "mainAnswer" : "0.15",
+        "points" : [ [ 0.15, 0.05, 0, 0, 0, 0, 0.15, 0.15, 0.25, 0.35, 0.4, 0.1, 0.3, 0.5, 0.05, 0.25, 0.25, 0.2, 0.05, 0.15, 0, 0.05, 0, 0.1 ], [ 0.35, 0.1, 0.05, 0, 0, 0, 0.25, 0.35, 0.55, 0.7, 0.75, 0.8, 0.9, 1, 0.85, 0.6, 0.45, 0.4, 0.3, 0.15, 0, 0.05, 0.05, 0.2 ] ],
+        "questionType" : "amount",
+        "type" : "Quantile Dot Plot"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Kind of confident",
+        "followUp" : "",
+        "followUpText" : "",
+        "mainAnswer" : "40",
+        "points" : [ [ 0.2, 0.2, 0, 0, 0.15, 0.15, 0.3, 0.45, 0.55, 0.1, 0.35, 0.25, 0.25, 0.1, 0.2, 0.2, 0.1, 0.1, 0.15, 0.2, 0.25, 0.15, 0.35, 0.05 ], [ 0.3, 0.25, 0, 0, 0.2, 0.4, 0.65, 0.8, 0.95, 1, 0.8, 0.55, 0.75, 0.75, 0.7, 0.6, 0.7, 0.7, 0.6, 0.6, 0.6, 0.45, 0.6, 0.55 ] ],
+        "questionType" : "probability",
+        "type" : "Static Bar Chart"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "So unsure",
+        "followUp" : "",
+        "followUpText" : "This graph is again confusing because I'm just not sure which prediction is going to be correct.",
+        "mainAnswer" : "Yes",
+        "points" : [ [ 0.25, 0.3, 0.15, 0.35, 0.3, 0.35, 0.3, 0.2, 0.25, 0.15, 0.25, 0.05, 0.15, 0.05, 0.15, 0.2, 0.3, 0.05, 0.25, 0.1, 0, 0.1, 0.05, 0.05 ], [ 0.45, 0.65, 0.85, 0.95, 1, 0.9, 0.75, 0.7, 0.6, 0.55, 0.35, 0.2, 0.2, 0.1, 0.35, 0.45, 0.65, 0.4, 0.35, 0.15, 0, 0.15, 0.25, 0.45 ] ],
+        "questionType" : "friend",
+        "type" : "Hypothetical Outcome Plot"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Kind of confident",
+        "followUp" : "",
+        "followUpText" : "",
+        "mainAnswer" : "0.2",
+        "points" : [ [ 0.3, 0.35, 0.25, 0.35, 0.65, 0.1, 0.3, 0.15, 0.1, 0.05, 0.1, 0.25, 0.25, 0.35, 0.1, 0.25, 0.3, 0.2, 0.2, 0.1, 0.1, 0, 0.1, 0 ], [ 0.85, 0.85, 0.8, 0.85, 1, 0.75, 0.6, 0.65, 0.65, 0.6, 0.45, 0.65, 0.85, 0.7, 0.5, 0.45, 0.5, 0.5, 0.45, 0.25, 0.15, 0, 0.15, 0 ] ],
+        "questionType" : "amount",
+        "type" : "Text"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Very Confident",
+        "followUp" : "",
+        "followUpText" : "",
+        "mainAnswer" : "0.15",
+        "points" : [ [ 0.1, 0.1, 0.2, 0.15, 0.1, 0.15, 0.1, 0.35, 0.4, 0.15, 0.1, 0.05, 0.05, 0.25, 0.15, 0.15, 0.15, 0.2, 0.1, 0.1, 0, 0.1, 0.15, 0.3 ], [ 0.15, 0.3, 0.35, 0.55, 0.8, 0.85, 0.85, 1, 0.75, 0.75, 0.55, 0.75, 0.55, 0.5, 0.35, 0.25, 0.45, 0.4, 0.35, 0.1, 0, 0.15, 0.2, 0.4 ] ],
+        "questionType" : "amount",
+        "type" : "Static Bar Chart"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Very Confident",
+        "followUp" : "",
+        "followUpText" : "",
+        "mainAnswer" : "No",
+        "points" : [ [ 0.55, 0.05, 0.25, 0.5, 0.25, 0.05, 0.15, 0.5, 0.45, 0.5, 0.4, 0.3, 0.05, 0.2, 0.1, 0.15, 0.1, 0.05, 0, 0.1, 0.1, 0.1, 0.2, 0.1 ], [ 0.95, 0.75, 0.65, 0.8, 0.9, 0.9, 1, 1, 0.85, 0.85, 0.75, 0.5, 0.45, 0.3, 0.35, 0.25, 0.25, 0.1, 0, 0.2, 0.15, 0.2, 0.35, 0.55 ] ],
+        "questionType" : "friend",
+        "type" : "Text"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Very Confident",
+        "followUp" : "",
+        "followUpText" : "The highest chance of rain starts at 8 pm, which is after the most common time that events happen.",
+        "mainAnswer" : "No",
+        "points" : [ [ 0.2, 0.15, 0.1, 0.15, 0.1, 0.05, 0.2, 0, 0, 0, 0, 0, 0, 0.05, 0.2, 0.3, 0.2, 0.1, 0.35, 0.1, 0.5, 0.45, 0.1, 0.3 ], [ 0.6, 0.5, 0.45, 0.55, 0.4, 0.25, 0.25, 0.05, 0.05, 0, 0, 0, 0, 0.05, 0.3, 0.45, 0.5, 0.3, 0.55, 0.8, 0.8, 0.8, 0.85, 1 ] ],
+        "questionType" : "event",
+        "type" : "Quantile Dot Plot"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Very Confident",
+        "followUp" : "",
+        "followUpText" : "",
+        "mainAnswer" : "No",
+        "points" : [ [ 0.1, 0.15, 0.2, 0.15, 0.1, 0.1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0.05, 0.2, 0.1, 0.25 ], [ 0.65, 0.5, 0.35, 0.2, 0.15, 0.1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0.2, 0.35, 0.5, 0.55 ] ],
+        "questionType" : "friend",
+        "type" : "Quantile Dot Plot"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "So unsure",
+        "followUp" : "",
+        "followUpText" : "I'm not confident in the rain outlook in this visualization.",
+        "mainAnswer" : "Yes",
+        "points" : [ [ 0.15, 0.15, 0.05, 0.3, 0.05, 0.15, 0.05, 0.1, 0.15, 0.05, 0, 0, 0.1, 0.15, 0.15, 0.15, 0.25, 0.05, 0.1, 0.1, 0.1, 0.3, 0.05, 0.15 ], [ 0.75, 0.6, 0.6, 0.5, 0.4, 0.3, 0.2, 0.2, 0.15, 0.1, 0.05, 0, 0.15, 0.2, 0.35, 0.15, 0.3, 0.5, 0.5, 0.5, 0.6, 0.75, 0.8, 0.9 ] ],
+        "questionType" : "event",
+        "type" : "Hypothetical Outcome Plot"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Very Confident",
+        "followUp" : "",
+        "followUpText" : "",
+        "mainAnswer" : "95",
+        "points" : [ [ 0, 0, 0, 0, 0, 0, 0.1, 0.05, 0.15, 0.1, 0.25, 0.3, 0.3, 0.4, 0.05, 0.3, 0.1, 0.2, 0.15, 0.25, 0.1, 0.05, 0.15, 0.05 ], [ 0.05, 0, 0, 0, 0, 0.05, 0.1, 0.1, 0.2, 0.25, 0.35, 0.4, 0.5, 0.65, 0.8, 0.95, 1, 0.75, 0.6, 0.45, 0.25, 0.35, 0.2, 0.05 ] ],
+        "questionType" : "probability",
+        "type" : "Quantile Dot Plot"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "So unsure",
+        "followUp" : "",
+        "followUpText" : "",
+        "mainAnswer" : "0.3",
+        "points" : [ [ 0.05, 0.1, 0.05, 0.1, 0.05, 0.15, 0, 0, 0.15, 0.15, 0.05, 0.15, 0.1, 0.5, 0.4, 0.35, 0.6, 0.2, 0.3, 0.2, 0.1, 0.35, 0.2, 0.2 ], [ 0.25, 0.1, 0.3, 0.15, 0.2, 0.15, 0, 0, 0.2, 0.4, 0.5, 0.7, 0.85, 0.9, 1, 0.8, 0.95, 0.8, 0.75, 0.55, 0.5, 0.7, 0.5, 0.5 ] ],
+        "questionType" : "amount",
+        "type" : "Hypothetical Outcome Plot"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Very Confident",
+        "followUp" : "",
+        "followUpText" : "",
+        "mainAnswer" : "35",
+        "points" : [ [ 0.15, 0.15, 0.1, 0.25, 0.5, 0.05, 0.45, 0.05, 0.5, 0.4, 0.15, 0.2, 0.35, 0.25, 0.15, 0.15, 0.15, 0.1, 0.15, 0.2, 0.2, 0.2, 0.1, 0.25 ], [ 0.6, 0.8, 0.55, 0.7, 0.8, 1, 0.8, 0.6, 0.8, 0.8, 0.75, 0.7, 0.95, 0.8, 0.6, 0.35, 0.35, 0.1, 0.35, 0.25, 0.35, 0.55, 0.55, 0.5 ] ],
+        "questionType" : "probability",
+        "type" : "Text"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Very Confident",
+        "followUp" : "",
+        "followUpText" : "",
+        "mainAnswer" : "No",
+        "points" : [ [ 0.05, 0.15, 0.15, 0.2, 0, 0, 0.05, 0.15, 0.05, 0.05, 0.15, 0.1, 0.05, 0.05, 0.1, 0.1, 0.1, 0, 0.05, 0, 0.1, 0, 0, 0.1 ], [ 0.45, 0.3, 0.45, 0.25, 0, 0, 0.05, 0.25, 0.1, 0.1, 0.25, 0.25, 0.1, 0.15, 0.35, 0.35, 0.15, 0, 0.2, 0, 0.15, 0, 0, 0.1 ] ],
+        "questionType" : "event",
+        "type" : "Static Bar Chart"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "So unsure",
+        "followUp" : "",
+        "followUpText" : "",
+        "mainAnswer" : "30",
+        "points" : [ [ 0.2, 0.35, 0.1, 0.35, 0.05, 0.05, 0.1, 0, 0, 0.1, 0.2, 0.15, 0.2, 0.4, 0.15, 0.1, 0.2, 0.1, 0.3, 0.35, 0.1, 0.05, 0, 0.15 ], [ 0.65, 0.55, 0.4, 0.65, 0.4, 0.2, 0.1, 0, 0.05, 0.15, 0.35, 0.3, 0.45, 0.7, 0.9, 0.75, 1, 1, 0.75, 0.65, 0.4, 0.2, 0, 0.2 ] ],
+        "questionType" : "probability",
+        "type" : "Hypothetical Outcome Plot"
+      }, {
+        "done" : "This means the trials are done, you can ignore this data point",
+        "questionType" : "alone",
+        "type" : "Static Bar Chart"
+      } ]
+    },
+    "-M_1vvs3vmJUSm0aVyra" : {
+      "demographic" : {
+        "Reliable" : "Very reliable",
+        "app" : "Android Weather App",
+        "experience" : "Favorable",
+        "frequency" : "Sometimes",
+        "inaccurate" : "Never",
+        "reliable" : "Neutral",
+        "stats" : "Stats I"
+      },
+      "exitSurveyResults" : {
+        "EffortBar" : "Neutral",
+        "EffortDot" : "Unfavorable",
+        "EffortHOP" : "Unfavorable",
+        "EffortText" : "Neutral",
+        "Feedback" : "Most of my feedback is in the survey boxes. Good work and good luck!",
+        "Rank1" : "Bar",
+        "Rank2" : "Text",
+        "Rank3" : "QDP",
+        "Rank4" : "Hop"
+      },
+      "page" : "Thanks",
+      "sessionID" : "2f16719b-707d-4234-a193-9958d4a7288a",
+      "trials" : [ {
+        "askedForHelp" : false,
+        "confidence" : "Kind of confident",
+        "followUp" : "",
+        "followUpText" : "The chance of rain at 3 PM is only 0.25 and the amount of rain isn't heavy. It seems like a short walk would be better before it starts raining more.",
+        "mainAnswer" : "Yes",
+        "points" : [ [ 0.2, 0.1, 0, 0, 0, 0.05, 0.1, 0.15, 0.05, 0.15, 0.05, 0.25, 0.1, 0.15, 0.1, 0.25, 0.35, 0.3, 0.55, 0.05, 0.15, 0.35, 0.6, 0.1 ], [ 0.3, 0.1, 0, 0, 0, 0.2, 0.15, 0.15, 0.25, 0.25, 0.2, 0.35, 0.15, 0.25, 0.2, 0.35, 0.6, 0.7, 0.9, 0.75, 0.8, 0.9, 1, 0.95 ] ],
+        "questionType" : "alone",
+        "type" : "Static Bar Chart"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Very Confident",
+        "followUp" : "",
+        "followUpText" : "There is a lot of heavy rain in the early afternoon but it drops off after 2 PM. The chance of rain in the evening is lower.",
+        "mainAnswer" : "Yes",
+        "points" : [ [ 0.1, 0.15, 0.05, 0, 0.1, 0.05, 0.3, 0.3, 0.55, 0.3, 0.1, 0.4, 0.35, 0.35, 0.05, 0.15, 0.2, 0.15, 0.15, 0.15, 0.15, 0.05, 0.1, 0 ], [ 0.35, 0.3, 0.15, 0, 0.15, 0.3, 0.55, 0.65, 0.9, 1, 1, 0.95, 0.9, 0.7, 0.45, 0.3, 0.3, 0.25, 0.25, 0.2, 0.4, 0.3, 0.25, 0 ] ],
+        "questionType" : "alone",
+        "type" : "Text"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Very Confident",
+        "followUp" : "",
+        "followUpText" : "Most of the hypothetical outcomes don't show a lot of rain around 3 PM. As a side note, I think this chart is changing a little too fast.",
+        "mainAnswer" : "Yes",
+        "points" : [ [ 0.2, 0.1, 0.05, 0.1, 0.05, 0, 0.15, 0.2, 0.15, 0.35, 0.25, 0.25, 0.1, 0.05, 0.05, 0.25, 0.15, 0.45, 0.15, 0.15, 0.3, 0.3, 0.5, 0.5 ], [ 0.3, 0.2, 0.1, 0.15, 0.1, 0, 0.25, 0.4, 0.5, 0.55, 0.55, 0.45, 0.25, 0.45, 0.6, 0.7, 0.5, 0.75, 0.75, 0.75, 0.6, 0.8, 1, 0.8 ] ],
+        "questionType" : "alone",
+        "type" : "Hypothetical Outcome Plot"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Kind of confident",
+        "followUp" : "",
+        "followUpText" : "",
+        "mainAnswer" : "0.2",
+        "points" : [ [ 0.2, 0.25, 0.5, 0.4, 0.4, 0.5, 0.15, 0.6, 0.55, 0.15, 0.55, 0.15, 0.1, 0.15, 0.15, 0.25, 0.15, 0.15, 0, 0, 0, 0, 0, 0 ], [ 0.55, 0.7, 0.75, 0.7, 0.8, 0.85, 0.8, 0.95, 1, 1, 1, 1, 0.85, 0.65, 0.6, 0.55, 0.3, 0.2, 0.05, 0, 0, 0, 0, 0 ] ],
+        "questionType" : "amount",
+        "type" : "Quantile Dot Plot"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Kind of confident",
+        "followUp" : "",
+        "followUpText" : "",
+        "mainAnswer" : "0",
+        "points" : [ [ 0.2, 0.3, 0.15, 0.5, 0.2, 0.2, 0.1, 0.15, 0.05, 0.2, 0.1, 0.2, 0.15, 0.05, 0.1, 0.1, 0.15, 0.1, 0, 0.05, 0.15, 0.2, 0.1, 0.1 ], [ 0.95, 0.85, 0.95, 1, 1, 0.9, 0.85, 0.8, 0.6, 0.35, 0.45, 0.25, 0.2, 0.1, 0.15, 0.35, 0.35, 0.2, 0, 0.1, 0.15, 0.4, 0.6, 0.85 ] ],
+        "questionType" : "amount",
+        "type" : "Hypothetical Outcome Plot"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "So unsure",
+        "followUp" : "",
+        "followUpText" : "When is this activity happening? How long is it happening for?",
+        "mainAnswer" : "No",
+        "points" : [ [ 0.5, 0.35, 0.3, 0.1, 0.15, 0.05, 0.25, 0.05, 0.2, 0, 0, 0, 0.15, 0, 0, 0, 0.15, 0.05, 0.2, 0.35, 0.3, 0.25, 0.3, 0.2 ], [ 0.8, 0.7, 0.7, 0.65, 0.45, 0.4, 0.4, 0.15, 0.25, 0, 0, 0, 0.2, 0.05, 0, 0.05, 0.2, 0.3, 0.35, 0.5, 0.55, 0.65, 0.5, 0.65 ] ],
+        "questionType" : "event",
+        "type" : "Hypothetical Outcome Plot"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Kind of confident",
+        "followUp" : "",
+        "followUpText" : "It would have to be a shorter hike, like 1 to 2 hours.",
+        "mainAnswer" : "No",
+        "points" : [ [ 0.25, 0.2, 0.15, 0.25, 0.15, 0.05, 0, 0, 0, 0.05, 0.05, 0.05, 0.1, 0.3, 0.15, 0, 0, 0.1, 0.1, 0.2, 0.15, 0.35, 0.35, 0.3 ], [ 0.7, 0.6, 0.55, 0.35, 0.3, 0.15, 0, 0, 0, 0.15, 0.15, 0.15, 0.25, 0.45, 0.2, 0, 0.05, 0.1, 0.2, 0.45, 0.45, 0.5, 0.7, 0.6 ] ],
+        "questionType" : "friend",
+        "type" : "Quantile Dot Plot"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Kind of confident",
+        "followUp" : "",
+        "followUpText" : "",
+        "mainAnswer" : "0.175",
+        "points" : [ [ 0, 0.2, 0.1, 0.25, 0.2, 0.2, 0.45, 0.25, 0.45, 0.05, 0.2, 0.1, 0.2, 0.2, 0.15, 0.3, 0.2, 0.05, 0.1, 0, 0.1, 0, 0, 0.1 ], [ 0.05, 0.25, 0.45, 0.55, 0.8, 1, 0.9, 0.7, 0.7, 0.7, 0.5, 0.35, 0.45, 0.35, 0.3, 0.45, 0.25, 0.15, 0.1, 0.05, 0.2, 0.05, 0, 0.15 ] ],
+        "questionType" : "amount",
+        "type" : "Static Bar Chart"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Very Confident",
+        "followUp" : "",
+        "followUpText" : "All the times after 3 PM have high chances of rain and large amounts of rainfall. As a side note, the 55% should be truncated if possible.",
+        "mainAnswer" : "Yes",
+        "points" : [ [ 0.3, 0.25, 0.25, 0.25, 0.05, 0, 0.05, 0.2, 0.25, 0.05, 0.35, 0.5, 0.2, 0.3, 0.2, 0.4, 0.35, 0.15, 0.65, 0.6, 0.4, 0.35, 0.15, 0.35 ], [ 0.7, 0.55, 0.55, 0.4, 0.15, 0, 0.15, 0.35, 0.4, 0.65, 0.7, 0.8, 0.7, 0.8, 0.55, 0.75, 0.55, 0.75, 1, 1, 0.85, 0.7, 0.7, 0.55 ] ],
+        "questionType" : "friend",
+        "type" : "Text"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Very Confident",
+        "followUp" : "",
+        "followUpText" : "",
+        "mainAnswer" : "0",
+        "points" : [ [ 0.2, 0.4, 0.05, 0.15, 0.1, 0.2, 0.25, 0.1, 0.15, 0.15, 0.2, 0.15, 0.1, 0.05, 0, 0, 0, 0.05, 0.2, 0.25, 0.05, 0.1, 0.25, 0.15 ], [ 0.6, 0.75, 0.95, 0.75, 0.55, 0.4, 0.55, 0.6, 0.45, 0.35, 0.35, 0.2, 0.25, 0.1, 0.05, 0, 0.05, 0.15, 0.3, 0.35, 0.5, 0.3, 0.4, 0.2 ] ],
+        "questionType" : "probability",
+        "type" : "Text"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "So unsure",
+        "followUp" : "",
+        "followUpText" : "What time is the event at? How long is it expected to last?",
+        "mainAnswer" : "No",
+        "points" : [ [ 0.35, 0.3, 0.1, 0.1, 0.2, 0.35, 0.2, 0.2, 0.25, 0.05, 0, 0, 0.1, 0.05, 0.1, 0.1, 0.05, 0.15, 0.25, 0.35, 0.3, 0.15, 0.3, 0.1 ], [ 1, 1, 0.85, 0.65, 0.75, 0.75, 0.7, 0.55, 0.35, 0.15, 0, 0, 0.2, 0.05, 0.1, 0.3, 0.2, 0.35, 0.45, 0.6, 0.8, 0.7, 0.45, 0.6 ] ],
+        "questionType" : "event",
+        "type" : "Text"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Kind of confident",
+        "followUp" : "",
+        "followUpText" : "It would have to be a shorter hike, like 1 to 2 hours.",
+        "mainAnswer" : "No",
+        "points" : [ [ 0.05, 0.55, 0.1, 0.5, 0.35, 0.2, 0.05, 0, 0.05, 0.1, 0.15, 0.2, 0.1, 0.05, 0, 0, 0, 0.1, 0.2, 0.1, 0.25, 0.4, 0.2, 0.35 ], [ 1, 0.85, 1, 0.8, 0.55, 0.3, 0.1, 0, 0.15, 0.1, 0.25, 0.25, 0.1, 0.15, 0, 0.05, 0, 0.15, 0.35, 0.5, 0.6, 0.7, 0.8, 0.8 ] ],
+        "questionType" : "friend",
+        "type" : "Hypothetical Outcome Plot"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "So unsure",
+        "followUp" : "",
+        "followUpText" : "Same as before, this question needs more context",
+        "mainAnswer" : "No",
+        "points" : [ [ 0.1, 0.05, 0.05, 0, 0, 0.1, 0, 0.1, 0.1, 0.1, 0.25, 0.1, 0.35, 0.05, 0.3, 0.05, 0.3, 0.35, 0.2, 0.5, 0.2, 0.2, 0.45, 0.2 ], [ 0.25, 0.2, 0.05, 0, 0.05, 0.2, 0.05, 0.2, 0.2, 0.45, 0.55, 0.75, 0.85, 1, 0.95, 0.75, 0.8, 0.7, 0.55, 0.8, 0.8, 1, 1, 0.95 ] ],
+        "questionType" : "event",
+        "type" : "Quantile Dot Plot"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Kind of confident",
+        "followUp" : "",
+        "followUpText" : "The hike should end before 5 PM, since the chance is higher and there is more rain.",
+        "mainAnswer" : "No",
+        "points" : [ [ 0.15, 0.1, 0.55, 0.2, 0.5, 0.2, 0.15, 0.55, 0.5, 0.4, 0.15, 0.4, 0.5, 0.2, 0.15, 0.25, 0.05, 0.3, 0.25, 0.1, 0.15, 0.15, 0.1, 0 ], [ 0.95, 0.8, 1, 1, 0.9, 1, 1, 0.9, 1, 0.85, 0.75, 0.65, 0.8, 0.75, 0.55, 0.45, 0.4, 0.4, 0.35, 0.35, 0.2, 0.2, 0.1, 0 ] ],
+        "questionType" : "friend",
+        "type" : "Static Bar Chart"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Kind of confident",
+        "followUp" : "",
+        "followUpText" : "",
+        "mainAnswer" : "55",
+        "points" : [ [ 0.05, 0.15, 0.1, 0.25, 0.25, 0.55, 0.1, 0.45, 0.5, 0.55, 0.35, 0.15, 0.05, 0.15, 0.2, 0.25, 0.3, 0.3, 0.3, 0.05, 0.2, 0.25, 0.1, 0.1 ], [ 0.4, 0.45, 0.45, 0.55, 0.8, 0.9, 1, 0.9, 0.8, 1, 1, 0.9, 0.7, 0.45, 0.6, 0.6, 0.7, 0.6, 0.6, 0.6, 0.45, 0.4, 0.35, 0.15 ] ],
+        "questionType" : "probability",
+        "type" : "Quantile Dot Plot"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "So unsure",
+        "followUp" : "",
+        "followUpText" : "Same as before, the question needs more context",
+        "mainAnswer" : "No",
+        "points" : [ [ 0.05, 0.25, 0.25, 0.25, 0.2, 0.1, 0.2, 0.3, 0.15, 0.2, 0.3, 0.3, 0.3, 0.25, 0.25, 0.15, 0.15, 0.1, 0, 0.1, 0.15, 0, 0, 0.05 ], [ 0.15, 0.35, 0.4, 0.45, 0.55, 0.65, 0.7, 0.95, 1, 0.9, 0.7, 0.85, 0.75, 0.6, 0.45, 0.3, 0.35, 0.1, 0, 0.1, 0.2, 0, 0, 0.15 ] ],
+        "questionType" : "event",
+        "type" : "Static Bar Chart"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Kind of confident",
+        "followUp" : "",
+        "followUpText" : "",
+        "mainAnswer" : "0",
+        "points" : [ [ 0.35, 0.25, 0.5, 0.3, 0.5, 0.45, 0.4, 0.4, 0.25, 0.5, 0.2, 0.3, 0.2, 0.1, 0.25, 0.15, 0.1, 0, 0, 0, 0, 0.1, 0.1, 0.2 ], [ 0.75, 0.85, 0.9, 0.95, 1, 0.95, 0.95, 0.8, 0.6, 0.8, 0.6, 0.8, 0.75, 0.6, 0.4, 0.3, 0.1, 0.05, 0, 0, 0, 0.15, 0.15, 0.35 ] ],
+        "questionType" : "probability",
+        "type" : "Hypothetical Outcome Plot"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Kind of confident",
+        "followUp" : "",
+        "followUpText" : "It would have to be a shorter walk since the chance of rain and expected rainfall goes up. As a side note, I tend to skip right to 12 PM and re-animate it since the morning readings don't matter much to me.",
+        "mainAnswer" : "Yes",
+        "points" : [ [ 0.15, 0.1, 0.05, 0, 0, 0, 0.05, 0.1, 0.1, 0.05, 0.3, 0.2, 0.25, 0.15, 0, 0.1, 0.1, 0.25, 0.2, 0.4, 0.2, 0.4, 0.2, 0.6 ], [ 0.2, 0.2, 0.1, 0.05, 0.05, 0, 0.15, 0.1, 0.2, 0.25, 0.5, 0.55, 0.45, 0.2, 0.05, 0.25, 0.5, 0.5, 0.75, 0.8, 0.65, 0.75, 0.75, 0.95 ] ],
+        "questionType" : "alone",
+        "type" : "Quantile Dot Plot"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Kind of confident",
+        "followUp" : "",
+        "followUpText" : "",
+        "mainAnswer" : "0.1",
+        "points" : [ [ 0.1, 0.25, 0.3, 0.3, 0.15, 0.35, 0.5, 0.2, 0.3, 0.35, 0.1, 0.3, 0.05, 0.25, 0.1, 0.15, 0, 0.15, 0.15, 0.1, 0.1, 0.2, 0.6, 0.1 ], [ 0.9, 1, 1, 1, 0.9, 0.8, 0.75, 0.75, 0.7, 0.55, 0.6, 0.4, 0.35, 0.4, 0.15, 0.15, 0, 0.2, 0.25, 0.4, 0.6, 0.85, 0.95, 1 ] ],
+        "questionType" : "probability",
+        "type" : "Static Bar Chart"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Kind of confident",
+        "followUp" : "",
+        "followUpText" : "",
+        "mainAnswer" : "0.3",
+        "points" : [ [ 0.1, 0.2, 0.1, 0.05, 0.05, 0.05, 0.05, 0, 0.15, 0.05, 0.15, 0.3, 0.35, 0.55, 0.2, 0.35, 0.1, 0.15, 0.3, 0.35, 0.4, 0.3, 0.35, 0.2 ], [ 0.1, 0.25, 0.1, 0.1, 0.2, 0.1, 0.15, 0.05, 0.3, 0.55, 0.7, 0.5, 0.65, 0.85, 0.95, 1, 0.95, 0.75, 0.85, 0.85, 0.8, 0.65, 0.75, 0.5 ] ],
+        "questionType" : "amount",
+        "type" : "Text"
+      }, {
+        "done" : "This means the trials are done, you can ignore this data point",
+        "questionType" : "alone",
+        "type" : "Static Bar Chart"
+      } ]
+    },
+    "-M_1xM2nxkdDJDbh03Xp" : {
+      "demographic" : {
+        "Reliable" : "Very reliable",
+        "app" : "iPhone Weather App",
+        "experience" : "Very favorable",
+        "frequency" : "Daily",
+        "inaccurate" : "Not very often",
+        "stats" : "They have a barplot showing the chance of rain over time"
+      },
+      "exitSurveyResults" : {
+        "EffortBar" : "Neutral",
+        "EffortDot" : "Unfavorable",
+        "EffortHOP" : "Very unfavorable",
+        "EffortText" : "Unfavorable",
+        "Feedback" : "The questions seem to assume the person who is taking the survey does not like to walk in the rain. I am not sure if all the event questions had a timespan which made it hard for me to answer. Also, I read the instructions but I still don't know what the animated plots are telling me.",
+        "Rank1" : "Bar",
+        "Rank2" : "QDP",
+        "Rank3" : "Text",
+        "Rank4" : "Hop"
+      },
+      "page" : "Thanks",
+      "sessionID" : "09e2f0c8-5007-484e-8511-2ac016577877",
+      "trials" : [ {
+        "askedForHelp" : false,
+        "confidence" : "Very unsure",
+        "followUp" : "",
+        "followUpText" : "",
+        "mainAnswer" : "0.3",
+        "points" : [ [ 0.45, 0.25, 0.3, 0.35, 0.3, 0.05, 0.1, 0.1, 0.1, 0.1, 0.1, 0, 0, 0.05, 0.2, 0.3, 0.2, 0.1, 0.45, 0.3, 0.1, 0.3, 0.35, 0.5 ], [ 0.7, 0.65, 0.7, 0.55, 0.55, 0.35, 0.3, 0.5, 0.3, 0.2, 0.15, 0.05, 0, 0.1, 0.3, 0.4, 0.45, 0.55, 0.75, 0.8, 0.7, 0.8, 0.9, 0.95 ] ],
+        "questionType" : "amount",
+        "type" : "Hypothetical Outcome Plot"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Very Confident",
+        "followUp" : "",
+        "followUpText" : "",
+        "mainAnswer" : "0.5",
+        "points" : [ [ 0.15, 0.25, 0.1, 0.1, 0.15, 0.4, 0.3, 0.1, 0.25, 0.4, 0.5, 0.55, 0.05, 0.5, 0.5, 0.5, 0.15, 0.4, 0.05, 0.2, 0.25, 0.15, 0.15, 0.25 ], [ 0.35, 0.45, 0.45, 0.55, 0.8, 0.85, 0.65, 0.75, 0.7, 0.75, 0.95, 1, 1, 0.85, 0.95, 0.8, 0.95, 0.75, 0.55, 0.6, 0.7, 0.5, 0.5, 0.6 ] ],
+        "questionType" : "amount",
+        "type" : "Static Bar Chart"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Kind of confident",
+        "followUp" : "",
+        "followUpText" : "It seems like the plot points consistently suggest heavy precipitation at some point in the afternoon",
+        "mainAnswer" : "Yes",
+        "points" : [ [ 0, 0, 0, 0, 0.05, 0, 0, 0.05, 0.15, 0.15, 0.2, 0.35, 0.1, 0.4, 0.25, 0.15, 0.5, 0.4, 0.45, 0.3, 0.1, 0.2, 0.25, 0.1 ], [ 0, 0, 0.05, 0.05, 0.1, 0, 0, 0.15, 0.35, 0.4, 0.5, 0.65, 0.7, 0.65, 0.9, 1, 0.85, 0.85, 0.8, 0.65, 0.45, 0.65, 0.5, 0.35 ] ],
+        "questionType" : "event",
+        "type" : "Hypothetical Outcome Plot"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Very Confident",
+        "followUp" : "",
+        "followUpText" : "",
+        "mainAnswer" : "40",
+        "points" : [ [ 0.15, 0.25, 0.3, 0.05, 0.15, 0.5, 0.05, 0.25, 0.2, 0.45, 0.25, 0.35, 0.3, 0.3, 0.2, 0.25, 0.05, 0.1, 0, 0, 0.05, 0.05, 0.15, 0.15 ], [ 0.2, 0.4, 0.6, 0.75, 0.85, 1, 0.95, 0.8, 0.85, 0.65, 0.55, 0.55, 0.65, 0.55, 0.5, 0.4, 0.2, 0.1, 0, 0, 0.15, 0.25, 0.4, 0.4 ] ],
+        "questionType" : "probability",
+        "type" : "Text"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Very Confident",
+        "followUp" : "",
+        "followUpText" : "The data consistently suggests moderate - heavy precipitation and I ignored the fact that I enjoy walking in the rain for purposes of this question.",
+        "mainAnswer" : "No",
+        "points" : [ [ 0, 0.1, 0.15, 0.1, 0.05, 0.3, 0.1, 0.1, 0.2, 0.3, 0.25, 0.05, 0.1, 0.25, 0.35, 0.2, 0.6, 0.05, 0.35, 0.1, 0.4, 0.35, 0.2, 0.2 ], [ 0, 0.1, 0.2, 0.45, 0.4, 0.45, 0.3, 0.2, 0.25, 0.5, 0.65, 0.55, 0.45, 0.55, 0.75, 0.9, 1, 1, 1, 0.85, 0.75, 0.85, 0.8, 0.9 ] ],
+        "questionType" : "alone",
+        "type" : "Hypothetical Outcome Plot"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Kind of confident",
+        "followUp" : "",
+        "followUpText" : "",
+        "mainAnswer" : "0.15",
+        "points" : [ [ 0.4, 0.15, 0.15, 0.35, 0.1, 0.15, 0.15, 0.1, 0, 0, 0.1, 0.15, 0.1, 0.2, 0.2, 0.1, 0.2, 0.4, 0.5, 0.4, 0.4, 0.4, 0.2, 0.3 ], [ 0.65, 0.5, 0.55, 0.5, 0.4, 0.3, 0.3, 0.1, 0, 0, 0.15, 0.35, 0.4, 0.6, 0.75, 0.5, 0.6, 0.7, 0.75, 0.95, 1, 1, 0.95, 0.9 ] ],
+        "questionType" : "amount",
+        "type" : "Quantile Dot Plot"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Kind of confident",
+        "followUp" : "",
+        "followUpText" : "",
+        "mainAnswer" : "0.23",
+        "points" : [ [ 0.3, 0.1, 0.45, 0.35, 0.1, 0.45, 0.3, 0.2, 0.25, 0.1, 0.35, 0.4, 0.35, 0.05, 0.65, 0.25, 0.15, 0.35, 0.3, 0.2, 0.15, 0.05, 0.1, 0 ], [ 0.45, 0.55, 0.65, 0.7, 0.95, 0.95, 1, 0.9, 0.9, 1, 1, 0.95, 0.95, 0.9, 1, 0.8, 0.8, 0.7, 0.5, 0.4, 0.15, 0.1, 0.1, 0 ] ],
+        "questionType" : "probability",
+        "type" : "Static Bar Chart"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Very Confident",
+        "followUp" : "",
+        "followUpText" : "There Is. a high chance of rain at 3pm (also ignoring that I like walking in rain for this question)",
+        "mainAnswer" : "No",
+        "points" : [ [ 0.05, 0, 0, 0.1, 0.25, 0.25, 0.1, 0.15, 0.2, 0.15, 0.45, 0.4, 0.45, 0.45, 0.1, 0.6, 0.15, 0.05, 0.3, 0.1, 0.25, 0.15, 0.35, 0.35 ], [ 0.1, 0, 0, 0.25, 0.4, 0.4, 0.55, 0.5, 0.65, 0.6, 0.75, 0.75, 0.8, 0.9, 0.95, 1, 0.9, 0.7, 0.5, 0.4, 0.6, 0.5, 0.65, 0.6 ] ],
+        "questionType" : "alone",
+        "type" : "Static Bar Chart"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Very unsure",
+        "followUp" : "",
+        "followUpText" : "I think there is a low probability of rain at 3pm",
+        "mainAnswer" : "No",
+        "points" : [ [ 0.5, 0.5, 0.35, 0.35, 0.5, 0.2, 0.1, 0.1, 0.05, 0.25, 0.1, 0, 0.1, 0.2, 0.15, 0.1, 0.15, 0.2, 0.15, 0.2, 0.3, 0.5, 0.25, 0.15 ], [ 0.8, 0.8, 0.75, 1, 0.8, 0.65, 0.6, 0.55, 0.6, 0.35, 0.15, 0, 0.15, 0.25, 0.4, 0.2, 0.4, 0.45, 0.45, 0.6, 0.75, 0.8, 0.8, 1 ] ],
+        "questionType" : "friend",
+        "type" : "Hypothetical Outcome Plot"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Very Confident",
+        "followUp" : "",
+        "followUpText" : "Theres a 60% chance of rain (also ignoring that I like walking in rain)",
+        "mainAnswer" : "No",
+        "points" : [ [ 0.05, 0.45, 0.35, 0.3, 0.4, 0.1, 0.2, 0.1, 0.05, 0, 0.05, 0.1, 0.2, 0.3, 0.1, 0.15, 0.25, 0.15, 0.35, 0.25, 0.1, 0.4, 0.05, 0.3 ], [ 0.85, 0.85, 0.65, 0.55, 0.65, 0.55, 0.55, 0.35, 0.15, 0, 0.05, 0.1, 0.3, 0.5, 0.65, 0.65, 0.85, 0.7, 0.75, 0.65, 0.8, 0.75, 0.85, 1 ] ],
+        "questionType" : "alone",
+        "type" : "Quantile Dot Plot"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Neutral",
+        "followUp" : "",
+        "followUpText" : "I am unsure what time the event is at. If it is in the morning I would book a room. If it was after 3pm I would not",
+        "mainAnswer" : "Yes",
+        "points" : [ [ 0.1, 0.1, 0.35, 0.25, 0.35, 0.15, 0.15, 0.4, 0.25, 0.15, 0.5, 0.5, 0.25, 0.3, 0.1, 0.2, 0, 0, 0, 0, 0, 0.1, 0.05, 0.15 ], [ 0.15, 0.4, 0.55, 0.7, 0.6, 0.75, 0.8, 0.7, 0.85, 0.95, 1, 0.85, 0.65, 0.5, 0.4, 0.25, 0.05, 0.05, 0, 0, 0, 0.15, 0.2, 0.25 ] ],
+        "questionType" : "event",
+        "type" : "Text"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Kind of confident",
+        "followUp" : "",
+        "followUpText" : "Most of the rain is happening before we go hiking (also ignoring that I like walking in rain)",
+        "mainAnswer" : "No",
+        "points" : [ [ 0.3, 0.2, 0.3, 0.6, 0.3, 0.1, 0.45, 0.25, 0.3, 0.25, 0.1, 0.25, 0.2, 0.05, 0.4, 0.1, 0.05, 0.1, 0, 0, 0, 0.1, 0.05, 0.1 ], [ 0.8, 0.9, 1, 1, 1, 0.8, 0.75, 0.6, 0.7, 0.6, 0.45, 0.45, 0.45, 0.65, 0.65, 0.55, 0.4, 0.15, 0.05, 0, 0, 0.1, 0.05, 0.2 ] ],
+        "questionType" : "friend",
+        "type" : "Static Bar Chart"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Very Confident",
+        "followUp" : "",
+        "followUpText" : "Seems like a very rainy day",
+        "mainAnswer" : "Yes",
+        "points" : [ [ 0.25, 0.5, 0.35, 0.2, 0.2, 0.4, 0.15, 0.3, 0.3, 0.1, 0.4, 0.3, 0.15, 0.15, 0.3, 0.3, 0.5, 0.25, 0.15, 0.4, 0.2, 0.45, 0.2, 0.45 ], [ 0.7, 0.9, 1, 0.95, 0.95, 0.8, 0.65, 0.7, 0.6, 0.65, 0.9, 0.7, 0.65, 0.65, 0.65, 0.75, 0.75, 0.75, 0.75, 0.6, 0.55, 0.7, 0.65, 0.75 ] ],
+        "questionType" : "event",
+        "type" : "Static Bar Chart"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Very Confident",
+        "followUp" : "",
+        "followUpText" : "",
+        "mainAnswer" : "10",
+        "points" : [ [ 0.25, 0.4, 0.25, 0.1, 0.15, 0, 0, 0, 0, 0, 0.2, 0.1, 0.05, 0.1, 0.15, 0.1, 0, 0, 0.05, 0.1, 0.25, 0.15, 0.3, 0.4 ], [ 0.65, 0.6, 0.35, 0.4, 0.2, 0, 0, 0, 0, 0, 0.25, 0.25, 0.4, 0.45, 0.25, 0.2, 0, 0, 0.1, 0.3, 0.45, 0.6, 0.5, 0.7 ] ],
+        "questionType" : "probability",
+        "type" : "Quantile Dot Plot"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Very Confident",
+        "followUp" : "",
+        "followUpText" : "Between 5am - 5pm it seems rainy",
+        "mainAnswer" : "Yes",
+        "points" : [ [ 0.35, 0.05, 0.1, 0.3, 0.15, 0.25, 0.25, 0.55, 0.1, 0.55, 0.25, 0.2, 0.4, 0.45, 0.5, 0.35, 0.25, 0.05, 0, 0, 0, 0.05, 0, 0 ], [ 0.65, 0.55, 0.55, 0.6, 0.8, 0.95, 1, 1, 0.95, 0.95, 1, 1, 0.95, 0.75, 0.75, 0.65, 0.45, 0.25, 0.05, 0.05, 0, 0.1, 0.05, 0.05 ] ],
+        "questionType" : "event",
+        "type" : "Quantile Dot Plot"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Very Confident",
+        "followUp" : "",
+        "followUpText" : "I like walking in rain but hiking with reduced visibility due to moderate rain and in remote locations can be dangerous",
+        "mainAnswer" : "Yes",
+        "points" : [ [ 0.15, 0.2, 0.15, 0.05, 0, 0, 0.1, 0.15, 0.15, 0.05, 0.1, 0.05, 0.1, 0.05, 0.15, 0.15, 0.3, 0.5, 0.05, 0.5, 0.15, 0.1, 0.25, 0.15 ], [ 0.5, 0.35, 0.25, 0.1, 0, 0, 0.2, 0.3, 0.25, 0.1, 0.3, 0.25, 0.25, 0.35, 0.4, 0.65, 0.75, 0.8, 0.75, 0.75, 0.55, 0.6, 0.6, 0.6 ] ],
+        "questionType" : "friend",
+        "type" : "Text"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Kind of confident",
+        "followUp" : "",
+        "followUpText" : "20% chance of rain at only 0.15 inch of rain an hour is reasonable to hike in",
+        "mainAnswer" : "No",
+        "points" : [ [ 0.25, 0.3, 0.35, 0.35, 0.25, 0.3, 0.5, 0.45, 0.3, 0.3, 0.35, 0.25, 0.35, 0.25, 0.15, 0.1, 0.1, 0.1, 0.05, 0.1, 0, 0.1, 0.15, 0.05 ], [ 0.8, 0.75, 0.85, 1, 0.9, 1, 1, 0.8, 0.75, 0.85, 0.8, 0.65, 0.5, 0.45, 0.25, 0.35, 0.35, 0.25, 0.15, 0.1, 0, 0.1, 0.3, 0.35 ] ],
+        "questionType" : "friend",
+        "type" : "Quantile Dot Plot"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Very Confident",
+        "followUp" : "",
+        "followUpText" : "10% chance of rain is low and I assume I would be back before it starts raining with 50% chance at 5pm",
+        "mainAnswer" : "Yes",
+        "points" : [ [ 0.1, 0.4, 0.1, 0.2, 0.2, 0.25, 0.1, 0.1, 0.1, 0.2, 0.1, 0.1, 0, 0, 0, 0.1, 0.2, 0.1, 0.35, 0.25, 0.2, 0.35, 0.1, 0.05 ], [ 0.85, 1, 1, 0.95, 0.8, 0.6, 0.6, 0.55, 0.4, 0.4, 0.25, 0.1, 0, 0, 0, 0.1, 0.3, 0.5, 0.55, 0.7, 0.55, 0.5, 0.55, 0.8 ] ],
+        "questionType" : "alone",
+        "type" : "Text"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Neutral",
+        "followUp" : "",
+        "followUpText" : "",
+        "mainAnswer" : "0",
+        "points" : [ [ 0.25, 0.15, 0, 0.1, 0, 0.05, 0.2, 0.25, 0.15, 0.2, 0.1, 0.1, 0, 0, 0, 0, 0.1, 0, 0, 0.2, 0.05, 0.05, 0.25, 0.25 ], [ 0.4, 0.2, 0, 0.1, 0, 0.1, 0.25, 0.4, 0.5, 0.35, 0.15, 0.1, 0, 0, 0, 0, 0.15, 0, 0.05, 0.25, 0.3, 0.45, 0.5, 0.6 ] ],
+        "questionType" : "probability",
+        "type" : "Hypothetical Outcome Plot"
+      }, {
+        "askedForHelp" : true,
+        "confidence" : "So unsure",
+        "followUp" : "",
+        "followUpText" : "",
+        "mainAnswer" : "",
+        "points" : [ [ 0.1, 0.2, 0.6, 0.55, 0.55, 0.55, 0.5, 0.2, 0.35, 0.15, 0.05, 0.65, 0.45, 0.3, 0.45, 0.4, 0.2, 0.25, 0.15, 0.15, 0.2, 0.35, 0.15, 0.2 ], [ 0.5, 0.75, 0.95, 0.8, 0.9, 1, 0.9, 1, 1, 0.9, 1, 1, 0.8, 1, 1, 0.8, 0.6, 0.4, 0.6, 0.5, 0.7, 0.55, 0.45, 0.3 ] ],
+        "questionType" : "amount",
+        "type" : "Text"
+      }, {
+        "done" : "This means the trials are done, you can ignore this data point",
+        "questionType" : "amount",
+        "type" : "Hypothetical Outcome Plot"
+      } ]
+    },
+    "-M_2NAnUmw_zQsgoxroD" : {
+      "demographic" : {
+        "Reliable" : "Very reliable",
+        "app" : "Default iPhone Weather App, or MyRadar",
+        "experience" : "Favorable",
+        "frequency" : "More than once per day",
+        "inaccurate" : "Not very often",
+        "stats" : "I have some experience in data visualization, but only basic stuff for research papers or class. I have taken a statistics class, but that's about the limit of my stats knowledge."
+      },
+      "exitSurveyResults" : {
+        "EffortBar" : "Very favorable",
+        "EffortDot" : "Very favorable",
+        "EffortHOP" : "Unfavorable",
+        "EffortText" : "Neutral",
+        "Feedback" : "the animations of quantile dots made it a little more confusing, but I liked them best in general",
+        "Rank1" : "QDP",
+        "Rank2" : "Bar",
+        "Rank3" : "Text",
+        "Rank4" : "Hop"
+      },
+      "page" : "Thanks",
+      "sessionID" : "250e6b37-3f7b-420b-b27b-a3b2c586dcc0",
+      "trials" : [ {
+        "askedForHelp" : false,
+        "confidence" : "Neutral",
+        "followUp" : "",
+        "followUpText" : "It seems like there's a chance that 3:00PM won't be super rainy, and neither will 4PM. So the likelihood of an uncomfortable amount of rain seems relatively low.",
+        "mainAnswer" : "Yes",
+        "points" : [ [ 0.05, 0.15, 0.2, 0.1, 0, 0, 0.05, 0.15, 0.1, 0.1, 0, 0, 0.1, 0.1, 0.25, 0.25, 0.15, 0.2, 0.25, 0.25, 0.4, 0.45, 0.55, 0.45 ], [ 0.65, 0.5, 0.25, 0.1, 0, 0, 0.25, 0.3, 0.1, 0.1, 0, 0, 0.2, 0.35, 0.5, 0.4, 0.2, 0.4, 0.45, 0.5, 0.6, 0.75, 0.9, 1 ] ],
+        "questionType" : "alone",
+        "type" : "Text"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Kind of confident",
+        "followUp" : "",
+        "followUpText" : "It looks like there's a decent chance of heavy rain tomorrow, which doesn't seem very conducive to a nice hike",
+        "mainAnswer" : "Yes",
+        "points" : [ [ 0.25, 0.3, 0.45, 0.15, 0.2, 0.25, 0.15, 0.35, 0.35, 0.1, 0.2, 0.4, 0.25, 0.35, 0.4, 0.3, 0.05, 0.5, 0.4, 0.45, 0.15, 0.25, 0.3, 0.25 ], [ 0.45, 0.55, 0.7, 0.8, 0.75, 0.55, 0.6, 0.65, 0.6, 0.45, 0.65, 0.7, 0.55, 0.6, 0.65, 0.9, 1, 0.95, 0.95, 0.75, 0.8, 0.6, 0.55, 0.4 ] ],
+        "questionType" : "friend",
+        "type" : "Static Bar Chart"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Unsure",
+        "followUp" : "",
+        "followUpText" : "",
+        "mainAnswer" : ".3",
+        "points" : [ [ 0.1, 0, 0, 0.1, 0.05, 0.1, 0.05, 0.25, 0.1, 0.2, 0.1, 0.15, 0.1, 0.25, 0.3, 0.2, 0.4, 0.35, 0.45, 0.5, 0.45, 0.1, 0.15, 0.35 ], [ 0.1, 0, 0, 0.2, 0.35, 0.45, 0.45, 0.6, 0.35, 0.4, 0.4, 0.25, 0.45, 0.5, 0.55, 0.7, 0.8, 0.9, 1, 0.9, 0.75, 0.7, 0.6, 0.7 ] ],
+        "questionType" : "amount",
+        "type" : "Text"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Unsure",
+        "followUp" : "",
+        "followUpText" : "it seems somewhat likely that it'll rain, but I can't really tell.",
+        "mainAnswer" : "No",
+        "points" : [ [ 0.15, 0.3, 0.15, 0.3, 0.2, 0.15, 0.35, 0.15, 0.6, 0.35, 0.2, 0.1, 0.55, 0.6, 0.15, 0.15, 0.35, 0.15, 0.35, 0.15, 0.15, 0.3, 0.1, 0.3 ], [ 0.35, 0.5, 0.55, 0.5, 0.6, 0.4, 0.5, 0.7, 0.9, 0.8, 0.95, 1, 1, 1, 1, 1, 0.75, 0.85, 0.75, 0.7, 0.6, 0.5, 0.3, 0.5 ] ],
+        "questionType" : "friend",
+        "type" : "Hypothetical Outcome Plot"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Kind of confident",
+        "followUp" : "",
+        "followUpText" : "Assuming the forecast is accurate, it doesn't seem like I would end up going out in the rain (since there is never a very high chance of rain at 3PM)",
+        "mainAnswer" : "Yes",
+        "points" : [ [ 0.2, 0.05, 0.2, 0.45, 0.2, 0.15, 0.3, 0.3, 0.45, 0.25, 0.2, 0.4, 0.3, 0.5, 0.15, 0.05, 0.55, 0.5, 0.35, 0.4, 0.05, 0.15, 0.35, 0.1 ], [ 0.7, 0.45, 0.6, 0.65, 0.75, 0.55, 0.8, 0.95, 1, 1, 0.9, 1, 1, 0.8, 0.8, 0.75, 0.9, 0.8, 0.95, 0.7, 0.8, 0.6, 0.5, 0.45 ] ],
+        "questionType" : "alone",
+        "type" : "Hypothetical Outcome Plot"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Very Confident",
+        "followUp" : "",
+        "followUpText" : "",
+        "mainAnswer" : "0.2",
+        "points" : [ [ 0.1, 0.15, 0.05, 0, 0, 0.1, 0.1, 0.15, 0, 0, 0.15, 0.05, 0.25, 0.1, 0.2, 0.2, 0.45, 0.5, 0.3, 0.35, 0.05, 0.4, 0.3, 0.35 ], [ 0.1, 0.2, 0.1, 0, 0, 0.2, 0.15, 0.15, 0.05, 0, 0.2, 0.25, 0.3, 0.5, 0.5, 0.7, 0.8, 0.8, 0.55, 0.65, 0.85, 1, 0.9, 0.7 ] ],
+        "questionType" : "amount",
+        "type" : "Quantile Dot Plot"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Very Confident",
+        "followUp" : "",
+        "followUpText" : "it doesn't seem like it'll rain based on the fact that there's minimal chance throughout the day",
+        "mainAnswer" : "No",
+        "points" : [ [ 0.25, 0.4, 0.1, 0.35, 0.15, 0.15, 0.15, 0.1, 0, 0.05, 0.2, 0.1, 0.15, 0, 0.05, 0.1, 0.15, 0.15, 0.15, 0.1, 0.1, 0.1, 0.25, 0.1 ], [ 0.65, 0.8, 0.6, 0.6, 0.5, 0.45, 0.2, 0.2, 0, 0.1, 0.25, 0.1, 0.25, 0.05, 0.15, 0.2, 0.4, 0.3, 0.25, 0.35, 0.5, 0.4, 0.45, 0.65 ] ],
+        "questionType" : "event",
+        "type" : "Hypothetical Outcome Plot"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Very Confident",
+        "followUp" : "",
+        "followUpText" : "it seems very likely to rain based on the large amount of dots in the higher percentages",
+        "mainAnswer" : "Yes",
+        "points" : [ [ 0.15, 0.15, 0.25, 0.2, 0.1, 0.15, 0.1, 0.05, 0, 0, 0.1, 0.1, 0.05, 0.25, 0.4, 0.45, 0.1, 0.35, 0.55, 0.4, 0.3, 0.15, 0.5, 0.4 ], [ 0.95, 1, 0.75, 0.65, 0.55, 0.55, 0.35, 0.2, 0.05, 0, 0.1, 0.1, 0.2, 0.4, 0.6, 0.75, 0.55, 0.7, 0.85, 0.8, 0.9, 0.85, 0.8, 0.85 ] ],
+        "questionType" : "friend",
+        "type" : "Quantile Dot Plot"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Very Confident",
+        "followUp" : "",
+        "followUpText" : "",
+        "mainAnswer" : "10",
+        "points" : [ [ 0, 0.1, 0.15, 0.05, 0, 0.15, 0.05, 0, 0.15, 0.1, 0.15, 0.1, 0.2, 0.05, 0.2, 0.1, 0.2, 0.1, 0.3, 0.15, 0.25, 0.15, 0.4, 0.1 ], [ 0.05, 0.15, 0.25, 0.1, 0, 0.25, 0.1, 0, 0.25, 0.25, 0.5, 0.3, 0.25, 0.1, 0.35, 0.45, 0.25, 0.35, 0.55, 0.45, 0.5, 0.65, 0.8, 0.8 ] ],
+        "questionType" : "probability",
+        "type" : "Static Bar Chart"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Unsure",
+        "followUp" : "",
+        "followUpText" : "",
+        "mainAnswer" : "30",
+        "points" : [ [ 0.15, 0.1, 0.1, 0.45, 0.05, 0.4, 0.45, 0.4, 0.5, 0.4, 0.5, 0.55, 0.2, 0.25, 0.3, 0.25, 0.4, 0.1, 0.15, 0.15, 0.15, 0.15, 0.1, 0.15 ], [ 0.35, 0.55, 0.6, 0.8, 0.9, 0.65, 0.75, 0.85, 1, 0.9, 0.9, 1, 1, 0.95, 0.9, 0.95, 0.95, 0.85, 0.8, 0.6, 0.8, 0.65, 0.4, 0.25 ] ],
+        "questionType" : "probability",
+        "type" : "Hypothetical Outcome Plot"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Very Confident",
+        "followUp" : "",
+        "followUpText" : "",
+        "mainAnswer" : "",
+        "points" : [ [ 0.25, 0.2, 0.45, 0.2, 0.2, 0.1, 0.3, 0.45, 0.5, 0.55, 0.25, 0.15, 0.25, 0.25, 0.4, 0.3, 0.15, 0.1, 0.1, 0, 0.1, 0.15, 0.15, 0.1 ], [ 0.75, 0.6, 0.7, 0.65, 0.7, 0.85, 0.8, 0.75, 0.9, 0.9, 0.7, 0.8, 0.6, 0.55, 0.75, 0.5, 0.3, 0.15, 0.15, 0, 0.2, 0.35, 0.4, 0.55 ] ],
+        "questionType" : "probability",
+        "type" : "Quantile Dot Plot"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Neutral",
+        "followUp" : "",
+        "followUpText" : "",
+        "mainAnswer" : "0.5",
+        "points" : [ [ 0.4, 0.15, 0.1, 0.25, 0.3, 0.55, 0.15, 0.05, 0.05, 0.1, 0.3, 0.25, 0.15, 0.3, 0.35, 0.4, 0.3, 0.25, 0.1, 0.25, 0.1, 0.05, 0, 0 ], [ 0.6, 0.65, 0.65, 0.7, 0.9, 1, 0.85, 0.65, 0.55, 0.3, 0.5, 0.4, 0.55, 0.7, 0.6, 0.8, 0.75, 0.7, 0.45, 0.35, 0.15, 0.05, 0, 0.05 ] ],
+        "questionType" : "amount",
+        "type" : "Static Bar Chart"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Very Confident",
+        "followUp" : "",
+        "followUpText" : "it seems very unlikely that there will be rain based on the height of the bars around 3pm",
+        "mainAnswer" : "Yes",
+        "points" : [ [ 0.4, 0.55, 0.5, 0.55, 0.4, 0.6, 0.5, 0.15, 0.5, 0.1, 0.25, 0.2, 0.2, 0.25, 0.1, 0.1, 0, 0, 0.05, 0.15, 0.15, 0, 0, 0.05 ], [ 0.85, 0.95, 0.85, 0.9, 0.85, 1, 1, 0.85, 0.95, 0.75, 0.75, 0.55, 0.65, 0.5, 0.4, 0.3, 0.05, 0, 0.05, 0.2, 0.3, 0.05, 0, 0.2 ] ],
+        "questionType" : "alone",
+        "type" : "Static Bar Chart"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Very Confident",
+        "followUp" : "",
+        "followUpText" : "",
+        "mainAnswer" : "50",
+        "points" : [ [ 0.2, 0.45, 0.3, 0.45, 0.1, 0.35, 0.6, 0.3, 0.35, 0.55, 0.2, 0.2, 0.35, 0.1, 0.25, 0.15, 0.1, 0.1, 0.1, 0, 0, 0, 0.05, 0.25 ], [ 0.9, 0.8, 0.85, 1, 1, 1, 0.95, 1, 1, 0.95, 0.95, 0.75, 0.6, 0.4, 0.35, 0.5, 0.4, 0.4, 0.25, 0.05, 0.05, 0, 0.2, 0.45 ] ],
+        "questionType" : "probability",
+        "type" : "Text"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Very Confident",
+        "followUp" : "",
+        "followUpText" : "it seems very likely that there will be a moderate amount of rain given the 100% chance of rain and the amount of precipitation predicted",
+        "mainAnswer" : "No",
+        "points" : [ [ 0.1, 0, 0, 0.1, 0.05, 0.1, 0.15, 0.25, 0.25, 0.2, 0.1, 0.05, 0.25, 0.5, 0.4, 0.4, 0.45, 0.5, 0.4, 0.3, 0.1, 0.25, 0.1, 0.1 ], [ 0.2, 0.05, 0, 0.15, 0.3, 0.55, 0.4, 0.4, 0.55, 0.6, 0.5, 0.7, 0.85, 1, 1, 1, 0.8, 0.75, 0.7, 0.6, 0.4, 0.6, 0.55, 0.45 ] ],
+        "questionType" : "alone",
+        "type" : "Quantile Dot Plot"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Kind of confident",
+        "followUp" : "",
+        "followUpText" : "it seems likely that it'll rain in the afternoon because of the large amount of dots in the higher percentage columns",
+        "mainAnswer" : "Yes",
+        "points" : [ [ 0.25, 0.25, 0.2, 0.15, 0, 0.15, 0.15, 0.2, 0.25, 0.4, 0.45, 0.25, 0.15, 0.15, 0.05, 0.2, 0.15, 0, 0.05, 0, 0.1, 0.2, 0.35, 0.2 ], [ 0.55, 0.45, 0.3, 0.2, 0, 0.15, 0.25, 0.35, 0.45, 0.6, 0.85, 1, 0.85, 0.7, 0.45, 0.25, 0.25, 0.05, 0.1, 0, 0.15, 0.4, 0.6, 0.7 ] ],
+        "questionType" : "event",
+        "type" : "Quantile Dot Plot"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Kind of confident",
+        "followUp" : "",
+        "followUpText" : "it doesn't seem likely to rain enough to stop a hike based on the fact that it's light preciptation and has a low probability",
+        "mainAnswer" : "No",
+        "points" : [ [ 0.05, 0.25, 0.3, 0.3, 0.05, 0.15, 0.55, 0.15, 0.25, 0.1, 0.45, 0.3, 0.2, 0.1, 0.25, 0.05, 0.15, 0.1, 0, 0.15, 0, 0.1, 0.25, 0.05 ], [ 0.1, 0.35, 0.45, 0.45, 0.5, 0.75, 0.9, 1, 1, 0.95, 0.7, 0.6, 0.7, 0.6, 0.45, 0.3, 0.2, 0.1, 0, 0.15, 0.05, 0.2, 0.45, 0.55 ] ],
+        "questionType" : "friend",
+        "type" : "Text"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Neutral",
+        "followUp" : "",
+        "followUpText" : "it seems like it'll rain based on the probabilities",
+        "mainAnswer" : "Yes",
+        "points" : [ [ 0.1, 0.25, 0.05, 0.15, 0.25, 0.5, 0.6, 0.4, 0.15, 0.3, 0.3, 0.05, 0.2, 0.2, 0.2, 0.15, 0.2, 0.15, 0.2, 0.05, 0.1, 0, 0, 0 ], [ 0.55, 0.7, 0.9, 0.8, 0.8, 0.9, 1, 0.8, 1, 0.95, 0.75, 0.65, 0.4, 0.5, 0.3, 0.45, 0.35, 0.35, 0.3, 0.1, 0.1, 0, 0, 0 ] ],
+        "questionType" : "event",
+        "type" : "Text"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Very Confident",
+        "followUp" : "",
+        "followUpText" : "it seems very likely that it'll rain at some point during the day tomorrow, as can be seen by the high probabilities and dark bar colors",
+        "mainAnswer" : "Yes",
+        "points" : [ [ 0, 0, 0, 0.15, 0.1, 0.05, 0.1, 0.1, 0.25, 0.25, 0.1, 0.3, 0.4, 0.5, 0.5, 0.2, 0.15, 0.1, 0.05, 0.4, 0.4, 0.35, 0.45, 0.2 ], [ 0.05, 0, 0, 0.15, 0.1, 0.15, 0.15, 0.2, 0.4, 0.45, 0.5, 0.55, 0.65, 0.8, 0.85, 0.85, 1, 1, 0.9, 0.65, 0.85, 0.85, 0.7, 0.7 ] ],
+        "questionType" : "event",
+        "type" : "Static Bar Chart"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Unsure",
+        "followUp" : "",
+        "followUpText" : "",
+        "mainAnswer" : ".01",
+        "points" : [ [ 0.15, 0.1, 0.15, 0.1, 0, 0, 0, 0.1, 0.2, 0.2, 0.25, 0.3, 0.35, 0.45, 0.4, 0.15, 0.1, 0.1, 0.2, 0.05, 0, 0.1, 0.1, 0 ], [ 0.25, 0.2, 0.2, 0.2, 0, 0, 0, 0.1, 0.3, 0.5, 0.6, 0.8, 1, 0.75, 0.6, 0.55, 0.5, 0.35, 0.3, 0.2, 0, 0.15, 0.1, 0 ] ],
+        "questionType" : "amount",
+        "type" : "Hypothetical Outcome Plot"
+      }, {
+        "done" : "This means the trials are done, you can ignore this data point",
+        "questionType" : "alone",
+        "type" : "Text"
+      } ]
+    },
+    "-M_2U-COA49aQiXo71uR" : {
+      "demographic" : {
+        "Reliable" : "Very reliable",
+        "app" : "Built in weather app on my iPhone",
+        "experience" : "Neutral",
+        "frequency" : "Sometimes",
+        "inaccurate" : "Sometimes",
+        "reliable" : "Neutral",
+        "stats" : "Current data-viz student, took 1 undergraduate statistics course"
+      },
+      "exitSurveyResults" : {
+        "EffortBar" : "Neutral",
+        "EffortDot" : "Favorable",
+        "EffortHOP" : "Very unfavorable",
+        "EffortText" : "Favorable",
+        "Feedback" : "The HOP was hard to interpret because there were a lot of changes happening on the screen at once - this gave me a kind of \"change blindness.\" I liked the quantile dot plot, but the animation gave me the same sense of \"change blindness\" as I had to try to memorize many different dot plots to understand what was going on",
+        "Rank1" : "QDP",
+        "Rank2" : "Text",
+        "Rank3" : "Bar",
+        "Rank4" : "Hop"
+      },
+      "page" : "Thanks",
+      "sessionID" : "e2394c97-0dfd-4884-9ffa-90c6afcdc5b6",
+      "trials" : [ {
+        "askedForHelp" : true,
+        "confidence" : "Kind of confident",
+        "followUp" : "",
+        "followUpText" : "I stared at the 3PM bar and it's consistently dark blue in the moderate/heavy precipitation category",
+        "mainAnswer" : "Yes",
+        "points" : [ [ 0.1, 0, 0.15, 0.1, 0.15, 0.05, 0.3, 0.1, 0.45, 0.25, 0.5, 0.4, 0.3, 0.25, 0.35, 0.35, 0.3, 0.1, 0.2, 0.15, 0.25, 0.25, 0.35, 0.1 ], [ 0.1, 0, 0.2, 0.3, 0.3, 0.5, 0.55, 0.65, 0.8, 0.95, 0.85, 1, 1, 0.8, 0.85, 1, 1, 0.9, 0.9, 0.95, 0.8, 0.75, 0.85, 0.7 ] ],
+        "questionType" : "friend",
+        "type" : "Hypothetical Outcome Plot"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Very Confident",
+        "followUp" : "",
+        "followUpText" : "it looks like a lot of rain, I see a lot of dark blues",
+        "mainAnswer" : "Yes",
+        "points" : [ [ 0.1, 0.1, 0.15, 0.1, 0, 0.1, 0, 0.1, 0.1, 0.2, 0.35, 0.25, 0.35, 0.05, 0.4, 0.35, 0.4, 0.35, 0.25, 0.45, 0.3, 0.1, 0.05, 0.15 ], [ 0.15, 0.4, 0.3, 0.25, 0.05, 0.15, 0, 0.1, 0.3, 0.5, 0.55, 0.65, 0.7, 0.75, 0.9, 1, 0.8, 0.65, 0.75, 0.7, 0.6, 0.4, 0.25, 0.25 ] ],
+        "questionType" : "event",
+        "type" : "Static Bar Chart"
+      }, {
+        "askedForHelp" : true,
+        "confidence" : "Kind of confident",
+        "followUp" : "",
+        "followUpText" : "A 50% chance of rain sounds like it's probably going to rain",
+        "mainAnswer" : "No",
+        "points" : [ [ 0.25, 0.4, 0.2, 0.1, 0.2, 0.3, 0.4, 0.15, 0.4, 0.4, 0.1, 0.1, 0.6, 0.35, 0.2, 0.2, 0.25, 0.25, 0.15, 0.35, 0.4, 0.05, 0.1, 0.15 ], [ 0.5, 0.65, 0.45, 0.25, 0.4, 0.55, 0.75, 0.65, 0.8, 1, 0.9, 1, 0.95, 0.8, 0.65, 0.5, 0.4, 0.55, 0.6, 0.65, 0.9, 0.75, 0.5, 0.65 ] ],
+        "questionType" : "alone",
+        "type" : "Text"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Kind of confident",
+        "followUp" : "",
+        "followUpText" : "",
+        "mainAnswer" : "0.1",
+        "points" : [ [ 0.05, 0.2, 0.45, 0.55, 0.5, 0.45, 0.35, 0.25, 0.25, 0.2, 0.35, 0.3, 0.15, 0.15, 0.1, 0.1, 0, 0.1, 0.15, 0.1, 0.2, 0.3, 0.4, 0.15 ], [ 0.75, 0.8, 0.9, 0.95, 1, 1, 0.8, 0.6, 0.5, 0.75, 0.65, 0.45, 0.2, 0.35, 0.3, 0.1, 0, 0.1, 0.2, 0.3, 0.45, 0.55, 0.6, 0.5 ] ],
+        "questionType" : "amount",
+        "type" : "Static Bar Chart"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Kind of confident",
+        "followUp" : "",
+        "followUpText" : "Selecting 3pm, it looks like there is a very low chance of rain, and if it does rain, it wouldn't be very much precipitation",
+        "mainAnswer" : "No",
+        "points" : [ [ 0.35, 0.2, 0.2, 0.15, 0.35, 0.35, 0.2, 0.05, 0, 0, 0, 0, 0.05, 0, 0, 0.1, 0.05, 0, 0.2, 0.05, 0.2, 0.2, 0.3, 0.5 ], [ 0.95, 1, 0.85, 0.7, 0.7, 0.5, 0.3, 0.2, 0, 0, 0, 0, 0.2, 0.05, 0.05, 0.1, 0.2, 0, 0.25, 0.3, 0.4, 0.45, 0.65, 0.85 ] ],
+        "questionType" : "friend",
+        "type" : "Quantile Dot Plot"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Unsure",
+        "followUp" : "",
+        "followUpText" : "It seems like it will rain about 0.2 inches at 3pm",
+        "mainAnswer" : "Yes",
+        "points" : [ [ 0.25, 0.15, 0.25, 0.5, 0.25, 0.45, 0.35, 0.05, 0.35, 0.3, 0.45, 0.35, 0.3, 0.25, 0.25, 0.15, 0.2, 0.1, 0.25, 0.1, 0.2, 0.1, 0.1, 0.15 ], [ 0.85, 0.95, 1, 0.8, 0.75, 0.7, 0.85, 0.75, 0.7, 0.7, 0.85, 0.85, 0.85, 0.6, 0.5, 0.4, 0.3, 0.45, 0.4, 0.55, 0.35, 0.2, 0.4, 0.3 ] ],
+        "questionType" : "friend",
+        "type" : "Static Bar Chart"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Very Confident",
+        "followUp" : "",
+        "followUpText" : "",
+        "mainAnswer" : "15",
+        "points" : [ [ 0.4, 0.15, 0.1, 0.35, 0.1, 0.3, 0.2, 0.05, 0.2, 0.15, 0.1, 0.15, 0, 0, 0, 0.15, 0.2, 0.25, 0.1, 0.15, 0.05, 0.1, 0, 0 ], [ 0.85, 0.85, 1, 0.75, 0.85, 0.8, 0.7, 0.5, 0.6, 0.4, 0.3, 0.3, 0.05, 0, 0, 0.15, 0.35, 0.35, 0.25, 0.45, 0.3, 0.15, 0.05, 0 ] ],
+        "questionType" : "probability",
+        "type" : "Text"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Very unsure",
+        "followUp" : "",
+        "followUpText" : "",
+        "mainAnswer" : "10",
+        "points" : [ [ 0.25, 0.1, 0.2, 0.05, 0.35, 0.1, 0.3, 0.45, 0.15, 0.15, 0.25, 0.5, 0.1, 0.15, 0.2, 0.2, 0.15, 0.1, 0, 0, 0.15, 0.1, 0.2, 0.15 ], [ 0.45, 0.25, 0.35, 0.45, 0.55, 0.55, 0.8, 0.9, 0.9, 0.95, 1, 0.9, 0.85, 0.8, 0.6, 0.35, 0.3, 0.15, 0, 0, 0.2, 0.2, 0.3, 0.2 ] ],
+        "questionType" : "probability",
+        "type" : "Hypothetical Outcome Plot"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Unsure",
+        "followUp" : "",
+        "followUpText" : "The bars are flashing a lot but it seems like it will rain during the middle of the day at some point",
+        "mainAnswer" : "Yes",
+        "points" : [ [ 0.1, 0, 0, 0, 0, 0.1, 0.25, 0.15, 0.15, 0.2, 0.2, 0.3, 0.4, 0.2, 0.4, 0.55, 0.4, 0.2, 0.15, 0.1, 0.15, 0.05, 0.2, 0.1 ], [ 0.25, 0, 0, 0, 0, 0.2, 0.4, 0.4, 0.4, 0.55, 0.5, 0.6, 0.75, 0.95, 1, 0.85, 0.65, 0.45, 0.4, 0.4, 0.2, 0.2, 0.25, 0.2 ] ],
+        "questionType" : "event",
+        "type" : "Hypothetical Outcome Plot"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Unsure",
+        "followUp" : "",
+        "followUpText" : "The bars are flashing a lot, but around 3pm many of them are dark blue",
+        "mainAnswer" : "No",
+        "points" : [ [ 0.05, 0.1, 0.2, 0.2, 0.25, 0.25, 0.15, 0.4, 0.25, 0.5, 0.15, 0.25, 0.45, 0.35, 0.15, 0.45, 0.3, 0.55, 0.3, 0.15, 0.1, 0.4, 0.3, 0.05 ], [ 0.15, 0.1, 0.3, 0.35, 0.35, 0.5, 0.6, 0.75, 1, 1, 0.95, 0.9, 0.9, 0.8, 0.75, 0.95, 0.9, 1, 1, 0.9, 1, 0.75, 0.9, 1 ] ],
+        "questionType" : "alone",
+        "type" : "Hypothetical Outcome Plot"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "So unsure",
+        "followUp" : "",
+        "followUpText" : "",
+        "mainAnswer" : "10",
+        "points" : [ [ 0.2, 0.4, 0.05, 0.45, 0.45, 0.15, 0.05, 0.2, 0.15, 0.1, 0.1, 0, 0, 0, 0.1, 0.1, 0.1, 0.2, 0.15, 0.1, 0.15, 0.15, 0.3, 0.15 ], [ 0.7, 0.9, 1, 0.9, 0.75, 0.75, 0.5, 0.4, 0.2, 0.15, 0.15, 0, 0, 0, 0.1, 0.15, 0.3, 0.3, 0.3, 0.4, 0.2, 0.4, 0.55, 0.6 ] ],
+        "questionType" : "probability",
+        "type" : "Static Bar Chart"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Very Confident",
+        "followUp" : "",
+        "followUpText" : "It says there is a high chance of heavy rain - that sounds like a bad time for a hike!",
+        "mainAnswer" : "Yes",
+        "points" : [ [ 0.15, 0, 0, 0, 0.15, 0.05, 0.2, 0.3, 0.1, 0.35, 0.4, 0.6, 0.3, 0.05, 0.2, 0.3, 0.2, 0.3, 0.3, 0.05, 0.1, 0, 0.15, 0.15 ], [ 0.2, 0, 0, 0.05, 0.25, 0.2, 0.4, 0.65, 0.65, 0.85, 1, 1, 1, 1, 0.85, 0.6, 0.5, 0.45, 0.45, 0.3, 0.2, 0, 0.2, 0.15 ] ],
+        "questionType" : "friend",
+        "type" : "Text"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Kind of confident",
+        "followUp" : "",
+        "followUpText" : "It looks like there is a 100% chance of light-moderate rain",
+        "mainAnswer" : "No",
+        "points" : [ [ 0.25, 0.3, 0.15, 0.1, 0, 0, 0.05, 0.2, 0.1, 0.3, 0.25, 0.15, 0.45, 0.45, 0.15, 0.15, 0.25, 0.5, 0.15, 0.3, 0.05, 0.3, 0.1, 0.15 ], [ 0.4, 0.4, 0.25, 0.2, 0.05, 0, 0.15, 0.3, 0.45, 0.5, 0.75, 0.95, 1, 1, 1, 1, 1, 0.8, 0.6, 0.85, 0.65, 0.45, 0.4, 0.2 ] ],
+        "questionType" : "alone",
+        "type" : "Quantile Dot Plot"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Kind of confident",
+        "followUp" : "",
+        "followUpText" : "",
+        "mainAnswer" : "55",
+        "points" : [ [ 0.1, 0.15, 0, 0, 0, 0.1, 0.1, 0.2, 0.05, 0.15, 0.2, 0.3, 0.05, 0.5, 0.5, 0.2, 0.3, 0.1, 0.1, 0.1, 0, 0, 0, 0 ], [ 0.3, 0.2, 0, 0, 0, 0.1, 0.35, 0.4, 0.2, 0.45, 0.65, 0.8, 1, 1, 0.8, 0.6, 0.45, 0.45, 0.35, 0.2, 0, 0, 0, 0.05 ] ],
+        "questionType" : "probability",
+        "type" : "Quantile Dot Plot"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Unsure",
+        "followUp" : "",
+        "followUpText" : "",
+        "mainAnswer" : "0.6",
+        "points" : [ [ 0.35, 0.1, 0.3, 0.2, 0.1, 0, 0.1, 0.05, 0.2, 0.05, 0.1, 0.15, 0.05, 0.15, 0.05, 0.3, 0.1, 0.15, 0.4, 0.25, 0.1, 0.35, 0.25, 0.45 ], [ 0.65, 0.8, 0.6, 0.35, 0.15, 0, 0.15, 0.2, 0.4, 0.5, 0.55, 0.35, 0.1, 0.25, 0.3, 0.5, 0.6, 0.75, 0.8, 0.9, 0.85, 1, 1, 1 ] ],
+        "questionType" : "amount",
+        "type" : "Text"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Kind of confident",
+        "followUp" : "",
+        "followUpText" : "",
+        "mainAnswer" : "0.1",
+        "points" : [ [ 0.05, 0.2, 0.1, 0.25, 0.25, 0.2, 0.25, 0.65, 0.55, 0.35, 0.1, 0.4, 0.2, 0.1, 0.1, 0.05, 0, 0, 0, 0, 0, 0, 0, 0 ], [ 0.2, 0.35, 0.4, 0.5, 0.65, 0.75, 0.95, 1, 0.85, 0.6, 0.7, 0.6, 0.55, 0.35, 0.2, 0.15, 0, 0, 0.05, 0, 0, 0.05, 0, 0 ] ],
+        "questionType" : "amount",
+        "type" : "Quantile Dot Plot"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Kind of confident",
+        "followUp" : "",
+        "followUpText" : "Watching the animation, it looks like it will rain in the early afternoon quite a bit",
+        "mainAnswer" : "Yes",
+        "points" : [ [ 0.25, 0.15, 0.4, 0.1, 0.2, 0.3, 0.2, 0.3, 0.1, 0.15, 0.35, 0.25, 0.1, 0.05, 0, 0, 0, 0.1, 0, 0, 0, 0, 0.15, 0.1 ], [ 0.35, 0.5, 0.6, 0.75, 0.85, 1, 0.8, 0.65, 0.7, 0.65, 0.5, 0.35, 0.25, 0.1, 0.05, 0, 0, 0.1, 0, 0, 0, 0, 0.2, 0.35 ] ],
+        "questionType" : "event",
+        "type" : "Quantile Dot Plot"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Very Confident",
+        "followUp" : "",
+        "followUpText" : "",
+        "mainAnswer" : "0",
+        "points" : [ [ 0.1, 0.1, 0, 0, 0, 0, 0, 0, 0, 0.15, 0.2, 0.2, 0.2, 0.1, 0, 0, 0, 0, 0.2, 0.25, 0.4, 0.25, 0.45, 0.6 ], [ 0.25, 0.1, 0, 0, 0, 0, 0, 0.05, 0, 0.2, 0.45, 0.25, 0.25, 0.1, 0, 0, 0.05, 0.05, 0.3, 0.5, 0.65, 0.8, 1, 1 ] ],
+        "questionType" : "amount",
+        "type" : "Hypothetical Outcome Plot"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Very Confident",
+        "followUp" : "",
+        "followUpText" : "The bars all day are very big and dark blue - that means rain!",
+        "mainAnswer" : "No",
+        "points" : [ [ 0.1, 0.3, 0.3, 0.4, 0.3, 0.2, 0.1, 0.25, 0.3, 0.45, 0.4, 0.3, 0.45, 0.55, 0.3, 0.35, 0.35, 0.2, 0.1, 0.25, 0.15, 0.15, 0.1, 0 ], [ 0.25, 0.4, 0.5, 0.6, 0.6, 0.45, 0.45, 0.55, 0.8, 0.75, 1, 1, 0.95, 1, 1, 0.75, 0.9, 0.9, 0.8, 0.55, 0.45, 0.2, 0.2, 0.05 ] ],
+        "questionType" : "alone",
+        "type" : "Static Bar Chart"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Kind of confident",
+        "followUp" : "",
+        "followUpText" : "It seems like it will rain heavy in the morning, then rain again at night after a short break in the weather",
+        "mainAnswer" : "Yes",
+        "points" : [ [ 0.65, 0.3, 0.35, 0.05, 0.2, 0.45, 0.55, 0.2, 0.2, 0.4, 0.05, 0.1, 0.2, 0.15, 0.2, 0.1, 0, 0, 0.15, 0.15, 0.4, 0.25, 0.5, 0.45 ], [ 1, 1, 1, 1, 1, 1, 1, 1, 0.8, 0.75, 0.5, 0.45, 0.4, 0.35, 0.3, 0.1, 0, 0, 0.25, 0.4, 0.6, 0.75, 0.8, 1 ] ],
+        "questionType" : "event",
+        "type" : "Text"
+      }, {
+        "done" : "This means the trials are done, you can ignore this data point",
+        "questionType" : "friend",
+        "type" : "Hypothetical Outcome Plot"
+      } ]
+    },
+    "-M_2Z1aPfj6IJE1pHAZJ" : {
+      "demographic" : {
+        "Reliable" : "Very reliable",
+        "app" : "Google",
+        "experience" : "Favorable",
+        "frequency" : "Daily",
+        "inaccurate" : "Never",
+        "reliable" : "Somewhat reliable",
+        "stats" : "Medium, some statistics classes and simulation courses for my IE degree"
+      },
+      "exitSurveyResults" : {
+        "EffortBar" : "Favorable",
+        "EffortDot" : "Unfavorable",
+        "EffortHOP" : "Neutral",
+        "EffortText" : "Favorable",
+        "Feedback" : "it was really hard to process the information as it was shifting in front of me, it would have been easier if I could have toggled to the next set of charts myself rather than the timed change",
+        "Rank1" : "QDP",
+        "Rank2" : "Hop",
+        "Rank3" : "Text",
+        "Rank4" : "Bar"
+      },
+      "page" : "Thanks",
+      "sessionID" : "8c188e50-b5f5-46ad-9fb8-7f2a7c2cbc7e",
+      "trials" : [ {
+        "askedForHelp" : false,
+        "confidence" : "Very Confident",
+        "followUp" : "",
+        "followUpText" : "",
+        "mainAnswer" : "0.05",
+        "points" : [ [ 0.15, 0.25, 0.15, 0.2, 0.1, 0.05, 0, 0.05, 0.15, 0, 0, 0.1, 0.15, 0.2, 0.25, 0.05, 0.15, 0.05, 0.15, 0.15, 0.2, 0.35, 0.35, 0.1 ], [ 0.45, 0.6, 0.35, 0.3, 0.15, 0.1, 0.05, 0.25, 0.2, 0, 0, 0.15, 0.2, 0.35, 0.4, 0.4, 0.2, 0.3, 0.2, 0.35, 0.45, 0.6, 0.7, 0.85 ] ],
+        "questionType" : "amount",
+        "type" : "Static Bar Chart"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Very Confident",
+        "followUp" : "",
+        "followUpText" : "looked at the 3 PM and after chance of precipitation, determined chance of rain to be low until 8 PM as an acceptable margin for the hike",
+        "mainAnswer" : "No",
+        "points" : [ [ 0.35, 0.2, 0.15, 0.3, 0.5, 0.2, 0.2, 0.35, 0.15, 0.1, 0.15, 0.1, 0.1, 0.05, 0.1, 0, 0, 0.1, 0.1, 0.1, 0.2, 0.2, 0.2, 0.4 ], [ 0.7, 0.95, 1, 0.8, 0.9, 0.8, 0.65, 0.55, 0.4, 0.3, 0.25, 0.15, 0.15, 0.15, 0.15, 0, 0.05, 0.15, 0.1, 0.15, 0.4, 0.55, 0.7, 0.9 ] ],
+        "questionType" : "friend",
+        "type" : "Text"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Very unsure",
+        "followUp" : "",
+        "followUpText" : "",
+        "mainAnswer" : "0.05",
+        "points" : [ [ 0.2, 0.35, 0.4, 0.3, 0.1, 0.1, 0.45, 0.5, 0.05, 0.15, 0.1, 0.1, 0.1, 0.15, 0.05, 0.05, 0, 0.1, 0, 0, 0.2, 0.1, 0.15, 0.35 ], [ 0.9, 0.95, 0.9, 1, 0.75, 0.5, 0.75, 0.95, 1, 0.8, 0.65, 0.75, 0.6, 0.45, 0.2, 0.15, 0, 0.1, 0, 0, 0.25, 0.25, 0.4, 0.55 ] ],
+        "questionType" : "amount",
+        "type" : "Text"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Unsure",
+        "followUp" : "",
+        "followUpText" : "this was overwhelming and I had a hard time interpreting the graph, I also kind of gave up bc it was taking longer than I wanted",
+        "mainAnswer" : "Yes",
+        "points" : [ [ 0.35, 0.1, 0.5, 0.6, 0.2, 0.5, 0.15, 0.2, 0.15, 0.25, 0.2, 0.1, 0, 0.05, 0, 0, 0, 0, 0, 0.15, 0.15, 0.25, 0.2, 0.2 ], [ 0.6, 0.65, 0.85, 1, 0.95, 1, 0.8, 0.7, 0.5, 0.35, 0.3, 0.2, 0, 0.05, 0, 0, 0, 0, 0, 0.25, 0.4, 0.55, 0.3, 0.5 ] ],
+        "questionType" : "event",
+        "type" : "Quantile Dot Plot"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Kind of confident",
+        "followUp" : "",
+        "followUpText" : "",
+        "mainAnswer" : "0",
+        "points" : [ [ 0.1, 0, 0, 0, 0.1, 0.15, 0.1, 0.25, 0.05, 0.3, 0.25, 0.35, 0.3, 0.05, 0.55, 0.05, 0.1, 0.35, 0.5, 0.6, 0.4, 0.45, 0.4, 0.55 ], [ 0.1, 0, 0, 0, 0.1, 0.35, 0.55, 0.5, 0.45, 0.6, 0.65, 0.7, 0.8, 0.7, 0.85, 1, 1, 1, 0.95, 1, 1, 0.95, 0.9, 1 ] ],
+        "questionType" : "amount",
+        "type" : "Quantile Dot Plot"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Kind of confident",
+        "followUp" : "",
+        "followUpText" : "determined based on the amount of precipitation possible throughout the day, but would have liked to see a percent chance to help with my decision as well",
+        "mainAnswer" : "Yes",
+        "points" : [ [ 0.15, 0.15, 0.15, 0.2, 0.25, 0.2, 0.15, 0.1, 0.2, 0.15, 0.3, 0.05, 0.1, 0.2, 0.05, 0.25, 0.15, 0.15, 0.05, 0.1, 0.1, 0.3, 0.15, 0.2 ], [ 0.35, 0.35, 0.25, 0.45, 0.5, 0.5, 0.45, 0.5, 0.25, 0.45, 0.55, 0.3, 0.15, 0.25, 0.3, 0.45, 0.3, 0.3, 0.15, 0.25, 0.25, 0.45, 0.65, 0.75 ] ],
+        "questionType" : "event",
+        "type" : "Static Bar Chart"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Very Confident",
+        "followUp" : "",
+        "followUpText" : "watched the 3-5 pm window and concluded the amount of rain was acceptable (very small) during that period",
+        "mainAnswer" : "No",
+        "points" : [ [ 0.25, 0.2, 0.1, 0.1, 0.15, 0.2, 0.1, 0.3, 0.25, 0.2, 0.1, 0.1, 0, 0.1, 0.1, 0.15, 0, 0, 0, 0.1, 0.1, 0.05, 0.15, 0.1 ], [ 0.75, 0.55, 0.55, 0.35, 0.3, 0.3, 0.45, 0.45, 0.6, 0.45, 0.2, 0.1, 0, 0.1, 0.1, 0.15, 0, 0, 0.05, 0.1, 0.15, 0.25, 0.25, 0.25 ] ],
+        "questionType" : "friend",
+        "type" : "Hypothetical Outcome Plot"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Neutral",
+        "followUp" : "",
+        "followUpText" : "",
+        "mainAnswer" : "0.3",
+        "points" : [ [ 0.15, 0.15, 0.35, 0.1, 0.15, 0.2, 0.15, 0.3, 0.5, 0.35, 0.25, 0.3, 0.45, 0.15, 0.45, 0.3, 0.2, 0.15, 0.3, 0.15, 0.05, 0, 0, 0.05 ], [ 0.2, 0.4, 0.6, 0.4, 0.55, 0.6, 0.7, 0.8, 0.8, 0.95, 0.7, 0.95, 1, 0.95, 0.85, 0.65, 0.5, 0.55, 0.45, 0.25, 0.05, 0.05, 0, 0.15 ] ],
+        "questionType" : "amount",
+        "type" : "Hypothetical Outcome Plot"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Very Confident",
+        "followUp" : "",
+        "followUpText" : "I would go if I only planned to be outside for an hour",
+        "mainAnswer" : "Yes",
+        "points" : [ [ 0.5, 0.05, 0.4, 0.1, 0.1, 0.05, 0.05, 0.15, 0.15, 0.15, 0.25, 0.05, 0.1, 0, 0, 0, 0.15, 0.15, 0.1, 0.1, 0.1, 0.1, 0.2, 0.3 ], [ 0.95, 0.75, 0.65, 0.5, 0.4, 0.3, 0.1, 0.25, 0.4, 0.4, 0.45, 0.2, 0.15, 0.05, 0.05, 0, 0.25, 0.25, 0.45, 0.55, 0.5, 0.65, 0.7, 0.5 ] ],
+        "questionType" : "alone",
+        "type" : "Static Bar Chart"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Very Confident",
+        "followUp" : "",
+        "followUpText" : "it looks like moderate chance of moderate rain all day, so I would like the alternative in case that comes to fruition",
+        "mainAnswer" : "Yes",
+        "points" : [ [ 0.15, 0.3, 0.1, 0.05, 0, 0.05, 0.1, 0, 0.15, 0.15, 0.2, 0.1, 0.05, 0.15, 0.1, 0.25, 0.1, 0.3, 0.35, 0.2, 0.25, 0.2, 0.15, 0.15 ], [ 0.45, 0.4, 0.15, 0.1, 0.05, 0.2, 0.1, 0, 0.25, 0.35, 0.3, 0.15, 0.2, 0.45, 0.5, 0.65, 0.65, 0.4, 0.5, 0.45, 0.45, 0.35, 0.35, 0.45 ] ],
+        "questionType" : "event",
+        "type" : "Text"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "So unsure",
+        "followUp" : "",
+        "followUpText" : "",
+        "mainAnswer" : "",
+        "points" : [ [ 0.1, 0.05, 0.15, 0.1, 0.25, 0.1, 0.2, 0.15, 0.1, 0.15, 0.1, 0, 0, 0.05, 0.1, 0.1, 0.15, 0.15, 0.2, 0.25, 0.35, 0.05, 0.1, 0.35 ], [ 0.25, 0.2, 0.25, 0.35, 0.45, 0.4, 0.4, 0.4, 0.25, 0.15, 0.1, 0.05, 0, 0.15, 0.1, 0.2, 0.2, 0.35, 0.55, 0.55, 0.55, 0.55, 0.6, 0.75 ] ],
+        "questionType" : "probability",
+        "type" : "Static Bar Chart"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Very Confident",
+        "followUp" : "",
+        "followUpText" : "",
+        "mainAnswer" : "0",
+        "points" : [ [ 0.3, 0.2, 0.1, 0.3, 0.1, 0.1, 0, 0, 0.05, 0, 0.1, 0, 0, 0.1, 0.05, 0, 0.1, 0.05, 0, 0, 0.1, 0.25, 0.25, 0.2 ], [ 0.4, 0.4, 0.2, 0.4, 0.3, 0.1, 0, 0, 0.2, 0.05, 0.2, 0.05, 0, 0.15, 0.15, 0, 0.2, 0.1, 0.05, 0, 0.2, 0.35, 0.55, 0.8 ] ],
+        "questionType" : "probability",
+        "type" : "Text"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Neutral",
+        "followUp" : "",
+        "followUpText" : "",
+        "mainAnswer" : "70",
+        "points" : [ [ 0, 0.15, 0.05, 0.2, 0.15, 0.1, 0.35, 0.1, 0.3, 0.15, 0.1, 0.05, 0.2, 0.1, 0.25, 0.5, 0.35, 0.15, 0.35, 0.4, 0.1, 0.5, 0.3, 0.25 ], [ 0, 0.15, 0.25, 0.45, 0.4, 0.4, 0.55, 0.6, 0.4, 0.2, 0.35, 0.2, 0.4, 0.6, 0.55, 0.8, 0.9, 1, 1, 0.95, 1, 1, 0.8, 0.75 ] ],
+        "questionType" : "probability",
+        "type" : "Hypothetical Outcome Plot"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Very Confident",
+        "followUp" : "",
+        "followUpText" : "3 and 4 pm both seem to have a 0% chance of precipitation, based on all the different iterations of the graph",
+        "mainAnswer" : "Yes",
+        "points" : [ [ 0.1, 0.4, 0.35, 0.15, 0.2, 0.3, 0.15, 0.15, 0.15, 0.3, 0.05, 0.1, 0.15, 0.05, 0, 0, 0, 0.15, 0.05, 0.1, 0.2, 0.1, 0.2, 0.45 ], [ 0.65, 0.7, 0.7, 0.65, 0.55, 0.5, 0.3, 0.45, 0.65, 0.55, 0.5, 0.3, 0.25, 0.1, 0, 0, 0, 0.15, 0.3, 0.3, 0.35, 0.6, 0.65, 0.7 ] ],
+        "questionType" : "alone",
+        "type" : "Hypothetical Outcome Plot"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Very Confident",
+        "followUp" : "",
+        "followUpText" : "the probability of precipitation is very high from 3 PM onwards",
+        "mainAnswer" : "No",
+        "points" : [ [ 0, 0, 0, 0.1, 0.15, 0.2, 0.15, 0.05, 0.3, 0.1, 0.05, 0.2, 0.1, 0.3, 0.4, 0.15, 0.15, 0.55, 0.5, 0.45, 0.2, 0.25, 0.15, 0.2 ], [ 0, 0, 0, 0.2, 0.3, 0.45, 0.4, 0.2, 0.45, 0.55, 0.75, 0.65, 0.75, 0.65, 0.8, 1, 0.95, 0.9, 0.95, 0.8, 0.65, 0.5, 0.25, 0.3 ] ],
+        "questionType" : "alone",
+        "type" : "Quantile Dot Plot"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Kind of confident",
+        "followUp" : "",
+        "followUpText" : "looks like a relatively high chance of rain throughout the day with not enough dry periods to feel safe holding the event outside",
+        "mainAnswer" : "Yes",
+        "points" : [ [ 0.25, 0.4, 0.3, 0.4, 0.35, 0.4, 0.2, 0.25, 0.5, 0.5, 0.45, 0.2, 0.25, 0.2, 0.05, 0.3, 0.1, 0.15, 0.15, 0.05, 0.05, 0, 0, 0 ], [ 0.35, 0.6, 0.7, 0.9, 1, 1, 1, 1, 0.9, 0.9, 0.65, 0.45, 0.4, 0.3, 0.3, 0.45, 0.5, 0.5, 0.4, 0.15, 0.1, 0, 0, 0 ] ],
+        "questionType" : "event",
+        "type" : "Hypothetical Outcome Plot"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Very Confident",
+        "followUp" : "",
+        "followUpText" : "",
+        "mainAnswer" : "0",
+        "points" : [ [ 0.1, 0.1, 0.25, 0.4, 0.5, 0.35, 0.5, 0.6, 0.35, 0.4, 0.15, 0.15, 0.15, 0, 0, 0, 0, 0.05, 0.1, 0.05, 0.45, 0.15, 0.3, 0.15 ], [ 0.45, 0.55, 0.65, 0.7, 0.85, 0.9, 1, 0.9, 0.65, 0.8, 0.6, 0.4, 0.25, 0.05, 0, 0, 0, 0.2, 0.4, 0.65, 0.75, 0.65, 0.45, 0.7 ] ],
+        "questionType" : "probability",
+        "type" : "Quantile Dot Plot"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Very Confident",
+        "followUp" : "",
+        "followUpText" : "the chance and amount of precipitation seems to be high following after 3 pm",
+        "mainAnswer" : "Yes",
+        "points" : [ [ 0.2, 0.1, 0.2, 0.15, 0.05, 0.1, 0.2, 0.15, 0, 0, 0.1, 0.05, 0, 0.1, 0.15, 0.2, 0.3, 0.35, 0.35, 0.25, 0.15, 0.1, 0.55, 0.4 ], [ 0.55, 0.3, 0.55, 0.5, 0.7, 0.5, 0.35, 0.2, 0.05, 0, 0.1, 0.25, 0, 0.15, 0.2, 0.35, 0.4, 0.55, 0.55, 0.7, 0.85, 1, 1, 0.95 ] ],
+        "questionType" : "friend",
+        "type" : "Quantile Dot Plot"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Very Confident",
+        "followUp" : "",
+        "followUpText" : "the chance of rain is moderate from 3-5 pm so I would not feel confident that I would not get rained on",
+        "mainAnswer" : "No",
+        "points" : [ [ 0, 0.1, 0.15, 0.05, 0.1, 0.2, 0.3, 0.1, 0.3, 0.1, 0.55, 0.15, 0.15, 0.3, 0.4, 0.1, 0.15, 0.2, 0.25, 0.05, 0.15, 0.15, 0.1, 0 ], [ 0.05, 0.1, 0.15, 0.05, 0.2, 0.3, 0.55, 0.55, 0.65, 0.7, 0.9, 1, 0.9, 0.85, 0.6, 0.4, 0.3, 0.5, 0.7, 0.45, 0.35, 0.35, 0.1, 0 ] ],
+        "questionType" : "alone",
+        "type" : "Text"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Very Confident",
+        "followUp" : "",
+        "followUpText" : "3 and 4 pm seem to have limited precipitation, so we should be safe",
+        "mainAnswer" : "No",
+        "points" : [ [ 0.55, 0.3, 0.25, 0.25, 0.2, 0.35, 0.2, 0.15, 0.2, 0.1, 0.25, 0.2, 0.2, 0.1, 0, 0, 0, 0.05, 0.2, 0.15, 0.4, 0.05, 0.2, 0.25 ], [ 1, 0.95, 0.75, 0.55, 0.5, 0.7, 0.55, 0.8, 0.85, 0.75, 0.7, 0.5, 0.4, 0.15, 0.05, 0, 0.05, 0.3, 0.55, 0.4, 0.6, 0.65, 0.65, 0.65 ] ],
+        "questionType" : "friend",
+        "type" : "Static Bar Chart"
+      }, {
+        "done" : "This means the trials are done, you can ignore this data point",
+        "questionType" : "amount",
+        "type" : "Static Bar Chart"
+      } ]
+    },
+    "-M_2ZgMYG6wbdE9ykD9W" : {
+      "demographic" : {
+        "Reliable" : "Very reliable",
+        "app" : "Apple Weather",
+        "experience" : "Very favorable",
+        "frequency" : "More than once per day",
+        "inaccurate" : "Not very often",
+        "stats" : "Have taken a few statics classes in high school and college"
+      },
+      "exitSurveyResults" : {
+        "EffortBar" : "Favorable",
+        "EffortDot" : "Neutral",
+        "EffortHOP" : "Favorable",
+        "EffortText" : "Very favorable",
+        "Feedback" : "Great study of forecast data and our perception of it- I use weather apps a lot so this is really neat!",
+        "Rank1" : "Text",
+        "Rank2" : "Hop",
+        "Rank3" : "Bar",
+        "Rank4" : "QDP"
+      },
+      "page" : "Thanks",
+      "sessionID" : "8ffa9aed-e41c-4054-b51f-2799b312732e",
+      "trials" : [ {
+        "askedForHelp" : false,
+        "confidence" : "Kind of confident",
+        "followUp" : "",
+        "followUpText" : "",
+        "mainAnswer" : "100",
+        "points" : [ [ 0.2, 0.05, 0, 0.05, 0.1, 0.05, 0.05, 0.05, 0.1, 0.3, 0.25, 0.4, 0.2, 0.4, 0.25, 0.3, 0.2, 0.1, 0.05, 0.4, 0.1, 0.1, 0.05, 0.1 ], [ 0.3, 0.15, 0, 0.1, 0.15, 0.05, 0.1, 0.1, 0.35, 0.5, 0.7, 0.8, 0.9, 0.9, 0.85, 1, 0.8, 0.55, 0.65, 0.6, 0.5, 0.4, 0.25, 0.1 ] ],
+        "questionType" : "probability",
+        "type" : "Hypothetical Outcome Plot"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Very Confident",
+        "followUp" : "",
+        "followUpText" : "",
+        "mainAnswer" : "0.3",
+        "points" : [ [ 0.3, 0.2, 0.1, 0.05, 0, 0, 0, 0.1, 0.1, 0.1, 0.2, 0.2, 0.35, 0.4, 0.6, 0.35, 0.45, 0.15, 0.15, 0.6, 0.5, 0.5, 0.05, 0.5 ], [ 0.5, 0.3, 0.15, 0.1, 0, 0, 0, 0.1, 0.2, 0.3, 0.3, 0.45, 0.6, 0.8, 1, 0.75, 0.7, 0.65, 0.85, 1, 0.95, 1, 1, 0.9 ] ],
+        "questionType" : "amount",
+        "type" : "Text"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Very Confident",
+        "followUp" : "",
+        "followUpText" : "",
+        "mainAnswer" : "10",
+        "points" : [ [ 0.2, 0.2, 0.15, 0.1, 0.05, 0.35, 0.15, 0.3, 0.15, 0.15, 0.1, 0, 0, 0.05, 0.1, 0.1, 0.15, 0.2, 0.3, 0.2, 0.45, 0.2, 0.5, 0.35 ], [ 0.6, 0.6, 0.4, 0.55, 0.6, 0.5, 0.55, 0.5, 0.25, 0.25, 0.15, 0.05, 0, 0.2, 0.25, 0.1, 0.2, 0.4, 0.5, 0.5, 0.75, 0.95, 1, 0.95 ] ],
+        "questionType" : "probability",
+        "type" : "Text"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Very Confident",
+        "followUp" : "",
+        "followUpText" : "",
+        "mainAnswer" : "0.05",
+        "points" : [ [ 0.05, 0.5, 0.5, 0.2, 0.2, 0.45, 0.45, 0.2, 0.25, 0.1, 0.15, 0.1, 0.1, 0, 0, 0.05, 0.15, 0.1, 0.25, 0.1, 0.35, 0.4, 0.35, 0.05 ], [ 0.8, 0.95, 0.75, 0.7, 0.55, 0.7, 0.8, 0.7, 0.45, 0.3, 0.3, 0.25, 0.2, 0, 0, 0.05, 0.2, 0.3, 0.45, 0.55, 0.65, 0.7, 0.5, 0.4 ] ],
+        "questionType" : "amount",
+        "type" : "Static Bar Chart"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Very Confident",
+        "followUp" : "",
+        "followUpText" : "looked at the plot for 3pm, saw that the data for the % and amount was exclusively at 0 and 0%",
+        "mainAnswer" : "Yes",
+        "points" : [ [ 0.15, 0.2, 0.05, 0.55, 0.6, 0.6, 0.4, 0.5, 0.45, 0.05, 0.15, 0.1, 0.1, 0, 0.05, 0, 0, 0.15, 0.2, 0.2, 0.1, 0.25, 0.1, 0.1 ], [ 0.5, 0.55, 0.8, 0.9, 1, 1, 0.95, 0.8, 0.7, 0.55, 0.35, 0.3, 0.15, 0, 0.1, 0, 0.05, 0.25, 0.3, 0.5, 0.6, 0.4, 0.55, 0.6 ] ],
+        "questionType" : "alone",
+        "type" : "Quantile Dot Plot"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Very Confident",
+        "followUp" : "",
+        "followUpText" : "looked at listing and saw that a majority of times during the day had at least a 70% chance of rain",
+        "mainAnswer" : "Yes",
+        "points" : [ [ 0.4, 0.6, 0.15, 0.05, 0.2, 0.5, 0.3, 0.5, 0.2, 0.1, 0.15, 0.25, 0.3, 0.45, 0.45, 0.35, 0.15, 0.1, 0.25, 0.15, 0, 0, 0.05, 0.05 ], [ 0.8, 0.95, 0.8, 0.6, 0.7, 0.9, 0.95, 1, 1, 0.95, 0.85, 0.85, 0.85, 0.7, 0.85, 0.8, 0.65, 0.6, 0.4, 0.2, 0.05, 0, 0.05, 0.1 ] ],
+        "questionType" : "event",
+        "type" : "Text"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Kind of confident",
+        "followUp" : "",
+        "followUpText" : "saw that there's no precip at 3pm but it does look like it'll be raining heavily during the morning, which might end up going longer than expected, but the rest of the day looks fairly clear so I would probably go ahead with the hike",
+        "mainAnswer" : "No",
+        "points" : [ [ 0.25, 0.25, 0.15, 0.35, 0.15, 0.4, 0.5, 0.4, 0.1, 0.5, 0.5, 0.1, 0.25, 0.25, 0.1, 0, 0.15, 0, 0.1, 0, 0, 0, 0, 0.05 ], [ 0.55, 0.6, 0.65, 0.9, 0.9, 1, 1, 1, 1, 0.9, 0.8, 0.7, 0.5, 0.4, 0.15, 0.05, 0.2, 0.05, 0.15, 0, 0, 0, 0, 0.2 ] ],
+        "questionType" : "friend",
+        "type" : "Text"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Kind of confident",
+        "followUp" : "",
+        "followUpText" : "",
+        "mainAnswer" : "7",
+        "points" : [ [ 0.4, 0.2, 0.2, 0.15, 0.2, 0.45, 0.45, 0.1, 0.15, 0.15, 0.05, 0.1, 0.05, 0, 0.05, 0.1, 0.1, 0.2, 0.2, 0.35, 0.05, 0.15, 0.5, 0.25 ], [ 0.75, 0.95, 0.7, 0.8, 1, 0.85, 0.8, 0.65, 0.45, 0.25, 0.15, 0.25, 0.1, 0, 0.05, 0.15, 0.15, 0.25, 0.4, 0.6, 0.65, 0.7, 0.85, 0.7 ] ],
+        "questionType" : "probability",
+        "type" : "Quantile Dot Plot"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Unsure",
+        "followUp" : "",
+        "followUpText" : "",
+        "mainAnswer" : "100",
+        "points" : [ [ 0.05, 0.1, 0.15, 0.25, 0.15, 0.2, 0.3, 0.05, 0.2, 0.35, 0.25, 0.2, 0.25, 0.3, 0.35, 0.2, 0.3, 0.45, 0.4, 0.2, 0.3, 0.5, 0.5, 0.6 ], [ 0.1, 0.2, 0.2, 0.4, 0.5, 0.4, 0.45, 0.45, 0.6, 0.7, 0.8, 0.7, 0.8, 0.6, 0.65, 0.5, 0.6, 0.85, 1, 0.9, 0.9, 1, 1, 1 ] ],
+        "questionType" : "probability",
+        "type" : "Static Bar Chart"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Very Confident",
+        "followUp" : "",
+        "followUpText" : "viewed the changing plot and saw that most of the midday & afternoon was mostly clear",
+        "mainAnswer" : "No",
+        "points" : [ [ 0.15, 0.15, 0.25, 0.4, 0.3, 0.15, 0.35, 0.5, 0.15, 0.3, 0.25, 0.05, 0.15, 0.1, 0.1, 0.1, 0, 0, 0, 0.1, 0, 0.1, 0.1, 0.3 ], [ 0.45, 0.55, 0.6, 0.65, 0.65, 0.85, 1, 0.8, 0.7, 0.55, 0.45, 0.3, 0.25, 0.2, 0.1, 0.1, 0, 0, 0, 0.15, 0, 0.15, 0.3, 0.5 ] ],
+        "questionType" : "event",
+        "type" : "Hypothetical Outcome Plot"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Kind of confident",
+        "followUp" : "",
+        "followUpText" : "saw the moderate to heavy bars on the chart throughout the day, not sure of the % chance but it seems like some amount of significant rain is expected",
+        "mainAnswer" : "Yes",
+        "points" : [ [ 0.35, 0.1, 0.15, 0.1, 0.1, 0.05, 0, 0.15, 0.3, 0.05, 0.15, 0.15, 0.2, 0.15, 0.35, 0.1, 0.3, 0.3, 0.35, 0.45, 0.2, 0.25, 0.15, 0.15 ], [ 0.55, 0.65, 0.4, 0.2, 0.35, 0.15, 0, 0.2, 0.45, 0.25, 0.4, 0.45, 0.5, 0.7, 0.85, 0.85, 1, 0.95, 0.75, 0.75, 0.7, 0.45, 0.4, 0.3 ] ],
+        "questionType" : "event",
+        "type" : "Static Bar Chart"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Very Confident",
+        "followUp" : "",
+        "followUpText" : "saw that 3pm and the area around it had moderate and high precip expected",
+        "mainAnswer" : "Yes",
+        "points" : [ [ 0.25, 0.1, 0.25, 0.45, 0.35, 0.2, 0.3, 0.15, 0.05, 0.15, 0.25, 0.1, 0.4, 0.45, 0.2, 0.5, 0.35, 0.2, 0.4, 0.4, 0.3, 0.2, 0.4, 0.4 ], [ 0.7, 0.7, 0.75, 0.8, 0.55, 0.6, 0.5, 0.7, 0.45, 0.65, 0.55, 0.7, 0.85, 1, 1, 0.9, 1, 1, 1, 0.9, 0.75, 0.95, 0.8, 0.6 ] ],
+        "questionType" : "friend",
+        "type" : "Static Bar Chart"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Very Confident",
+        "followUp" : "",
+        "followUpText" : "looked at the percentages and type of precip at and around 3pm, saw that there was about 40%ish and that it was moderate to heavy, so it seems like there's a good chance of some amount of rain",
+        "mainAnswer" : "Yes",
+        "points" : [ [ 0.1, 0.05, 0.2, 0.25, 0.2, 0.25, 0.3, 0.55, 0.4, 0.15, 0.15, 0.1, 0.15, 0.2, 0.3, 0.25, 0.15, 0.1, 0.1, 0.1, 0.05, 0, 0, 0 ], [ 0.15, 0.3, 0.35, 0.5, 0.65, 0.75, 0.75, 0.95, 1, 1, 0.9, 0.7, 0.55, 0.4, 0.4, 0.4, 0.25, 0.15, 0.1, 0.2, 0.15, 0, 0, 0 ] ],
+        "questionType" : "alone",
+        "type" : "Text"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Very Confident",
+        "followUp" : "",
+        "followUpText" : "looked at both plots, the % one seems consistently high at peak times, precipitation amount seems significant",
+        "mainAnswer" : "Yes",
+        "points" : [ [ 0.25, 0.2, 0.1, 0, 0, 0.15, 0.25, 0.3, 0.1, 0.2, 0.35, 0.55, 0.2, 0.4, 0.4, 0.15, 0.25, 0.55, 0.6, 0.2, 0.35, 0.5, 0.1, 0.3 ], [ 0.45, 0.4, 0.15, 0, 0, 0.25, 0.4, 0.4, 0.6, 0.7, 0.9, 0.8, 0.85, 0.7, 0.75, 0.9, 0.95, 1, 1, 1, 0.95, 0.9, 0.75, 0.5 ] ],
+        "questionType" : "event",
+        "type" : "Quantile Dot Plot"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Very Confident",
+        "followUp" : "",
+        "followUpText" : "high precip shown around that time",
+        "mainAnswer" : "No",
+        "points" : [ [ 0.1, 0.2, 0.15, 0.05, 0, 0, 0.1, 0.1, 0.15, 0.25, 0.15, 0.1, 0.3, 0.35, 0.45, 0.4, 0.6, 0.3, 0.4, 0.05, 0.15, 0.1, 0.3, 0.1 ], [ 0.4, 0.3, 0.3, 0.1, 0, 0, 0.25, 0.25, 0.2, 0.45, 0.2, 0.4, 0.55, 0.75, 0.8, 1, 1, 1, 0.8, 0.8, 0.55, 0.4, 0.55, 0.5 ] ],
+        "questionType" : "alone",
+        "type" : "Static Bar Chart"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Very Confident",
+        "followUp" : "",
+        "followUpText" : "hypothetical plots consistently show precip at or around 3pm",
+        "mainAnswer" : "No",
+        "points" : [ [ 0.15, 0.35, 0.15, 0.45, 0.1, 0.3, 0.5, 0.35, 0.1, 0.3, 0.2, 0.3, 0.25, 0.15, 0.25, 0.2, 0.2, 0.1, 0.1, 0.1, 0, 0, 0, 0 ], [ 0.5, 0.55, 0.7, 0.7, 0.75, 0.95, 1, 0.9, 0.8, 0.8, 0.6, 0.45, 0.65, 0.5, 0.4, 0.55, 0.4, 0.3, 0.1, 0.1, 0, 0, 0, 0 ] ],
+        "questionType" : "alone",
+        "type" : "Hypothetical Outcome Plot"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Kind of confident",
+        "followUp" : "",
+        "followUpText" : "saw that while 3pm isn't always populated, seemed like a lot of the plots show rain for 4pm and onward",
+        "mainAnswer" : "Yes",
+        "points" : [ [ 0.15, 0.4, 0.35, 0.15, 0.25, 0.25, 0.1, 0.1, 0.15, 0.1, 0.05, 0, 0, 0.15, 0.1, 0.05, 0.15, 0.2, 0.15, 0.35, 0.15, 0.2, 0.3, 0.25 ], [ 0.75, 0.7, 0.9, 0.7, 0.55, 0.35, 0.25, 0.2, 0.3, 0.15, 0.25, 0, 0, 0.2, 0.35, 0.3, 0.5, 0.65, 0.85, 0.7, 0.85, 1, 0.9, 0.8 ] ],
+        "questionType" : "friend",
+        "type" : "Hypothetical Outcome Plot"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Very Confident",
+        "followUp" : "",
+        "followUpText" : "little to no rain shown at 3pm based on plots, time afterwards getting slightly more suggestive of rain but still seems minnimal",
+        "mainAnswer" : "Yes",
+        "points" : [ [ 0.25, 0.1, 0.1, 0.15, 0.25, 0.25, 0.25, 0.1, 0.15, 0.25, 0.2, 0.35, 0.25, 0.1, 0, 0, 0.1, 0.15, 0.15, 0.05, 0.2, 0.15, 0.3, 0.15 ], [ 0.4, 0.15, 0.2, 0.45, 0.65, 0.7, 0.9, 1, 0.9, 0.85, 0.65, 0.5, 0.45, 0.2, 0, 0.05, 0.15, 0.15, 0.3, 0.3, 0.35, 0.45, 0.55, 0.65 ] ],
+        "questionType" : "friend",
+        "type" : "Quantile Dot Plot"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Kind of confident",
+        "followUp" : "",
+        "followUpText" : "",
+        "mainAnswer" : "0.1",
+        "points" : [ [ 0.15, 0.1, 0.35, 0.1, 0.35, 0.3, 0.45, 0.4, 0.15, 0.35, 0.1, 0.05, 0, 0, 0.1, 0.1, 0.25, 0.1, 0.2, 0.35, 0.3, 0.1, 0.3, 0.35 ], [ 0.35, 0.55, 0.8, 0.9, 0.95, 1, 0.8, 0.85, 0.65, 0.55, 0.4, 0.25, 0.05, 0, 0.15, 0.3, 0.45, 0.3, 0.4, 0.6, 0.5, 0.55, 0.65, 0.7 ] ],
+        "questionType" : "amount",
+        "type" : "Quantile Dot Plot"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Kind of confident",
+        "followUp" : "",
+        "followUpText" : "",
+        "mainAnswer" : "0.05",
+        "points" : [ [ 0.15, 0.35, 0.1, 0.3, 0.2, 0.15, 0.2, 0.5, 0.15, 0.1, 0.35, 0.2, 0.15, 0.05, 0, 0.1, 0.25, 0.15, 0.05, 0, 0, 0, 0.05, 0 ], [ 0.95, 1, 0.9, 0.75, 0.55, 0.55, 0.65, 0.85, 0.65, 0.65, 0.6, 0.4, 0.3, 0.25, 0.05, 0.2, 0.3, 0.3, 0.1, 0, 0, 0, 0.1, 0 ] ],
+        "questionType" : "amount",
+        "type" : "Hypothetical Outcome Plot"
+      }, {
+        "done" : "This means the trials are done, you can ignore this data point",
+        "questionType" : "probability",
+        "type" : "Hypothetical Outcome Plot"
+      } ]
+    },
+    "-M_2rqfXtsYXvkz_2NoM" : {
+      "demographic" : {
+        "Reliable" : "Very reliable",
+        "app" : "The Default iPhone Weather App",
+        "experience" : "Neutral",
+        "frequency" : "Sometimes",
+        "inaccurate" : "Not very often",
+        "stats" : "I've taken multiple statistics courses"
+      },
+      "exitSurveyResults" : {
+        "EffortBar" : "Neutral",
+        "EffortDot" : "Very unfavorable",
+        "EffortHOP" : "Unfavorable",
+        "EffortText" : "Favorable",
+        "Feedback" : "Very unfavorable",
+        "Rank1" : "Bar",
+        "Rank2" : "Text",
+        "Rank3" : "Hop",
+        "Rank4" : "QDP"
+      },
+      "page" : "Thanks",
+      "sessionID" : "95442193-edef-4b82-9dd0-a672cdb4d997",
+      "trials" : [ {
+        "askedForHelp" : true,
+        "confidence" : "Kind of confident",
+        "followUp" : "",
+        "followUpText" : "",
+        "mainAnswer" : "10",
+        "points" : [ [ 0.4, 0.35, 0.1, 0.15, 0.25, 0.2, 0.25, 0.3, 0.15, 0.4, 0.2, 0.4, 0.1, 0.35, 0.2, 0.1, 0.05, 0.55, 0.45, 0.45, 0.3, 0.55, 0.2, 0.45 ], [ 0.65, 0.65, 0.75, 0.8, 0.6, 0.7, 0.55, 0.8, 0.6, 0.6, 0.45, 0.6, 0.65, 0.55, 0.75, 0.8, 0.9, 0.95, 1, 0.9, 0.85, 0.9, 0.95, 0.85 ] ],
+        "questionType" : "probability",
+        "type" : "Hypothetical Outcome Plot"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Very Confident",
+        "followUp" : "",
+        "followUpText" : "I see that there is a moderate chance of rain in a few clusters throughout the day. It's only around 50% chance at worst but if the fee is small I would book it.",
+        "mainAnswer" : "Yes",
+        "points" : [ [ 0.15, 0.05, 0.1, 0, 0, 0.1, 0.1, 0.3, 0.45, 0.45, 0.15, 0.3, 0.05, 0.4, 0.1, 0.1, 0.3, 0.6, 0.05, 0.35, 0.4, 0.4, 0.35, 0.2 ], [ 0.35, 0.3, 0.1, 0, 0.05, 0.15, 0.4, 0.6, 0.7, 0.75, 0.8, 0.6, 0.85, 1, 0.95, 1, 1, 0.9, 0.9, 0.7, 0.6, 0.7, 0.7, 0.5 ] ],
+        "questionType" : "event",
+        "type" : "Static Bar Chart"
+      }, {
+        "askedForHelp" : true,
+        "confidence" : "Very Confident",
+        "followUp" : "",
+        "followUpText" : "",
+        "mainAnswer" : "35",
+        "points" : [ [ 0.5, 0.55, 0.15, 0.2, 0.3, 0.35, 0.4, 0.05, 0.15, 0.05, 0.15, 0.05, 0, 0.05, 0.15, 0.15, 0.15, 0.1, 0.2, 0.15, 0.25, 0.15, 0.15, 0.2 ], [ 0.9, 1, 0.85, 0.7, 0.55, 0.65, 0.65, 0.55, 0.55, 0.35, 0.25, 0.15, 0, 0.25, 0.2, 0.35, 0.25, 0.15, 0.25, 0.4, 0.5, 0.25, 0.35, 0.35 ] ],
+        "questionType" : "probability",
+        "type" : "Text"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Neutral",
+        "followUp" : "",
+        "followUpText" : "",
+        "mainAnswer" : "10",
+        "points" : [ [ 0.5, 0.4, 0.15, 0.55, 0.45, 0.3, 0.2, 0.05, 0.15, 0.2, 0.1, 0.1, 0.25, 0.15, 0, 0.1, 0.1, 0.15, 0.15, 0.25, 0.25, 0.45, 0.35, 0.4 ], [ 0.85, 0.7, 0.8, 1, 0.8, 0.65, 0.45, 0.2, 0.45, 0.35, 0.2, 0.4, 0.4, 0.2, 0, 0.15, 0.15, 0.3, 0.4, 0.65, 0.5, 0.65, 0.85, 0.95 ] ],
+        "questionType" : "probability",
+        "type" : "Static Bar Chart"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Very Confident",
+        "followUp" : "",
+        "followUpText" : "If it had been raining all morning, the trails may be slippery and muddy.",
+        "mainAnswer" : "Yes",
+        "points" : [ [ 0.3, 0.25, 0.5, 0.55, 0.4, 0.5, 0.2, 0.4, 0.1, 0.2, 0.25, 0.05, 0.35, 0.3, 0.15, 0.15, 0.05, 0.15, 0, 0, 0.05, 0, 0, 0.1 ], [ 0.5, 0.6, 0.8, 0.95, 1, 1, 1, 0.85, 0.6, 0.75, 0.95, 0.8, 0.6, 0.5, 0.3, 0.3, 0.05, 0.2, 0, 0, 0.15, 0, 0, 0.2 ] ],
+        "questionType" : "friend",
+        "type" : "Quantile Dot Plot"
+      }, {
+        "askedForHelp" : true,
+        "confidence" : "Very Confident",
+        "followUp" : "",
+        "followUpText" : "The trails should be dry and the only unnerving time is 6 PM but if the hike is quick, it shouldn't be a problem",
+        "mainAnswer" : "No",
+        "points" : [ [ 0.15, 0.15, 0.05, 0.2, 0.15, 0.05, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0.05, 0.15, 0.2, 0.35, 0.2, 0.1, 0.55, 0.15, 0.4 ], [ 0.35, 0.25, 0.2, 0.3, 0.3, 0.1, 0.05, 0.05, 0.05, 0, 0, 0, 0, 0, 0, 0.1, 0.15, 0.4, 0.55, 0.75, 0.8, 1, 0.95, 1 ] ],
+        "questionType" : "friend",
+        "type" : "Hypothetical Outcome Plot"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Very Confident",
+        "followUp" : "",
+        "followUpText" : "I don't expect to walk for very long. I could also bring an umbrella.",
+        "mainAnswer" : "Yes",
+        "points" : [ [ 0.3, 0.45, 0.05, 0.3, 0.3, 0.2, 0.1, 0, 0.1, 0.2, 0.2, 0.1, 0.1, 0.25, 0.1, 0.15, 0.05, 0.35, 0.4, 0.3, 0.6, 0.45, 0.25, 0.55 ], [ 0.7, 0.7, 0.6, 0.65, 0.45, 0.35, 0.15, 0, 0.15, 0.3, 0.4, 0.45, 0.45, 0.5, 0.55, 0.75, 0.8, 1, 0.85, 1, 1, 1, 1, 0.9 ] ],
+        "questionType" : "alone",
+        "type" : "Static Bar Chart"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Very Confident",
+        "followUp" : "",
+        "followUpText" : "The trails will be more likely to be muddy and miserable. I interpret a high likelihood of rain between 9 AM and 1 PM.",
+        "mainAnswer" : "Yes",
+        "points" : [ [ 0, 0.15, 0.15, 0.2, 0.4, 0.3, 0.6, 0.15, 0.2, 0.5, 0.35, 0.45, 0.3, 0.4, 0.15, 0.35, 0.1, 0.2, 0.25, 0.05, 0.25, 0.05, 0.2, 0 ], [ 0.05, 0.25, 0.3, 0.45, 0.65, 0.85, 1, 0.8, 1, 1, 1, 1, 1, 1, 0.75, 0.8, 0.8, 0.75, 0.65, 0.55, 0.55, 0.35, 0.3, 0.05 ] ],
+        "questionType" : "friend",
+        "type" : "Static Bar Chart"
+      }, {
+        "askedForHelp" : true,
+        "confidence" : "Kind of confident",
+        "followUp" : "",
+        "followUpText" : "",
+        "mainAnswer" : "0.01",
+        "points" : [ [ 0.2, 0.2, 0.15, 0.25, 0.05, 0.1, 0.1, 0.2, 0.15, 0.15, 0.1, 0, 0.1, 0.2, 0.2, 0.05, 0.1, 0.1, 0.1, 0.2, 0.35, 0.15, 0.25, 0.45 ], [ 0.3, 0.45, 0.4, 0.5, 0.35, 0.25, 0.2, 0.4, 0.35, 0.3, 0.1, 0, 0.15, 0.3, 0.4, 0.45, 0.25, 0.4, 0.5, 0.45, 0.7, 0.85, 0.95, 0.7 ] ],
+        "questionType" : "amount",
+        "type" : "Hypothetical Outcome Plot"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Very Confident",
+        "followUp" : "",
+        "followUpText" : "It looks like a guarantee it will be raining during and before my walk, so I would choose to reschedule.",
+        "mainAnswer" : "No",
+        "points" : [ [ 0.1, 0, 0.05, 0.05, 0.15, 0.15, 0.3, 0.3, 0.25, 0.2, 0.45, 0.2, 0.55, 0.05, 0.45, 0.2, 0.1, 0.15, 0.5, 0.1, 0.4, 0.35, 0.2, 0.45 ], [ 0.1, 0, 0.15, 0.2, 0.25, 0.25, 0.4, 0.55, 0.65, 0.7, 0.75, 0.95, 0.95, 0.95, 0.95, 1, 0.9, 0.8, 0.95, 0.75, 0.75, 0.7, 0.95, 0.95 ] ],
+        "questionType" : "alone",
+        "type" : "Quantile Dot Plot"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Very Confident",
+        "followUp" : "",
+        "followUpText" : "It looks like it won't rain at all on this day, and I woul enjoy a walk at 3 PM.",
+        "mainAnswer" : "Yes",
+        "points" : [ [ 0, 0.1, 0, 0, 0, 0, 0.1, 0.1, 0.05, 0, 0, 0.1, 0.2, 0.05, 0, 0, 0.1, 0.05, 0.15, 0.3, 0.3, 0.1, 0.1, 0.05 ], [ 0, 0.2, 0.05, 0, 0, 0, 0.1, 0.15, 0.15, 0, 0, 0.1, 0.3, 0.1, 0, 0, 0.1, 0.2, 0.25, 0.45, 0.6, 0.45, 0.3, 0.2 ] ],
+        "questionType" : "alone",
+        "type" : "Hypothetical Outcome Plot"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Kind of confident",
+        "followUp" : "",
+        "followUpText" : "",
+        "mainAnswer" : "0.35",
+        "points" : [ [ 0.5, 0.05, 0.45, 0.4, 0.4, 0.35, 0.1, 0.3, 0.55, 0.35, 0.55, 0.2, 0.1, 0.15, 0.25, 0.4, 0.3, 0.05, 0.15, 0.1, 0.1, 0.05, 0, 0 ], [ 1, 1, 1, 1, 1, 1, 0.95, 0.95, 1, 1, 1, 1, 0.75, 0.55, 0.55, 0.8, 0.9, 0.75, 0.55, 0.5, 0.3, 0.1, 0, 0 ] ],
+        "questionType" : "amount",
+        "type" : "Static Bar Chart"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Very confident",
+        "followUp" : "",
+        "followUpText" : "The rain seems most likely after the hike begins, when it's more dangerous since it's harder to prepare.",
+        "mainAnswer" : "Yes",
+        "points" : [ [ 0.05, 0.15, 0.1, 0, 0, 0, 0, 0, 0.05, 0.1, 0.05, 0.15, 0.2, 0.15, 0.25, 0.3, 0.3, 0.55, 0.15, 0.4, 0.1, 0.25, 0.55, 0.3 ], [ 0.2, 0.15, 0.15, 0, 0, 0.05, 0, 0, 0.05, 0.15, 0.35, 0.35, 0.4, 0.5, 0.5, 0.5, 0.7, 0.85, 1, 0.8, 0.9, 1, 1, 0.85 ] ],
+        "questionType" : "friend",
+        "type" : "Text"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Very confident",
+        "followUp" : "",
+        "followUpText" : "I don't see a high enough chance for rain around that time and while there would be rain that morning, I think it would be nicer out by the time I go out.",
+        "mainAnswer" : "Yes",
+        "points" : [ [ 0.25, 0.25, 0.5, 0.35, 0.1, 0.3, 0.4, 0.45, 0.15, 0.15, 0.15, 0.15, 0.15, 0.15, 0.1, 0, 0.05, 0.1, 0.25, 0.2, 0.15, 0.35, 0.2, 0.2 ], [ 0.95, 0.85, 0.8, 0.7, 0.85, 0.85, 0.7, 0.8, 0.55, 0.35, 0.2, 0.45, 0.45, 0.25, 0.1, 0, 0.15, 0.35, 0.45, 0.3, 0.5, 0.75, 0.9, 1 ] ],
+        "questionType" : "alone",
+        "type" : "Text"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Kind of confident",
+        "followUp" : "",
+        "followUpText" : "",
+        "mainAnswer" : "0.38",
+        "points" : [ [ 0.2, 0.1, 0.25, 0.15, 0, 0.1, 0.2, 0.15, 0.1, 0.2, 0.35, 0.35, 0.4, 0.1, 0.15, 0.6, 0.5, 0.45, 0.2, 0.1, 0.15, 0.2, 0.1, 0.05 ], [ 0.25, 0.4, 0.45, 0.2, 0.05, 0.15, 0.3, 0.3, 0.45, 0.65, 0.7, 0.85, 1, 1, 1, 0.95, 0.95, 0.8, 0.7, 0.7, 0.5, 0.35, 0.3, 0.15 ] ],
+        "questionType" : "amount",
+        "type" : "Text"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Very Confident",
+        "followUp" : "",
+        "followUpText" : "I see no rain before or after the event starts until 9 pm, and would probably skip buying the indoor space.",
+        "mainAnswer" : "No",
+        "points" : [ [ 0.1, 0.25, 0.35, 0.3, 0.05, 0.5, 0.35, 0.2, 0.65, 0.1, 0.15, 0.15, 0.05, 0.35, 0.1, 0, 0.05, 0, 0.05, 0.15, 0.15, 0.2, 0.3, 0.45 ], [ 0.35, 0.45, 0.65, 0.65, 0.65, 0.75, 0.9, 0.85, 1, 0.8, 0.8, 0.75, 0.7, 0.55, 0.3, 0.05, 0.1, 0, 0.25, 0.25, 0.4, 0.65, 0.75, 0.95 ] ],
+        "questionType" : "event",
+        "type" : "Quantile Dot Plot"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Kind of confident",
+        "followUp" : "",
+        "followUpText" : "It says moderate precipitation, so it may be too uncomfortable should it rain",
+        "mainAnswer" : "Yes",
+        "points" : [ [ 0.4, 0.5, 0.55, 0.3, 0.2, 0.2, 0.1, 0.3, 0.1, 0.15, 0.4, 0.25, 0.3, 0.25, 0.15, 0.2, 0.25, 0.1, 0.1, 0.2, 0.15, 0.05, 0.15, 0.1 ], [ 0.8, 0.9, 0.9, 0.9, 0.8, 1, 0.95, 0.8, 0.85, 0.85, 0.65, 0.5, 0.6, 0.8, 0.65, 0.45, 0.35, 0.4, 0.35, 0.3, 0.2, 0.3, 0.2, 0.15 ] ],
+        "questionType" : "event",
+        "type" : "Text"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Very Confident",
+        "followUp" : "",
+        "followUpText" : "I would be expecting heavy precipitation during the event",
+        "mainAnswer" : "Yes",
+        "points" : [ [ 0, 0, 0, 0.15, 0.05, 0.15, 0.05, 0.15, 0.25, 0.15, 0.35, 0.35, 0.2, 0.05, 0.5, 0.3, 0.3, 0.4, 0.4, 0.55, 0.4, 0.1, 0.15, 0.15 ], [ 0.05, 0.05, 0, 0.2, 0.3, 0.5, 0.4, 0.3, 0.35, 0.55, 0.6, 0.75, 0.95, 0.8, 0.8, 0.75, 0.85, 0.95, 1, 1, 1, 0.85, 0.7, 0.6 ] ],
+        "questionType" : "event",
+        "type" : "Hypothetical Outcome Plot"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Neutral",
+        "followUp" : "",
+        "followUpText" : "",
+        "mainAnswer" : "0.2",
+        "points" : [ [ 0.1, 0.05, 0, 0, 0.15, 0.1, 0.1, 0.1, 0.1, 0.25, 0.35, 0.55, 0.2, 0.05, 0.2, 0.05, 0.5, 0.2, 0.15, 0.4, 0.2, 0.15, 0.1, 0.05 ], [ 0.3, 0.1, 0, 0.05, 0.2, 0.2, 0.35, 0.4, 0.65, 0.85, 1, 1, 1, 1, 1, 1, 0.95, 1, 0.85, 0.75, 0.6, 0.35, 0.15, 0.05 ] ],
+        "questionType" : "amount",
+        "type" : "Quantile Dot Plot"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Neutral",
+        "followUp" : "",
+        "followUpText" : "",
+        "mainAnswer" : "0.1",
+        "points" : [ [ 0.1, 0.15, 0.1, 0.05, 0.1, 0, 0.1, 0.15, 0.05, 0.1, 0.2, 0.05, 0.15, 0.05, 0.1, 0.2, 0.15, 0.15, 0.15, 0.25, 0.35, 0.2, 0.55, 0.55 ], [ 0.45, 0.3, 0.25, 0.15, 0.15, 0, 0.2, 0.2, 0.1, 0.25, 0.3, 0.25, 0.35, 0.45, 0.5, 0.3, 0.4, 0.15, 0.2, 0.35, 0.55, 0.75, 0.95, 1 ] ],
+        "questionType" : "probability",
+        "type" : "Quantile Dot Plot"
+      }, {
+        "done" : "This means the trials are done, you can ignore this data point",
+        "questionType" : "probability",
+        "type" : "Hypothetical Outcome Plot"
+      } ]
+    },
+    "-M_32E2uVM3Z6jZwbkLz" : {
+      "demographic" : {
+        "Reliable" : "Very reliable",
+        "app" : "Dark Sky",
+        "experience" : "Very favorable",
+        "frequency" : "More than once per day",
+        "inaccurate" : "Not very often",
+        "stats" : "Am Mathematician. Stats yes."
+      },
+      "exitSurveyResults" : {
+        "EffortBar" : "Very unfavorable",
+        "EffortDot" : "Very unfavorable",
+        "EffortHOP" : "Unfavorable",
+        "EffortText" : "Neutral",
+        "Feedback" : "1) Animating these things is awful and makes them more difficult to read. 2) This survey is waaaaaaay too long.",
+        "Rank1" : "Bar",
+        "Rank2" : "Text",
+        "Rank3" : "Hop",
+        "Rank4" : "QDP"
+      },
+      "page" : "Thanks",
+      "sessionID" : "f2ae5641-2194-4459-8a70-5cf6552833af",
+      "trials" : [ {
+        "askedForHelp" : false,
+        "confidence" : "Very Confident",
+        "followUp" : "",
+        "followUpText" : "I don't like rain. Chart say medium rain. I don't walk",
+        "mainAnswer" : "No",
+        "points" : [ [ 0.3, 0.35, 0.65, 0.1, 0.05, 0.55, 0.35, 0.45, 0.15, 0.4, 0.2, 0.25, 0.4, 0.15, 0.05, 0.15, 0.1, 0.15, 0, 0, 0.1, 0.1, 0.05, 0.3 ], [ 0.9, 1, 1, 1, 1, 0.9, 0.95, 0.75, 0.65, 0.85, 0.75, 0.8, 0.6, 0.45, 0.4, 0.5, 0.45, 0.2, 0.05, 0, 0.1, 0.2, 0.35, 0.5 ] ],
+        "questionType" : "alone",
+        "type" : "Static Bar Chart"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Very Confident",
+        "followUp" : "",
+        "followUpText" : "It is going to big rain, and I'm scared.",
+        "mainAnswer" : "Yes",
+        "points" : [ [ 0.55, 0.5, 0.1, 0.5, 0.4, 0.2, 0.4, 0.3, 0.4, 0.55, 0.15, 0.2, 0.15, 0.2, 0.1, 0.25, 0.05, 0.35, 0.2, 0.25, 0.15, 0.05, 0.1, 0 ], [ 0.95, 0.9, 1, 1, 0.95, 0.95, 0.75, 0.7, 0.65, 0.8, 0.75, 1, 0.75, 0.9, 0.7, 0.55, 0.75, 0.5, 0.4, 0.45, 0.3, 0.25, 0.1, 0 ] ],
+        "questionType" : "event",
+        "type" : "Static Bar Chart"
+      }, {
+        "askedForHelp" : true,
+        "confidence" : "Very unsure",
+        "followUp" : "",
+        "followUpText" : "",
+        "mainAnswer" : "80",
+        "points" : [ [ 0.2, 0.15, 0.1, 0.1, 0.1, 0.05, 0.05, 0, 0.05, 0.2, 0.35, 0.25, 0.2, 0.35, 0.15, 0.35, 0.35, 0.2, 0.35, 0.05, 0.25, 0.4, 0.5, 0.2 ], [ 0.5, 0.5, 0.35, 0.2, 0.1, 0.1, 0.1, 0, 0.2, 0.45, 0.6, 0.6, 0.8, 0.65, 0.7, 0.7, 0.65, 0.5, 0.65, 0.7, 0.85, 0.95, 1, 0.8 ] ],
+        "questionType" : "probability",
+        "type" : "Static Bar Chart"
+      }, {
+        "askedForHelp" : true,
+        "confidence" : "Kind of confident",
+        "followUp" : "",
+        "followUpText" : "First of all, your charts change depending on whether or not you choose to have them animated. Also, a simple integral would yield that there is about a 45% chance of rain (by my estimation), and I don't like rain.",
+        "mainAnswer" : "Yes",
+        "points" : [ [ 0, 0.1, 0.1, 0.2, 0.15, 0.3, 0.4, 0.4, 0.1, 0.1, 0.6, 0.35, 0.25, 0.05, 0.15, 0.05, 0.1, 0, 0, 0, 0.1, 0.05, 0.1, 0.1 ], [ 0.05, 0.2, 0.4, 0.5, 0.7, 0.9, 1, 0.85, 0.75, 0.85, 1, 0.8, 0.55, 0.55, 0.35, 0.35, 0.2, 0, 0, 0, 0.15, 0.35, 0.15, 0.2 ] ],
+        "questionType" : "friend",
+        "type" : "Quantile Dot Plot"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Very Confident",
+        "followUp" : "",
+        "followUpText" : "",
+        "mainAnswer" : "65",
+        "points" : [ [ 0.2, 0.1, 0.1, 0, 0, 0, 0.15, 0, 0, 0.1, 0, 0.15, 0.15, 0.15, 0.3, 0.25, 0.25, 0.1, 0.3, 0.5, 0.45, 0.5, 0.1, 0.55 ], [ 0.3, 0.25, 0.3, 0.05, 0, 0.05, 0.15, 0, 0, 0.1, 0, 0.2, 0.35, 0.45, 0.65, 0.65, 0.9, 0.8, 0.75, 0.9, 0.9, 1, 1, 1 ] ],
+        "questionType" : "probability",
+        "type" : "Text"
+      }, {
+        "askedForHelp" : true,
+        "confidence" : "Kind of confident",
+        "followUp" : "",
+        "followUpText" : "This is awful and I hate it, but the vast majority of models predict rain for tomorrow at 3.",
+        "mainAnswer" : "No",
+        "points" : [ [ 0.05, 0, 0.05, 0.1, 0.3, 0.25, 0.3, 0.35, 0.1, 0.65, 0.45, 0.3, 0.15, 0.25, 0.3, 0.3, 0.35, 0.45, 0.4, 0.4, 0.2, 0.15, 0.35, 0.2 ], [ 0.15, 0, 0.2, 0.4, 0.6, 0.75, 0.5, 0.7, 0.95, 1, 0.95, 1, 1, 0.85, 0.7, 0.9, 0.85, 1, 1, 0.8, 0.65, 0.75, 0.65, 0.45 ] ],
+        "questionType" : "alone",
+        "type" : "Hypothetical Outcome Plot"
+      }, {
+        "askedForHelp" : true,
+        "confidence" : "Very Confident",
+        "followUp" : "",
+        "followUpText" : "Big chance of rain",
+        "mainAnswer" : "No",
+        "points" : [ [ 0, 0, 0.1, 0, 0, 0.2, 0.1, 0.1, 0.2, 0.5, 0.25, 0.3, 0.3, 0.2, 0.55, 0.1, 0.35, 0.15, 0.1, 0.15, 0.15, 0.3, 0.1, 0.3 ], [ 0.05, 0, 0.1, 0, 0, 0.25, 0.35, 0.6, 0.8, 0.85, 0.9, 0.7, 0.5, 0.75, 0.85, 0.95, 0.8, 0.75, 0.9, 1, 0.85, 0.85, 0.85, 0.85 ] ],
+        "questionType" : "alone",
+        "type" : "Quantile Dot Plot"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Kind of confident",
+        "followUp" : "",
+        "followUpText" : "",
+        "mainAnswer" : "65",
+        "points" : [ [ 0.15, 0.1, 0.05, 0, 0.15, 0.2, 0.25, 0.4, 0.2, 0.35, 0.25, 0.3, 0.5, 0.55, 0.1, 0.4, 0.35, 0.3, 0.15, 0.1, 0.3, 0.3, 0.25, 0.3 ], [ 0.2, 0.4, 0.2, 0, 0.2, 0.4, 0.55, 0.7, 0.8, 0.65, 0.85, 0.8, 0.85, 1, 0.85, 0.75, 0.75, 0.7, 0.55, 0.55, 0.7, 0.75, 0.55, 0.45 ] ],
+        "questionType" : "probability",
+        "type" : "Quantile Dot Plot"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "So unsure",
+        "followUp" : "",
+        "followUpText" : "",
+        "mainAnswer" : ".2",
+        "points" : [ [ 0.25, 0.25, 0.1, 0, 0, 0, 0, 0.05, 0.15, 0.1, 0.35, 0.35, 0.2, 0.15, 0.4, 0.35, 0.15, 0.2, 0.25, 0.2, 0.15, 0.05, 0.15, 0.35 ], [ 0.6, 0.4, 0.2, 0, 0, 0, 0, 0.2, 0.3, 0.55, 0.6, 0.8, 1, 1, 0.85, 0.8, 0.7, 0.5, 0.45, 0.4, 0.55, 0.4, 0.55, 0.55 ] ],
+        "questionType" : "amount",
+        "type" : "Hypothetical Outcome Plot"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Kind of confident",
+        "followUp" : "",
+        "followUpText" : "",
+        "mainAnswer" : "Yes",
+        "points" : [ [ 0.4, 0.1, 0.2, 0.35, 0.25, 0.35, 0.1, 0.2, 0.15, 0, 0, 0.1, 0, 0.05, 0.15, 0, 0, 0, 0.1, 0.25, 0.15, 0.15, 0.3, 0.45 ], [ 0.7, 0.6, 0.45, 0.55, 0.5, 0.65, 0.45, 0.3, 0.25, 0.05, 0, 0.25, 0, 0.2, 0.2, 0, 0, 0, 0.15, 0.4, 0.6, 0.8, 1, 0.95 ] ],
+        "questionType" : "event",
+        "type" : "Text"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Very Confident",
+        "followUp" : "",
+        "followUpText" : "",
+        "mainAnswer" : "Yes",
+        "points" : [ [ 0.35, 0.25, 0.2, 0.15, 0.05, 0.2, 0.2, 0.05, 0, 0, 0.05, 0.15, 0.2, 0.1, 0.05, 0, 0.1, 0.1, 0.2, 0.05, 0.1, 0.25, 0.15, 0.15 ], [ 0.6, 0.45, 0.35, 0.2, 0.25, 0.5, 0.35, 0.2, 0, 0, 0.1, 0.35, 0.25, 0.15, 0.1, 0, 0.15, 0.35, 0.3, 0.25, 0.25, 0.45, 0.3, 0.25 ] ],
+        "questionType" : "event",
+        "type" : "Quantile Dot Plot"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Kind of confident",
+        "followUp" : "",
+        "followUpText" : "",
+        "mainAnswer" : "5",
+        "points" : [ [ 0.1, 0.25, 0.2, 0.2, 0.35, 0.2, 0.1, 0.15, 0.1, 0.1, 0.15, 0.1, 0, 0.05, 0.05, 0.05, 0.05, 0.35, 0.6, 0.5, 0.3, 0.3, 0.1, 0.1 ], [ 0.3, 0.4, 0.35, 0.35, 0.55, 0.35, 0.3, 0.2, 0.25, 0.35, 0.2, 0.15, 0, 0.05, 0.1, 0.3, 0.5, 0.75, 1, 1, 0.85, 0.8, 0.6, 0.55 ] ],
+        "questionType" : "probability",
+        "type" : "Hypothetical Outcome Plot"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Very Confident",
+        "followUp" : "",
+        "followUpText" : "",
+        "mainAnswer" : "No",
+        "points" : [ [ 0.25, 0.2, 0.2, 0.2, 0.1, 0.15, 0, 0, 0, 0, 0.1, 0.15, 0.25, 0.3, 0.1, 0.4, 0.45, 0.55, 0.4, 0.15, 0.4, 0.3, 0.4, 0.5 ], [ 0.7, 0.6, 0.55, 0.5, 0.25, 0.2, 0.05, 0.05, 0.05, 0, 0.1, 0.3, 0.4, 0.5, 0.6, 0.75, 0.9, 0.95, 1, 0.8, 0.6, 0.55, 0.7, 0.85 ] ],
+        "questionType" : "alone",
+        "type" : "Text"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Very Confident",
+        "followUp" : "",
+        "followUpText" : "",
+        "mainAnswer" : ".2",
+        "points" : [ [ 0.05, 0.15, 0.15, 0.15, 0.3, 0.2, 0.15, 0.25, 0.15, 0.1, 0.2, 0.2, 0.3, 0.25, 0.25, 0.2, 0.15, 0.1, 0, 0, 0, 0, 0, 0 ], [ 0.05, 0.2, 0.3, 0.35, 0.5, 0.7, 0.8, 0.9, 1, 0.8, 0.7, 0.7, 0.45, 0.55, 0.5, 0.4, 0.35, 0.1, 0, 0, 0, 0.05, 0, 0 ] ],
+        "questionType" : "amount",
+        "type" : "Static Bar Chart"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Kind of confident",
+        "followUp" : "",
+        "followUpText" : "",
+        "mainAnswer" : "Yes",
+        "points" : [ [ 0.5, 0.05, 0.45, 0.25, 0.15, 0.05, 0.15, 0.15, 0.15, 0.1, 0, 0, 0, 0.15, 0.25, 0.05, 0.05, 0.1, 0.3, 0.1, 0.05, 0.4, 0.45, 0.25 ], [ 0.75, 0.6, 0.8, 0.6, 0.4, 0.45, 0.4, 0.35, 0.2, 0.1, 0, 0, 0, 0.2, 0.4, 0.55, 0.55, 0.45, 0.6, 0.5, 0.6, 0.7, 0.8, 0.8 ] ],
+        "questionType" : "friend",
+        "type" : "Static Bar Chart"
+      }, {
+        "askedForHelp" : true,
+        "confidence" : "So unsure",
+        "followUp" : "",
+        "followUpText" : "",
+        "mainAnswer" : "",
+        "points" : [ [ 0.2, 0.3, 0.3, 0.15, 0.15, 0.1, 0, 0.1, 0.1, 0.1, 0, 0.15, 0.2, 0.1, 0.2, 0.4, 0.15, 0.4, 0.2, 0.2, 0.2, 0.3, 0.05, 0.15 ], [ 0.85, 0.65, 0.45, 0.35, 0.2, 0.15, 0.05, 0.15, 0.3, 0.1, 0, 0.2, 0.4, 0.2, 0.35, 0.55, 0.45, 0.65, 0.7, 0.7, 0.5, 0.45, 0.4, 0.45 ] ],
+        "questionType" : "amount",
+        "type" : "Text"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Neutral",
+        "followUp" : "",
+        "followUpText" : "",
+        "mainAnswer" : "Yes",
+        "points" : [ [ 0.2, 0.1, 0.25, 0.4, 0.6, 0.4, 0.35, 0.35, 0.4, 0.4, 0.1, 0.3, 0.05, 0.1, 0, 0.2, 0.05, 0.1, 0, 0, 0, 0.1, 0.15, 0.1 ], [ 0.35, 0.35, 0.55, 0.8, 1, 0.9, 0.7, 0.95, 0.9, 0.65, 0.55, 0.45, 0.25, 0.1, 0, 0.25, 0.45, 0.2, 0, 0, 0, 0.15, 0.4, 0.5 ] ],
+        "questionType" : "friend",
+        "type" : "Hypothetical Outcome Plot"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Very Confident",
+        "followUp" : "",
+        "followUpText" : "",
+        "mainAnswer" : "Yes",
+        "points" : [ [ 0.25, 0.15, 0.1, 0, 0.1, 0.15, 0.05, 0.1, 0.1, 0, 0, 0, 0, 0.15, 0.2, 0.25, 0.45, 0.4, 0.35, 0.35, 0.6, 0.35, 0.1, 0.05 ], [ 0.7, 0.45, 0.3, 0.05, 0.2, 0.15, 0.15, 0.15, 0.1, 0, 0, 0, 0, 0.2, 0.45, 0.6, 0.75, 0.9, 1, 1, 1, 0.85, 0.65, 0.4 ] ],
+        "questionType" : "friend",
+        "type" : "Text"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Very Confident",
+        "followUp" : "",
+        "followUpText" : "",
+        "mainAnswer" : ".5",
+        "points" : [ [ 0.2, 0.3, 0.4, 0.35, 0.1, 0.4, 0.6, 0.25, 0.25, 0.3, 0.15, 0.4, 0.45, 0.5, 0.25, 0.5, 0.55, 0.35, 0.5, 0.45, 0.05, 0.5, 0.45, 0.35 ], [ 0.6, 0.8, 0.85, 1, 0.8, 1, 0.95, 0.7, 0.5, 0.75, 0.8, 0.8, 0.9, 0.95, 0.85, 1, 1, 0.8, 1, 0.95, 0.75, 0.95, 0.75, 0.65 ] ],
+        "questionType" : "amount",
+        "type" : "Quantile Dot Plot"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Very Confident",
+        "followUp" : "",
+        "followUpText" : "",
+        "mainAnswer" : "No",
+        "points" : [ [ 0.4, 0.2, 0.15, 0.25, 0.1, 0.05, 0.1, 0.1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0.1, 0.1, 0.15, 0.1, 0.3, 0.45, 0.15 ], [ 0.9, 0.75, 0.65, 0.55, 0.4, 0.25, 0.25, 0.1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0.1, 0.2, 0.15, 0.4, 0.6, 0.65, 0.5 ] ],
+        "questionType" : "event",
+        "type" : "Hypothetical Outcome Plot"
+      }, {
+        "done" : "This means the trials are done, you can ignore this data point",
+        "questionType" : "alone",
+        "type" : "Static Bar Chart"
+      } ]
+    },
+    "-M_7BXl5kv4eJPafk2Dm" : {
+      "demographic" : {
+        "Reliable" : "Very reliable",
+        "app" : "The default Weather Channel app on iPhones",
+        "experience" : "Favorable",
+        "frequency" : "More than once per day",
+        "inaccurate" : "Sometimes",
+        "reliable" : "Somewhat reliable",
+        "stats" : "I took AP Statistics in Junior year of high school"
+      },
+      "exitSurveyResults" : {
+        "EffortBar" : "Unfavorable",
+        "EffortDot" : "Very favorable",
+        "EffortHOP" : "Very unfavorable",
+        "EffortText" : "Neutral",
+        "Feedback" : "Specify an interval of time for the outdoor event. Also, be creative and pick a time OTHER than 3pm to go outside for a hike or whatever. And what is the point of the 55.000001%?",
+        "Rank1" : "QDP",
+        "Rank2" : "Text",
+        "Rank3" : "Bar",
+        "Rank4" : "Hop"
+      },
+      "page" : "Thanks",
+      "sessionID" : "760e5240-e2e9-4f63-8289-b91f661d970b",
+      "trials" : [ {
+        "askedForHelp" : true,
+        "confidence" : "Kind of confident",
+        "followUp" : "",
+        "followUpText" : "",
+        "mainAnswer" : "0",
+        "points" : [ [ 0.05, 0.1, 0.3, 0.25, 0.45, 0.5, 0.35, 0.25, 0.1, 0.05, 0.35, 0.2, 0.35, 0.15, 0.3, 0.4, 0.45, 0.45, 0.1, 0.3, 0.35, 0.45, 0.15, 0.25 ], [ 0.6, 0.4, 0.4, 0.6, 0.65, 0.75, 0.85, 0.9, 1, 1, 1, 0.75, 0.5, 0.3, 0.45, 0.6, 0.85, 1, 0.9, 0.75, 0.95, 0.7, 0.45, 0.4 ] ],
+        "questionType" : "amount",
+        "type" : "Hypothetical Outcome Plot"
+      }, {
+        "askedForHelp" : true,
+        "confidence" : "Very Confident",
+        "followUp" : "",
+        "followUpText" : "The y-axis isn't labeled so I'm a little annoyed. There's expected to be heavy precipitation (~.5in/hr) after 2pm for 2pm, 3pm, 5pm, 6pm, and 7pm. It's very likely that it will be too rainy to hold the event outdoors (assuming it takes place past 2pm).",
+        "mainAnswer" : "Yes",
+        "points" : [ [ 0, 0.1, 0.1, 0.05, 0.1, 0.3, 0.2, 0.1, 0.35, 0.15, 0.15, 0.15, 0.05, 0.05, 0.5, 0.55, 0.25, 0.55, 0.45, 0.55, 0.15, 0.45, 0.35, 0.35 ], [ 0.05, 0.25, 0.4, 0.25, 0.35, 0.5, 0.4, 0.55, 0.65, 0.45, 0.3, 0.2, 0.4, 0.65, 0.75, 0.9, 1, 0.95, 1, 1, 1, 1, 0.8, 0.75 ] ],
+        "questionType" : "event",
+        "type" : "Static Bar Chart"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Very Confident",
+        "followUp" : "",
+        "followUpText" : "",
+        "mainAnswer" : ".1",
+        "points" : [ [ 0.15, 0, 0, 0.15, 0.15, 0.15, 0.35, 0.25, 0.25, 0.1, 0.15, 0.5, 0.3, 0.3, 0.2, 0.15, 0.35, 0.05, 0.05, 0, 0, 0, 0.1, 0.05 ], [ 0.15, 0.05, 0, 0.2, 0.3, 0.4, 0.55, 0.55, 0.7, 0.85, 0.9, 1, 0.85, 0.75, 0.6, 0.4, 0.5, 0.3, 0.1, 0, 0, 0.05, 0.2, 0.35 ] ],
+        "questionType" : "amount",
+        "type" : "Quantile Dot Plot"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Very Confident",
+        "followUp" : "",
+        "followUpText" : "",
+        "mainAnswer" : "0",
+        "points" : [ [ 0.25, 0.45, 0.5, 0.6, 0.25, 0.5, 0.3, 0.15, 0.55, 0.3, 0.25, 0.05, 0.15, 0.1, 0.1, 0, 0.1, 0.1, 0.1, 0.2, 0.25, 0.15, 0.15, 0.05 ], [ 0.95, 1, 1, 1, 1, 1, 1, 0.8, 0.95, 1, 0.8, 0.6, 0.35, 0.2, 0.15, 0, 0.15, 0.2, 0.25, 0.3, 0.4, 0.5, 0.65, 0.55 ] ],
+        "questionType" : "probability",
+        "type" : "Static Bar Chart"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Very Confident",
+        "followUp" : "",
+        "followUpText" : "",
+        "mainAnswer" : "80",
+        "points" : [ [ 0.25, 0.05, 0.05, 0.1, 0, 0, 0.1, 0.05, 0.25, 0.35, 0.3, 0.3, 0.35, 0.35, 0.35, 0.4, 0.05, 0.3, 0.35, 0.1, 0.1, 0.15, 0.15, 0.15 ], [ 0.5, 0.3, 0.25, 0.3, 0.05, 0, 0.15, 0.4, 0.65, 0.6, 0.75, 0.8, 0.7, 0.8, 0.85, 0.85, 0.75, 0.6, 0.65, 0.45, 0.3, 0.2, 0.2, 0.35 ] ],
+        "questionType" : "probability",
+        "type" : "Quantile Dot Plot"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Very Confident",
+        "followUp" : "",
+        "followUpText" : "The probability graph is a straight line at 100% probability, which means it is certain that it will rain tomorrow.",
+        "mainAnswer" : "Yes",
+        "points" : [ [ 0, 0, 0.05, 0.1, 0.1, 0.2, 0.2, 0.25, 0.1, 0.25, 0.35, 0.45, 0.55, 0.15, 0.05, 0.6, 0.5, 0.05, 0.2, 0.1, 0.2, 0.15, 0.2, 0.25 ], [ 0, 0.05, 0.3, 0.1, 0.1, 0.25, 0.3, 0.55, 0.75, 0.75, 0.75, 0.95, 0.85, 0.7, 0.9, 1, 1, 1, 0.85, 0.9, 0.85, 0.85, 0.9, 0.7 ] ],
+        "questionType" : "friend",
+        "type" : "Quantile Dot Plot"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Very Confident",
+        "followUp" : "",
+        "followUpText" : "",
+        "mainAnswer" : ".10",
+        "points" : [ [ 0, 0.1, 0, 0.05, 0.25, 0.3, 0.05, 0.25, 0.05, 0.35, 0.15, 0.2, 0.2, 0.15, 0.5, 0.1, 0.4, 0.1, 0.3, 0.1, 0.05, 0, 0, 0.1 ], [ 0, 0.15, 0, 0.2, 0.35, 0.45, 0.3, 0.4, 0.45, 0.55, 0.6, 0.7, 0.8, 0.8, 1, 0.85, 0.65, 0.55, 0.45, 0.3, 0.05, 0, 0, 0.2 ] ],
+        "questionType" : "amount",
+        "type" : "Static Bar Chart"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Very Confident",
+        "followUp" : "",
+        "followUpText" : "There's about an 83% chance of rain, but the amount of precipitation is centered around .05in/hr so it's really only a drizzle.",
+        "mainAnswer" : "Yes",
+        "points" : [ [ 0.1, 0.05, 0.1, 0.15, 0.15, 0.05, 0.45, 0.25, 0.5, 0.4, 0.15, 0.25, 0.4, 0.55, 0.35, 0.1, 0.25, 0.25, 0.2, 0.35, 0.4, 0.25, 0.1, 0 ], [ 0.1, 0.15, 0.15, 0.25, 0.4, 0.55, 0.65, 0.8, 0.8, 0.8, 1, 1, 0.9, 0.95, 1, 0.85, 0.8, 0.95, 0.85, 0.65, 0.65, 0.4, 0.15, 0.05 ] ],
+        "questionType" : "alone",
+        "type" : "Quantile Dot Plot"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Very Confident",
+        "followUp" : "",
+        "followUpText" : "",
+        "mainAnswer" : ".2",
+        "points" : [ [ 0.45, 0.1, 0.5, 0.6, 0.5, 0.3, 0.3, 0.3, 0.1, 0.1, 0.1, 0, 0.1, 0.05, 0.15, 0.1, 0.2, 0.15, 0.1, 0.2, 0.1, 0.05, 0.2, 0.15 ], [ 0.95, 0.85, 1, 0.95, 0.95, 0.8, 0.75, 0.5, 0.35, 0.3, 0.2, 0, 0.2, 0.35, 0.25, 0.25, 0.35, 0.25, 0.25, 0.25, 0.3, 0.3, 0.35, 0.5 ] ],
+        "questionType" : "amount",
+        "type" : "Text"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Very Confident",
+        "followUp" : "",
+        "followUpText" : "A handful of the hypothetical graphs show moderate precipitation around 1pm but for the most part I wouldn't be too worried. (you should specify what time the event is, it could be in the morning, it could be in the afternoon, BE SPECIFIC!)",
+        "mainAnswer" : "No",
+        "points" : [ [ 0.35, 0.05, 0.2, 0.3, 0.3, 0.45, 0.1, 0.3, 0.5, 0.35, 0.55, 0.3, 0.1, 0.25, 0.15, 0.2, 0.1, 0.2, 0.1, 0, 0, 0, 0, 0 ], [ 0.55, 0.45, 0.65, 0.65, 0.65, 0.85, 0.95, 0.8, 1, 1, 0.9, 0.65, 0.7, 0.7, 0.55, 0.5, 0.4, 0.25, 0.15, 0, 0, 0, 0, 0 ] ],
+        "questionType" : "event",
+        "type" : "Hypothetical Outcome Plot"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Very Confident",
+        "followUp" : "",
+        "followUpText" : "",
+        "mainAnswer" : "65",
+        "points" : [ [ 0.2, 0.15, 0.2, 0.1, 0, 0, 0, 0, 0.1, 0.15, 0.15, 0.1, 0.15, 0.1, 0.25, 0.2, 0.1, 0.6, 0.3, 0.55, 0.2, 0.3, 0.2, 0.1 ], [ 0.45, 0.3, 0.25, 0.15, 0, 0, 0, 0, 0.15, 0.2, 0.15, 0.35, 0.5, 0.6, 0.6, 0.65, 0.85, 1, 0.9, 0.85, 0.85, 0.65, 0.55, 0.35 ] ],
+        "questionType" : "probability",
+        "type" : "Text"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Very Confident",
+        "followUp" : "",
+        "followUpText" : "After around noon the probability of precipitation centered around 80-100% probability of rain so I would definitely book for indoors.",
+        "mainAnswer" : "Yes",
+        "points" : [ [ 0.2, 0.15, 0, 0.1, 0, 0, 0, 0, 0.15, 0.1, 0.2, 0.3, 0.25, 0.45, 0.1, 0.3, 0.4, 0.05, 0.2, 0.2, 0.05, 0.15, 0.2, 0.15 ], [ 0.25, 0.15, 0, 0.15, 0, 0, 0, 0, 0.15, 0.35, 0.55, 0.7, 0.9, 1, 0.85, 0.95, 0.7, 0.5, 0.35, 0.4, 0.25, 0.15, 0.25, 0.45 ] ],
+        "questionType" : "event",
+        "type" : "Quantile Dot Plot"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Very Confident",
+        "followUp" : "",
+        "followUpText" : "There might be a little rain from 3-7pm but it's not enough to make a big difference.",
+        "mainAnswer" : "No",
+        "points" : [ [ 0.1, 0.1, 0.15, 0.05, 0.05, 0.1, 0.1, 0, 0, 0, 0.1, 0.2, 0.2, 0.2, 0.25, 0.05, 0.05, 0.15, 0.1, 0.05, 0, 0, 0, 0.05 ], [ 0.4, 0.6, 0.45, 0.25, 0.25, 0.25, 0.1, 0.05, 0, 0, 0.25, 0.45, 0.5, 0.3, 0.4, 0.2, 0.4, 0.5, 0.3, 0.2, 0, 0.05, 0.05, 0.1 ] ],
+        "questionType" : "friend",
+        "type" : "Static Bar Chart"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Very Confident",
+        "followUp" : "",
+        "followUpText" : "It might rain around 11am but the rest of the day seems ok",
+        "mainAnswer" : "No",
+        "points" : [ [ 0.05, 0.1, 0.1, 0.2, 0.2, 0.2, 0.35, 0.3, 0.35, 0.15, 0.25, 0.2, 0.1, 0.15, 0.05, 0.15, 0.25, 0.1, 0.15, 0.15, 0, 0.05, 0.05, 0.15 ], [ 0.6, 0.55, 0.55, 0.5, 0.7, 0.6, 0.65, 0.45, 0.65, 0.45, 0.55, 0.8, 0.65, 0.6, 0.35, 0.35, 0.35, 0.6, 0.5, 0.3, 0.05, 0.25, 0.45, 0.25 ] ],
+        "questionType" : "event",
+        "type" : "Text"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Very Confident",
+        "followUp" : "",
+        "followUpText" : "The chance is hovering around 45-50% so I wouldn't want to get caught in moderate precipitation.",
+        "mainAnswer" : "Yes",
+        "points" : [ [ 0.15, 0.35, 0.2, 0.25, 0.4, 0.45, 0.15, 0.2, 0.4, 0.15, 0.2, 0.1, 0.15, 0.2, 0.05, 0.1, 0.15, 0.25, 0.15, 0.3, 0.15, 0.1, 0.1, 0.05 ], [ 0.65, 0.85, 0.85, 0.9, 0.65, 0.85, 1, 0.85, 0.75, 0.55, 0.4, 0.15, 0.25, 0.5, 0.5, 0.55, 0.45, 0.65, 0.5, 0.45, 0.6, 0.45, 0.3, 0.1 ] ],
+        "questionType" : "friend",
+        "type" : "Text"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Very Confident",
+        "followUp" : "",
+        "followUpText" : "All of the hypothetical graphs show rain at 3pm, and most of them are moderate to heavy precipitation.",
+        "mainAnswer" : "Yes",
+        "points" : [ [ 0.15, 0.25, 0.25, 0.2, 0.1, 0.05, 0.1, 0.1, 0.15, 0.05, 0.05, 0.25, 0.3, 0.45, 0.2, 0.55, 0.2, 0.4, 0.55, 0.25, 0.3, 0.2, 0.2, 0.15 ], [ 0.4, 0.5, 0.45, 0.3, 0.4, 0.15, 0.15, 0.15, 0.35, 0.35, 0.6, 0.5, 0.55, 0.7, 0.8, 1, 1, 1, 0.95, 0.75, 0.65, 0.65, 0.8, 0.6 ] ],
+        "questionType" : "alone",
+        "type" : "Hypothetical Outcome Plot"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Unsure",
+        "followUp" : "",
+        "followUpText" : "",
+        "mainAnswer" : "30",
+        "points" : [ [ 0.5, 0.3, 0.15, 0.15, 0.25, 0.2, 0.1, 0, 0, 0.05, 0.1, 0.1, 0.2, 0.25, 0.1, 0.1, 0.15, 0.3, 0.4, 0.25, 0.55, 0.2, 0.25, 0.15 ], [ 0.8, 0.7, 0.6, 0.5, 0.4, 0.3, 0.1, 0, 0.05, 0.1, 0.15, 0.2, 0.3, 0.45, 0.45, 0.5, 0.7, 0.9, 1, 0.95, 0.9, 0.8, 0.7, 0.6 ] ],
+        "questionType" : "probability",
+        "type" : "Hypothetical Outcome Plot"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Very Confident",
+        "followUp" : "",
+        "followUpText" : "Most of the plots don't show much rain past 3pm",
+        "mainAnswer" : "Yes",
+        "points" : [ [ 0, 0.1, 0.1, 0.3, 0.1, 0.25, 0.35, 0.5, 0.45, 0.05, 0.25, 0.3, 0.5, 0.2, 0.2, 0.15, 0.15, 0.25, 0.1, 0, 0, 0.15, 0.15, 0.1 ], [ 0.05, 0.15, 0.35, 0.4, 0.5, 0.65, 0.85, 0.95, 1, 1, 0.75, 0.75, 0.85, 0.6, 0.4, 0.3, 0.3, 0.35, 0.2, 0.05, 0, 0.2, 0.35, 0.15 ] ],
+        "questionType" : "friend",
+        "type" : "Hypothetical Outcome Plot"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Very Confident",
+        "followUp" : "",
+        "followUpText" : "There's increasing chance of rain past 3pm (except 5pm)",
+        "mainAnswer" : "No",
+        "points" : [ [ 0.05, 0.15, 0, 0, 0.1, 0.1, 0.1, 0.05, 0.05, 0, 0, 0.1, 0.1, 0.2, 0.25, 0.25, 0.2, 0.1, 0.2, 0.15, 0.4, 0.3, 0.05, 0.4 ], [ 0.1, 0.15, 0, 0, 0.15, 0.15, 0.15, 0.15, 0.15, 0.05, 0, 0.1, 0.15, 0.35, 0.4, 0.55, 0.65, 0.45, 0.6, 0.6, 0.65, 0.7, 0.9, 1 ] ],
+        "questionType" : "alone",
+        "type" : "Text"
+      }, {
+        "askedForHelp" : false,
+        "confidence" : "Very Confident",
+        "followUp" : "",
+        "followUpText" : "If I'm outside for less than an hour then yes",
+        "mainAnswer" : "Yes",
+        "points" : [ [ 0, 0.15, 0.1, 0.15, 0.05, 0, 0, 0, 0, 0, 0, 0.05, 0.15, 0.3, 0.1, 0.1, 0.35, 0.45, 0.2, 0.1, 0.1, 0.05, 0.1, 0.05 ], [ 0.05, 0.25, 0.25, 0.2, 0.2, 0.05, 0, 0.05, 0.05, 0, 0, 0.2, 0.2, 0.4, 0.65, 0.65, 0.8, 1, 0.95, 0.7, 0.5, 0.55, 0.3, 0.15 ] ],
+        "questionType" : "alone",
+        "type" : "Static Bar Chart"
+      }, {
+        "done" : "This means the trials are done, you can ignore this data point",
+        "questionType" : "amount",
+        "type" : "Hypothetical Outcome Plot"
+      } ]
+    }
+  }
+}
