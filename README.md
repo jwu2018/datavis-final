@@ -19,7 +19,6 @@ Git Repo Structure
 There is a lot of content in our final project submission. This is a brief overview of those files:
 
 - ProcessBook.pdf is our ProcessBook
-- CS573FinalProject.mp4 is our 2 minute video
 - data-analysis: This folder includes our final survey results data and code for how we analyzed it (a python notebook and a tableau project).
 - data: This include the raw json results of our survey
 - dotplot: Includes some early code from trying to generate a quantile dot plot.
