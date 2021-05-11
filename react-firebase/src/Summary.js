@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import './App.css';
-import team_members from './team-members.jpg'
+import results_effort from './images/results_effort.png';
+import results_rankings from './images/results_rankings.png';
+import results_confidence from './images/results_confidence.png';
+import process_book from './ProcessBook.pdf';
 
 class Summary extends Component {
     constructor(props) {
@@ -24,7 +27,7 @@ class Summary extends Component {
                 <p>The following video summarizes our experiment and key findings in two minutes.</p>
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/pXo9WaOtt0o" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                 <p>Here are some other resources to accompany our project</p>
-                <li><a target="_blank" href="https://github.com/jwu2018/datavis-final/blob/main/ProcessBook.pdf">Process Book</a></li>
+                <li><a target="_blank" href={process_book}>Process Book</a></li>
                 <li><a target="_blank" href="https://github.com/jwu2018/datavis-final">GitHub Project</a></li>
                 <li><a target="_blank" href="https://public.tableau.com/profile/j.wu7306#!/vizhome/HelpingUsersMakeDecisionsbyVisualizingWeatherUncertainty/HelpingUsersMakeDecisionsbyVisualizingWeatherUncertainty">
                         Tableau Results
@@ -78,6 +81,18 @@ class Summary extends Component {
 
                 <h2>Results and Findings</h2>
                 <p>The following summarizes our findings from the experiment from the days it was running.</p>
+
+                <p>At the end of our experiment, we asked participants several questions to summarize their experience with the vizzes.</p>
+                <p>We asked participants to rank which vizzes were their favorites. The results from this question are visualized in the figure below:</p>
+                <img src={results_rankings} alt="Relative visualizations rankings"></img>
+                <p>This stacked bar chart shows that participants were most likely to rank the bar plot highest. The text also had about 50% of participants ranking it in the upper half. The hypothetical outcome plots were ranked the worst - they were nobody’s favorite visualization, and they had the largest number of rankings at the bottom (Rank 4). </p>
+                <p>We also asked participants to describe how much effort they had to put into reading each vis type. “Effort” is a subjective metric that is up to the participant to describe. The results of this questions are visualized below:</p>
+                <img src={results_effort} alt="Effort reported for each visualization"></img>
+                <p>This stacked bar chart shows that participants felt that the text required the least effort to read, followed by the static bar charts. The hypothetical outcome plots took the most effort for participants to read. </p>
+                <p>We also asked participants to describe how confident they were with each answer they provided, including answers to all 5 question types. The results from these questions are visualized in the following figure:</p>
+                <img src={results_confidence} alt="Confidence reported in decision-making and making measurements for each visualization"></img>
+                <p>These results show that participants were slightly more confident in their answers when looking at text, followed by quantile dot plots. They were least confident in their answers when looking at hypothetical outcome plots.</p>
+
 
                 <p>To further explore the results more granularly, check out our <a target="_blank" href="https://public.tableau.com/profile/j.wu7306#!/vizhome/HelpingUsersMakeDecisionsbyVisualizingWeatherUncertainty/HelpingUsersMakeDecisionsbyVisualizingWeatherUncertainty">Tableau Page</a>!</p>
                 <div class='tableauPlaceholder' id='viz1620699610439' style={{position: 'relative'}}>
