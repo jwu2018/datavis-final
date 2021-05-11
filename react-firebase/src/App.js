@@ -16,6 +16,7 @@ import { build_barchart } from './bar-charts';
 import { handleDotPlots } from './dotplot';
 import build_animated_hop from './d3-hops';
 import { Help, Instructions } from './Instructions';
+import { Summary } from './Summary';
 
 const CHARTS = {
   text: 'Text',
@@ -25,6 +26,7 @@ const CHARTS = {
 }
 
 const PAGES = {
+  summary: 'Summary',
   welcome: 'Welcome',
   instructions: 'Instructions',
   experiment: 'Experiment',
@@ -78,7 +80,7 @@ class Page extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      page: PAGES.welcome,
+      page: PAGES.summary,
       demographic: null,
       exitSurveyResults: null,
       dataset: [],
@@ -123,7 +125,11 @@ class Page extends Component {
 
   renderContent() {
     switch (this.state.page) {
+      case PAGES.summary:
+        console.log('showing summary')
+        return <Summary setPage={this.setPage} />
       case PAGES.welcome:
+        console.log('showing welcome')
         return <Welcome setPage={this.setPage} />
       case PAGES.instructions:
         return <Instructions setPage={this.setPage} />
