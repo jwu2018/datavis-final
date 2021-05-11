@@ -29,7 +29,6 @@ There is a lot of content in our final project submission. This is a brief overv
 
 
 
-
 References
 ---
 1. M. Kay, T. Kola, J. R. Hullman, and S. A. Munson, “When (ish) is my bus? user-centered  visualizations  of  uncertainty  in  everyday,  mobile  predictive systems,”  in Proceedings  of  the  2016  chi  conference  on  human  factors  in computing systems, 2016, pp. 5092–5103.
