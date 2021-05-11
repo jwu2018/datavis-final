@@ -10,9 +10,9 @@ Project Links
 
 [Project Website](https://cs573-finalproject.web.app/)
 
-[Project Video]( https://www.youtube.com/watch?v=pXo9WaOtt0o)
+[Project Video](https://www.youtube.com/watch?v=pXo9WaOtt0o)
 
-[Tableau Visualizations of Experiment Results]( https://public.tableau.com/profile/j.wu7306#!/vizhome/HelpingUsersMakeDecisionsbyVisualizingWe%5B%E2%80%A6%5DecisionsbyVisualizingWeatherUncertainty?publish=yes)
+[Tableau Visualizations of Experiment Results](https://public.tableau.com/profile/j.wu7306#!/vizhome/HelpingUsersMakeDecisionsbyVisualizingWeatherUncertainty/HelpingUsersMakeDecisionsbyVisualizingWeatherUncertainty?publish=yes)
 
 The Process Book PDF is in the repo!
 
